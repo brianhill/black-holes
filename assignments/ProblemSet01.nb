@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     20198,        355]
-NotebookOptionsPosition[     18764,        320]
-NotebookOutlinePosition[     19218,        338]
-CellTagsIndexPosition[     19175,        335]
+NotebookDataLength[     20247,        355]
+NotebookOptionsPosition[     18813,        320]
+NotebookOutlinePosition[     19267,        338]
+CellTagsIndexPosition[     19224,        335]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,12 +38,12 @@ v9fFWPeto43VczDtoXTyzSwQ397xLYhepVW9P9f/reM5xw0HQTQALkrIuw==
 Cell["\<\
 Problem sets are due at the beginning of class, on standard 8\.bdx11 paper, \
 and stapled (this perhaps sounds annoying, but it keeps things from getting \
-out of order or lost, and the hard deadline is part of being prepared for the \
-next class which benefits everyone).\
+out of order or lost, and the hard deadline is part of being fully prepared \
+for the class which benefits everyone).\
 \>", "Subtitle",
  CellChangeTimes->{{3.9339577509309053`*^9, 3.9339577990698347`*^9}, {
   3.933960227108049*^9, 3.933960358414865*^9}, {3.933962174419211*^9, 
-  3.933962185838354*^9}},
+  3.933962185838354*^9}, {3.933962231976416*^9, 3.9339622375412407`*^9}},
  FontSize->18,ExpressionUUID->"039f8749-cee3-49a1-bcf9-cc5eb321da56"],
 
 Cell[CellGroupData[{
@@ -339,22 +339,22 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 711, 13, 64, "Chapter",ExpressionUUID->"0a9f033e-46a1-4578-becc-919930044f24"],
-Cell[1294, 37, 538, 9, 93, "Subtitle",ExpressionUUID->"039f8749-cee3-49a1-bcf9-cc5eb321da56"],
+Cell[1294, 37, 587, 9, 93, "Subtitle",ExpressionUUID->"039f8749-cee3-49a1-bcf9-cc5eb321da56"],
 Cell[CellGroupData[{
-Cell[1857, 50, 2497, 36, 54, "Section",ExpressionUUID->"14d10e55-818a-4e9b-b649-9dbf0ce9ade1"],
-Cell[4357, 88, 1697, 27, 104, "Text",ExpressionUUID->"fb5fabc1-ba5b-48aa-964b-716d3fe3caeb"]
+Cell[1906, 50, 2497, 36, 54, "Section",ExpressionUUID->"14d10e55-818a-4e9b-b649-9dbf0ce9ade1"],
+Cell[4406, 88, 1697, 27, 104, "Text",ExpressionUUID->"fb5fabc1-ba5b-48aa-964b-716d3fe3caeb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6091, 120, 2606, 38, 54, "Section",ExpressionUUID->"23eece34-1617-4c08-ba33-cec8307e5ac8"],
-Cell[8700, 160, 1487, 21, 35, "Text",ExpressionUUID->"58197f78-875c-419f-88e5-1cb1baa09883"]
+Cell[6140, 120, 2606, 38, 54, "Section",ExpressionUUID->"23eece34-1617-4c08-ba33-cec8307e5ac8"],
+Cell[8749, 160, 1487, 21, 35, "Text",ExpressionUUID->"58197f78-875c-419f-88e5-1cb1baa09883"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10224, 186, 2636, 38, 54, "Section",ExpressionUUID->"9c541707-62b3-44ab-8308-175dedc51bef"],
-Cell[12863, 226, 1537, 22, 35, "Text",ExpressionUUID->"765530eb-2777-4391-b6dd-061893f58d4e"]
+Cell[10273, 186, 2636, 38, 54, "Section",ExpressionUUID->"9c541707-62b3-44ab-8308-175dedc51bef"],
+Cell[12912, 226, 1537, 22, 35, "Text",ExpressionUUID->"765530eb-2777-4391-b6dd-061893f58d4e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14437, 253, 2711, 39, 54, "Section",ExpressionUUID->"4e4eb28a-d340-4e70-a021-35fdd682ea4e"],
-Cell[17151, 294, 1585, 22, 35, "Text",ExpressionUUID->"e6c5d2f8-6eab-41ea-a48e-08fca4286140"]
+Cell[14486, 253, 2711, 39, 54, "Section",ExpressionUUID->"4e4eb28a-d340-4e70-a021-35fdd682ea4e"],
+Cell[17200, 294, 1585, 22, 35, "Text",ExpressionUUID->"e6c5d2f8-6eab-41ea-a48e-08fca4286140"]
 }, Open  ]]
 }, Open  ]]
 }
