@@ -15,6 +15,6 @@ Course [home page](./)
 
 ### Week 3 &mdash; The Relativity of Simultaneity &mdash; Lorentz Contraction of Length
 
-* Monday, Sep. 9 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 65 (you can stop at the &ldquo;Speeding-Train Thought Experiment&rdquo;) &mdash; Problem Set 3 to be turned in at the beginning of Monday's class is [here](./assignments/ProblemSet03.nb.pdf) and in your file folders
+* Monday, Sep. 9 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 65 (you can stop at the &ldquo;Speeding-Train Thought Experiment&rdquo;) &mdash; Problem Set 3 to be turned in at the beginning of Monday's class is [here](./assignments/ProblemSet03.nb.pdf) and in your file folders &mdash; [Maclaurin and Taylor series graphs](./resources/MaclaurinAndTaylorSeries.pdf) &mdash; Derivation of Time Dilation (Kel and Jeremy) &mdash; Discussion of the Speeding Train Thought Experiment &mdash; If time, Derivation of Length Contraction (Brian)
 
 <img src="./resources/LightningHitsTrainCoach.png" alt="Lightning hits train coach" width="85%">
