@@ -16,6 +16,16 @@ Course [home page](./)
 ### Week 3 &mdash; Time Dilation &mdash; The Relativity of Simultaneity &mdash; Length Contraction
 
 * Monday, Sep. 9 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 65 &mdash; Problem Set 3 to be turned in at the beginning of Monday's class is [here](./assignments/ProblemSet03.nb.pdf) and in your file folders &mdash; [Maclaurin and Taylor series graphs](./resources/MaclaurinAndTaylorSeries.pdf) &mdash; Theory behind the coefficients in the Maclaurin and Taylor Series &mdash; Overview of the three biggest consequences of special relativity: (1) Time Dilation, (2) Length Contraction, (3) The Relativity of Simultaneity &mdash; Derivation of the first effect: Time Dilation (Kel and Jeremy) &mdash; The &gamma; factor notation &mdash; Invariance of the transverse dimension via the Rockets-with-Paintbrushes thought experiment &mdash; The Relativity of Simultaneity via the Lightning-Strike-Hits-Both-Ends-of-Speeding-Train thought experiment
-* Thursday, Sep. 12 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 77 (the end of Chapter 3) &mdash; Problem Set 4 to be turned in at the beginning of Thursday's class is [here](./assignments/ProblemSet04.nb.pdf) and in your file folders &mdash; Derivation of Length Contraction by Sasha and Eli &mdash; The Relativity of Simultaneity by Brian &mdash; The Pole-in-the-Barn Paradox by Rebecca
+* Thursday, Sep. 12 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 77 (the end of Chapter 3) &mdash; Problem Set 4 to be turned in at the beginning of Thursday's class is [here](./assignments/ProblemSet04.nb.pdf) and in your file folders &mdash; Derivation of Length Contraction by Sasha and Eli &mdash; The Relativity of Simultaneity by Brian &mdash; The Pole-in-the-Barn Paradox 
 
-<img src="./resources/AlbertEinstein.png" alt="A smart physicist" width="80%">
+### Week 4 &mdash; Presentations of Interesting Problems &mdash; The Lorentz Transformation Formulas
+
+* Monday, Sept. 16 &mdash; To give you time to consolidate the first three chapters, there is no new reading assignment due for Friday &mdash; Instead of a problem set, you will split into three groups, each to prepare a presentation on an end-of-Chapter-3 problems of the three groups' choice, 20 minutes per presentation, plus 5 minutes Q&A per presentation &mdash; Please make sure these are of high quality, including preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted
+* Thursday, Sept. 19 &mdash; Read Chapter L, The Lorentz Transformation Formulas &mdash; Problem Set 5 to be turned in at the beginning of Thursday's class is [FORTHCOMING](./assignments/ProblemSet05.nb.pdf) and will be in your file folders.
+
+### Week 5 &mdash; Exam 1
+
+* Monday, Sept. 23 &mdash; Exam 1
+
+
+<img src="./resources/Latticework.png" alt="A latticework of meter sticks and clocks" width="60%">
