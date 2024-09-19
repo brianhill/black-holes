@@ -21,11 +21,11 @@ Course [home page](./)
 ### Week 4 &mdash; Presentations of Interesting Problems &mdash; Start The Lorentz Transformation Formulas
 
 * Monday, Sept. 16 &mdash; To give you time to consolidate the first three chapters, there is no new reading assignment due for Friday &mdash; Instead of a problem set, you will split into three groups, each to prepare a presentation on an end-of-Chapter-3 problem of the three groups' choice, 20 minutes per presentation, plus 5 minutes Q&A per presentation &mdash; Please make sure these are of high quality, *including preparing and making copies for everyone* of a handout if you think that will assist in the amount of understanding that will be transmitted
-* Thursday, Sept. 19 &mdash; Read Chapter L to p. 102, which is the derivation of the Lorentz Transformation formulas summarized in Eq. L-10a on p. 102 &mdash; Problem Set 5 to be turned in at the beginning of Thursday's class is [here](./assignments/ProblemSet05.nb.pdf) and in your file folders
+* Thursday, Sept. 19 &mdash; Read Chapter L to p. 102, which is the derivation of the Lorentz Transformation formulas summarized in Eq. L-10a on p. 102
 
 ### Week 5 &mdash; Finish The Lorentz Transformation Formulas &mdash; Exam 1
 
-* Monday, Sept. 23 &mdash; Finish Chapter L
+* Monday, Sept. 23 &mdash; Finish Chapter L &mdash; Problem Set 5, with due date delayed to the beginning of Monday's class, is [here](./assignments/ProblemSet05.nb.pdf) and in your file folders
 * Thursday, Sept. 26 &mdash; Exam 1
 
 
