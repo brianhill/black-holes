@@ -17,6 +17,7 @@ A [PDF of the Syllabus](./BlackHolesSyllabus.pdf) containing essentially the sam
 ## Daily Schedules (Kept Retrospectively)
 
 * [Daily Schedule Term 2](./daily_schedule_term_2.html)
+* [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 ## Prerequisite / Joining the Class
 
