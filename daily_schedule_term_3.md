@@ -6,7 +6,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 
 ## Daily Schedule Term 3
 
-The material for Term 3 will follow *Exploring Black Holes, 2nd Edition*, [https://www.eftaylor.com/exploringblackholes/](https://www.eftaylor.com/exploringblackholes/)
+NOTE: Now that we have covered the essential parts of [*Spacetime Physics,* https://www.eftaylor.com/spacetimephysics/](https://www.eftaylor.com/spacetimephysics/) the material for the rest of the course will follow *Exploring Black Holes, 2nd Edition,* [https://www.eftaylor.com/exploringblackholes/](https://www.eftaylor.com/exploringblackholes/), by Taylor, Wheeler Taylor, and Bertschinger
 
 ### Week 8 &mdash;
 
