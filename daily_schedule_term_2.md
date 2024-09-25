@@ -2,6 +2,8 @@
 
 Course [home page](./)
 
+See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
+
 ## Daily Schedule Term 2
 
 ### Week 1 &mdash; Galilean Relativity &mdash; Invariance of the Interval
@@ -28,5 +30,20 @@ Course [home page](./)
 * Monday, Sept. 23 &mdash; Finish Chapter L &mdash; Problem Set 5, with due date delayed to the beginning of Monday's class, is [here](./assignments/ProblemSet05.nb.pdf) and in your file folders
 * Thursday, Sept. 26 &mdash; Exam 1
 
+### Week 6 &mdash;
+
+*TENTATIVELY*
+
+We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of Term 2, partly because Chapter 4 has little that is new in it. That gives us most of two classes for Chapter 5 and two full classes for Chapter 6. If get through the end of Chapter 6, you then know enough special relativity to switch to *Exploring Black Holes* when we return from the Term 2-3 break.
+
+* Monday, Sept. 30 &mdash; 
+* Thursday, Oct. 3 &mdash;
+
+### Week 7 &mdash;
+
+* Monday, Oct. 7 &mdash;
+* Thursday, Oct. 10 &mdash;
+
+Continued on: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 <img src="./resources/TheLorentzTransformationFormulas.png" alt="The Lorentz Transformation formulas" width="60%">
