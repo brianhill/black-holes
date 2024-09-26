@@ -34,14 +34,14 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of Term 2, partly because Chapter 4 has little that is new in it. That gives us most of two classes for Chapter 5 and two full classes for Chapter 6. Assuming we get through the end of Chapter 6 this Term, you then know enough special relativity to start *Exploring Black Holes* when we return from the Term 2-3 break.
 
-*? Can we schedule a couple of presentations each for Monday and Thursday focused on the end-of-Chapter problems ?*
+*? Should we schedule a couple of presentations each for Monday and Thursday focused on the end-of-Chapter-4-and-5 problems ?*
 
-*For presentations, please be sure these are of high quality, including practicing them on me and each other (not late the night before), and possibly preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted*
+*If we schedule presentations, please be sure these are of high quality, including practicing them on me and each other (not late the night before), and possibly preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted. Finally, an alternative to preparing presentations would be to just have people attempt to do problems when called upon at random.*
 
-* Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you want help cementing in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone should pay close attention to pp. 127-130 of Chapter 4 &mdash; Study through Section 5.4, p. 147, of Chapter 5 &mdash; Problem Set 6 for Monday, is [FORTHCOMING](./assignments/ProblemSet06.nb.pdf)
+* Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you want help cementing in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.4, p. 147, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders
 * Thursday, Oct. 3 &mdash; Finish Chapter 5
 
-<img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="70%">
+<img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="85%">
 
 ### Week 7 &mdash; The Light-Cone &mdash; Spacelike- and Timelike-Separated Events &mdash; Causality
 
