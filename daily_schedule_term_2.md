@@ -13,7 +13,7 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 ### Week 2 &mdash; Free-Float Frames &mdash; Time Dilation Illustrated in Muon and Pion Decay
 
 * Monday, Sep. 2 &mdash; Read and be prepared to discuss *Spacetime Physics* to p. 30 &mdash; Problem Set 1 to be turned in at the beginning of Monday's class is [here](./assignments/ProblemSet01.nb.pdf) and in your file folders &mdash; I played [Chris Hadfield's cover of David Bowie's &ldquo;A Space Oddity&rdquo;](https://youtu.be/KaOC9danxNo) as an important illustration of what it is like to be in a free-float frame &mdash; I proved [Galilean Addition of Velocities](./resources/GalileanAdditionOfVelocities.pdf) which establishes the near impossibility that the speed of light could possibly be constant &mdash; And yet the speed of light is constant in any frame(!), and this follows easily from the invariance of the interval
-* Thursday, Sep. 5 &mdash; Read and be prepared to discuss *Spacetime Physics* to the end of Chapter 2 (to p. 44) &mdash; I will use the first two terms of the Maclaurin series to present an important approximation method that you will be using a lot &mdash; Then two groups will present their detailed analyses of the falling railway coach &mdash; [Here are the variables](resources/HorizontalCoachVariables.png) for analyzing the horizontal problem (Rania and Rebecca), and [here are similar variables](resources/VerticalCoachVariables.png) for analyzing the vertical problem (Walker, Will, and Eden) &mdash; Both groups should be seeking approximate expressions for *d(t)* where initially *d(t)=d<sub>I</sub>*, and we are really only interested in what happens in a short time *&Delta;t* &mdash; Problem Set 2 to be turned in at the beginning of Thursday's class is [here](./assignments/ProblemSet02.nb.pdf) and in your file folders
+* Thursday, Sep. 5 &mdash; Read and be prepared to discuss *Spacetime Physics* to the end of Chapter 2 (to p. 44) &mdash; I will use the first two terms of the Maclaurin series to present an important approximation method that you will be using a lot &mdash; Then two groups will present their detailed analyses of the falling railway coach &mdash; [Here are the variables](resources/HorizontalCoachVariables.png) for analyzing the horizontal problem (Rania and Rebecca), and [here are similar variables](resources/VerticalCoachVariables.png) for analyzing the vertical problem (Walker, Will, and Eden) &mdash; Both groups should be seeking approximate expressions for *d(t)* where initially *d(t)=d<sub>I</sub>*, and we are really only interested in what happens in a short time *&Delta;t* &mdash; [Problem Set 2](./assignments/ProblemSet02.nb.pdf) for Thursday
 
 ### Week 3 &mdash; Time Dilation &mdash; The Relativity of Simultaneity &mdash; Length Contraction
 
@@ -22,7 +22,7 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 ### Week 4 &mdash; Presentations of Interesting Problems &mdash; Start The Lorentz Transformation Formulas
 
-* Monday, Sept. 16 &mdash; To give you time to consolidate the first three chapters, there is no new reading assignment due for Friday &mdash; Instead of a problem set, you will split into three groups, each to prepare a presentation on an end-of-Chapter-3 problem of the three groups' choice, 20 minutes per presentation, plus 5 minutes Q&A per presentation &mdash; Please make sure these are of high quality, *including preparing and making copies for everyone* of a handout if you think that will assist in the amount of understanding that will be transmitted
+* Monday, Sept. 16 &mdash; To give you time to consolidate the first three chapters, there is no new reading assignment due for Friday
 * Thursday, Sept. 19 &mdash; Read Chapter L to p. 102, which is the derivation of the Lorentz Transformation formulas summarized in Eq. L-10a on p. 102
 
 ### Week 5 &mdash; Finish The Lorentz Transformation Formulas &mdash; Exam 1
@@ -30,20 +30,25 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 * Monday, Sept. 23 &mdash; Finish Chapter L &mdash; Problem Set 5, with due date delayed to the beginning of Monday's class, is [here](./assignments/ProblemSet05.nb.pdf) and in your file folders
 * Thursday, Sept. 26 &mdash; Exam 1
 
-### Week 6 &mdash;
+### Week 6 &mdash; World-Lines of Accelerating Particles &mdash; More Presentations of Interesting Problems
+
+We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of Term 2, partly because Chapter 4 has little that is new in it. That gives us most of two classes for Chapter 5 and two full classes for Chapter 6. Assuming we get through the end of Chapter 6 this Term, you then know enough special relativity to start *Exploring Black Holes* when we return from the Term 2-3 break.
+
+*? Can we schedule a couple of presentations each for Monday and Thursday focused on the end-of-Chapter problems ?*
+
+*For presentations, please be sure these are of high quality, including practicing them on me and each other (not late the night before), and possibly preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted*
+
+* Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you want help cementing in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone should pay close attention to pp. 127-130 of Chapter 4 &mdash; Study through Section 5.4, p. 147, of Chapter 5 &mdash; Problem Set 6 for Monday, is [FORTHCOMING](./assignments/ProblemSet06.nb.pdf)
+* Thursday, Oct. 3 &mdash; Finish Chapter 5
+
+<img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="70%">
+
+### Week 7 &mdash; The Light-Cone &mdash; Spacelike- and Timelike-Separated Events &mdash; Causality
 
 *TENTATIVELY*
 
-We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of Term 2, partly because Chapter 4 has little that is new in it. That gives us most of two classes for Chapter 5 and two full classes for Chapter 6. If get through the end of Chapter 6, you then know enough special relativity to switch to *Exploring Black Holes* when we return from the Term 2-3 break.
-
-* Monday, Sept. 30 &mdash; 
-* Thursday, Oct. 3 &mdash;
-
-### Week 7 &mdash;
-
-* Monday, Oct. 7 &mdash;
-* Thursday, Oct. 10 &mdash;
+* Monday, Oct. 7 &mdash; Start Chapter 6
+* Thursday, Oct. 10 &mdash; Finish Chapter 6
 
 Continued on: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
-<img src="./resources/TheLorentzTransformationFormulas.png" alt="The Lorentz Transformation formulas" width="60%">
