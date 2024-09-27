@@ -38,14 +38,12 @@ We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of 
 
 *If we schedule presentations, please be sure these are of high quality, including practicing them on me and each other (not late the night before), and possibly preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted. Finally, an alternative to preparing presentations would be to just have people attempt to do problems when called upon at random.*
 
-* Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you want help cementing in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.4, p. 147, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders
+* Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you feel you need to cementing in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.5, p. 148, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders along with tracing graph paper and a [hyperbola template](./assignments/HyperbolaTemplate.pdf)
 * Thursday, Oct. 3 &mdash; Finish Chapter 5
 
 <img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="85%">
 
 ### Week 7 &mdash; The Light-Cone &mdash; Spacelike- and Timelike-Separated Events &mdash; Causality
-
-*TENTATIVELY*
 
 * Monday, Oct. 7 &mdash; Start Chapter 6
 * Thursday, Oct. 10 &mdash; Finish Chapter 6
