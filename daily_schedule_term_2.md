@@ -32,14 +32,14 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 ### Week 6 &mdash; World-Lines of Accelerating Particles &mdash; More Presentations of Interesting Problems
 
-We can cover Chapters 4, 5, and 6 of Spacetime Physics in the last two weeks of Term 2, partly because Chapter 4 has little that is new in it. That gives us most of two classes for Chapter 5 and two full classes for Chapter 6. Assuming we get through the end of Chapter 6 during this term, you then know enough special relativity to immediately start *Exploring Black Holes* when we return from the Term 2-3 break.
 
 *? Should we schedule a couple of presentations each for Monday and Thursday focused on the end-of-Chapter-4-and-5 problems ?*
 
-*If we schedule presentations, please be sure these are of high quality, including practicing them on me and each other (not late the night before), and possibly preparing and making copies for everyone of a handout if you think that will assist in the amount of understanding that will be transmitted. Finally, an alternative to preparing presentations would be to just have people attempt to do problems when called upon at random.*
+*Will volunteered to tackle Problem 5-7 as presentation for Thursday, Oct. 3.*
 
 * Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you feel you need to cement in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.5, p. 148, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders, along with tracing graph paper and a [hyperbola template](./assignments/HyperbolaTemplate.pdf)
-* Thursday, Oct. 3 &mdash; Finish Chapter 5
+* Thursday, Oct. 3 &mdash; Finish Studying Chapter 5 &mdash; Problem Set 7, due at the beginning of 
+Thursday's class, is [here](./assignments/ProblemSet07.nb.pdf) and in your file folders
 
 <img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="85%">
 
