@@ -38,7 +38,7 @@ himself, but maybe one of the rest of you will let him practice the presentation
 * Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you feel you need to cement in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.5, p. 148, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders, along with tracing graph paper and a [hyperbola template](./assignments/HyperbolaTemplate.pdf)
 * Thursday, Oct. 3 &mdash; Finish Studying Chapter 5 &mdash; Problem Set 7, due at the beginning of Thursday's class, is [here](./assignments/ProblemSet07.nb.pdf) and in your file folders
 
-<img src="./resources/LimitsOnWorldlineSlope.png" alt="Limits on Worldline Slope" width="85%">
+<img src="./resources/MakingContactWithIntegrals.png" alt="Making Contact with Integrals" width="85%">
 
 ### Week 7 &mdash; The Light-Cone &mdash; Spacelike- and Timelike-Separated Events &mdash; Causality
 

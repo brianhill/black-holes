@@ -1,0 +1,541 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     25114,        533]
+NotebookOptionsPosition[     23644,        501]
+NotebookOutlinePosition[     24098,        519]
+CellTagsIndexPosition[     24055,        516]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"a9f7b9cc-444d-46bc-a3b9-2ade23041c03"],
+
+Cell["\<\
+PAGE 2 WITH COPY-AND-PASTE ERRORS FIXED, AND ALSO A WORDING IMPROVEMENT IN \
+PART (f)
+
+(c) Where do Events E and B occur in the outgoing rocket frame? Again, I have \
+filled in three table entries to get you started. Fill in the fourth using \
+what you learned in (b).\
+\>", "Text",
+ CellChangeTimes->{{3.914027554425773*^9, 3.914027601937613*^9}, {
+   3.914027664703047*^9, 3.914027666089014*^9}, {3.914064282574464*^9, 
+   3.914064294837758*^9}, 3.914441391782222*^9, {3.91468973440301*^9, 
+   3.914689742479237*^9}, {3.914722073149221*^9, 3.914722107869542*^9}, {
+   3.9147221455701*^9, 3.914722186846393*^9}, {3.914722338118928*^9, 
+   3.914722452062908*^9}, 3.914722601645062*^9, {3.9147229161327887`*^9, 
+   3.914722925055081*^9}, {3.915036721207067*^9, 3.9150367440671883`*^9}, {
+   3.9150368210921*^9, 3.915036876015964*^9}, {3.915037046933207*^9, 
+   3.91503754596103*^9}, {3.915037689586566*^9, 3.915037838546407*^9}, {
+   3.91503788478733*^9, 3.915037885436859*^9}, {3.915037935447002*^9, 
+   3.915037936832982*^9}, {3.915404676675138*^9, 3.915404708161542*^9}, {
+   3.915404744344537*^9, 3.9154047743587723`*^9}, {3.915404823481412*^9, 
+   3.915404982617275*^9}, {3.9160130114584513`*^9, 3.916013060588373*^9}, {
+   3.916013170606229*^9, 3.916013179719303*^9}, {3.916224740297836*^9, 
+   3.916225194201651*^9}, {3.916225331976372*^9, 3.916225612189252*^9}, {
+   3.9162256424857388`*^9, 3.916226056969962*^9}, {3.916226393805756*^9, 
+   3.916226397203864*^9}, {3.9162266125522957`*^9, 3.916226621082836*^9}, {
+   3.9339604520602827`*^9, 3.933960467954875*^9}, {3.933961759114324*^9, 
+   3.933961790980672*^9}, {3.933961885392898*^9, 3.933961894459914*^9}, {
+   3.934314655279684*^9, 3.934314662082651*^9}, {3.934567338631611*^9, 
+   3.934567720510503*^9}, {3.9345680185818*^9, 3.9345680314890738`*^9}, {
+   3.934568132310814*^9, 3.934568132810182*^9}, {3.934920632608912*^9, 
+   3.934920640562718*^9}, {3.9354984027155933`*^9, 3.935498412119891*^9}, {
+   3.935498549859578*^9, 3.935498571594514*^9}, {3.935499106913691*^9, 
+   3.935499108689013*^9}, {3.936383254131469*^9, 3.9363832612697983`*^9}, {
+   3.936383296806828*^9, 3.936383590862564*^9}, {3.936383626010015*^9, 
+   3.936383630268627*^9}, 3.936721421751373*^9, {3.936721452515541*^9, 
+   3.936721885493291*^9}, {3.936721920695061*^9, 3.936722027403739*^9}, {
+   3.936722383063974*^9, 3.936722489071217*^9}, {3.936722530575488*^9, 
+   3.9367225508731537`*^9}, {3.936722665624584*^9, 3.936722678842356*^9}, {
+   3.936722810946618*^9, 3.9367228333578*^9}, {3.936724565185166*^9, 
+   3.9367246595689993`*^9}, {3.936724723775125*^9, 3.936724733209981*^9}, {
+   3.936724804943486*^9, 3.936724808211919*^9}, {3.9367254579177237`*^9, 
+   3.936725527225911*^9}, {3.936729799223288*^9, 3.936729799404373*^9}, {
+   3.936731362806594*^9, 3.9367313652928457`*^9}, {3.936877629804748*^9, 
+   3.936877655453425*^9}},ExpressionUUID->"9653d107-858f-4a33-977f-\
+de6fefd36f0c"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"    Event E    \"\>", "\<\"    Event B    \"\>"},
+    {"\<\"t'\"\>", "\<\"              \"\>", "0"},
+    {"\<\"x'\"\>", "\<\"0\"\>", "0"}
+   },
+   AutoDelete->False,
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{3.9367227931054363`*^9, 3.936724790988412*^9, 
+  3.936731303010659*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"acfd4e91-2de2-4d28-bc1e-daefacb9c803"],
+
+Cell["\<\
+(d) Where do Events B and R occur in the returning rocket frame? Again, I \
+have filled in three table entries to get you started.\
+\>", "Text",
+ CellChangeTimes->{{3.914027554425773*^9, 3.914027601937613*^9}, {
+   3.914027664703047*^9, 3.914027666089014*^9}, {3.914064282574464*^9, 
+   3.914064294837758*^9}, 3.914441391782222*^9, {3.91468973440301*^9, 
+   3.914689742479237*^9}, {3.914722073149221*^9, 3.914722107869542*^9}, {
+   3.9147221455701*^9, 3.914722186846393*^9}, {3.914722338118928*^9, 
+   3.914722452062908*^9}, 3.914722601645062*^9, {3.9147229161327887`*^9, 
+   3.914722925055081*^9}, {3.915036721207067*^9, 3.9150367440671883`*^9}, {
+   3.9150368210921*^9, 3.915036876015964*^9}, {3.915037046933207*^9, 
+   3.91503754596103*^9}, {3.915037689586566*^9, 3.915037838546407*^9}, {
+   3.91503788478733*^9, 3.915037885436859*^9}, {3.915037935447002*^9, 
+   3.915037936832982*^9}, {3.915404676675138*^9, 3.915404708161542*^9}, {
+   3.915404744344537*^9, 3.9154047743587723`*^9}, {3.915404823481412*^9, 
+   3.915404982617275*^9}, {3.9160130114584513`*^9, 3.916013060588373*^9}, {
+   3.916013170606229*^9, 3.916013179719303*^9}, {3.916224740297836*^9, 
+   3.916225194201651*^9}, {3.916225331976372*^9, 3.916225612189252*^9}, {
+   3.9162256424857388`*^9, 3.916226056969962*^9}, {3.916226393805756*^9, 
+   3.916226397203864*^9}, {3.9162266125522957`*^9, 3.916226621082836*^9}, {
+   3.9339604520602827`*^9, 3.933960467954875*^9}, {3.933961759114324*^9, 
+   3.933961790980672*^9}, {3.933961885392898*^9, 3.933961894459914*^9}, {
+   3.934314655279684*^9, 3.934314662082651*^9}, {3.934567338631611*^9, 
+   3.934567720510503*^9}, {3.9345680185818*^9, 3.9345680314890738`*^9}, {
+   3.934568132310814*^9, 3.934568132810182*^9}, {3.934920632608912*^9, 
+   3.934920640562718*^9}, {3.9354984027155933`*^9, 3.935498412119891*^9}, {
+   3.935498549859578*^9, 3.935498571594514*^9}, {3.935499106913691*^9, 
+   3.935499108689013*^9}, {3.936383254131469*^9, 3.9363832612697983`*^9}, {
+   3.936383296806828*^9, 3.936383590862564*^9}, {3.936383626010015*^9, 
+   3.936383630268627*^9}, 3.936721421751373*^9, {3.936721452515541*^9, 
+   3.936721885493291*^9}, {3.936721920695061*^9, 3.936722027403739*^9}, {
+   3.936722383063974*^9, 3.936722489071217*^9}, {3.936722530575488*^9, 
+   3.9367225508731537`*^9}, {3.936722665624584*^9, 3.936722678842356*^9}, {
+   3.936722810946618*^9, 3.9367228562764482`*^9}, {3.936724801328326*^9, 
+   3.9367248226916947`*^9}},ExpressionUUID->"b80ce52b-8828-4bad-a77a-\
+27b7cdf57778"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"    Event B    \"\>", "\<\"    Event R    \"\>"},
+    {"\<\"t''\"\>", "0", "\<\"              \"\>"},
+    {"\<\"x''\"\>", "0", "\<\"0\"\>"}
+   },
+   AutoDelete->False,
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.936723004281473*^9, 3.936723041575243*^9, {3.9367248403299427`*^9, 
+   3.936724851280026*^9}, 3.936724888250513*^9, 3.9367249260460043`*^9, 
+   3.936725804932371*^9, 3.936731303013502*^9},
+ CellLabel->"Out[92]=",ExpressionUUID->"a1950941-5fdd-4bf9-97c3-21ea14b67aad"],
+
+Cell[TextData[{
+ "NOTE: If you look at the table from part (a), you will  see that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", 
+    RowBox[{"L", "/", "v"}]}], TraditionalForm]],ExpressionUUID->
+  "8e918561-6bd3-4acc-9685-81fb5a05848b"],
+ " of time has elapsed for the twin that stayed on Earth from Event E to \
+Event R. Let\[CloseCurlyQuote]s call that ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"old", " ", "twin"}]], TraditionalForm]],ExpressionUUID->
+  "d4a0674e-6fe0-4406-bfcd-f44470767adb"],
+ ".\n\n(d again) (letter reused due to copy-and-paste errors) Add together \
+the time elapsed from E to B in the outgoing frame, and the time elapsed from \
+B to R in the returning frame. How much time in total, we\[CloseCurlyQuote]ll \
+call it ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"young", " ", "twin"}]], TraditionalForm]],ExpressionUUID->
+  "56455963-b1e1-497e-91d3-8769dc08148a"],
+ ", has elapsed for the twin that rode the outgoing rocket from frame E to B \
+and the returning rocket from B to R?\n\n\n\n(e) What is the ratio, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", 
+     RowBox[{"old", " ", "twin"}]], "/", 
+    SubscriptBox["t", 
+     RowBox[{"young", " ", "twin"}]]}], TraditionalForm]],ExpressionUUID->
+  "5eb7ec2c-3185-4e39-a73f-e93c21f2152f"],
+ "?\n\n\n\n(f) By comparing your answers to (a) and (c) you can see that \
+there is a major disagreement (the difference, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["t", "\[Prime]"], "-", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1de031be-b578-49df-b0da-dcae15397ce4"],
+ ") between Earth-frame clocks and outgoing-rocket-frame clocks about when \
+Event E occurred. Similarly by comparing your answers to (a) and (d), you can \
+see that there is an equally-large disagreement (the difference, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "-", 
+    SuperscriptBox["t", "\[Prime]\[Prime]"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "448fe18d-24d0-4020-9a20-ca5275d3ca34"],
+ ") between Earth-frame clocks and returning-rocket-frame clocks about when \
+Event R occurred. Add the two disagreements together.\n\n\n\n(g) Keep in mind \
+that both of the rocket frame observers would say that the Earth-frame clocks \
+are ticking too slowly, so only ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", 
+    RowBox[{"L", "/", "\[Gamma]v"}]}], TraditionalForm]],ExpressionUUID->
+  "30b42a8c-e127-4985-9570-9f0acc2ed595"],
+ " of time elapsed according to the rocket frame observers while the Earth \
+frame observers recorded that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", 
+    RowBox[{"L", "/", "v"}]}], TraditionalForm]],ExpressionUUID->
+  "06b0f1f9-1951-4146-be92-88090b6c8784"],
+ " of time elapsed. Now add the sum of the two disagreements you found in (f) \
+to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", 
+    RowBox[{"L", "/", "\[Gamma]v"}]}], TraditionalForm]],ExpressionUUID->
+  "84d46806-ff4f-42cf-af8f-daf1813724b2"],
+ ". Simplify. You should find that this sum is the same as ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"old", " ", "twin"}]], TraditionalForm]],ExpressionUUID->
+  "c711241c-5274-4730-9537-51a6f8920f52"],
+ "!"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBWIQPeVSs+SWkLeOS71MPEC01ZJCHxD9aO/nIBBd8/Fr
+BYjeZh7fAKI31txm2Aqk++L+s4DoR2lTvEH0+Q37/ED0ovPLf20D0vZ5r8D0
+r0PmjNuB9HOpCcIg2uTzVnEQ/dCswBBEn1p1xxREX/0daA2ik3RX2oPo/hrl
+EBCtdFU5AkTfeJgJpvs+vYwB0TpXamJB9IPJ+skgOvS2CZgulO3KA9HqP7zy
+QXRG/DblHUA66PF6FRAdFXT28T+QeeHyz0H0lzksb0H00aa1YHqe+Nq4/0D6
+o/ZRMO1omZ8Oop+6biwA0X4y70pAdOxyuwoQbcZu3gqiD2yeC6YBG+O4Vw==
+
+  "],ExpressionUUID->"5218499c-a6cb-4bde-8726-65d2579f8818"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"ad2634fa-3cb3-4759-9e96-8cb893368248"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Problem 2 \[LongDash] A Summer Evening\
+\[CloseCurlyQuote]s Fantasy, Problem 5-6 on p. 168",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.9367214416104393`*^9, 3.936721449952364*^9}, {3.936730065448843*^9, 
+   3.936730098855196*^9}, {3.936730135711586*^9, 
+   3.936730150324562*^9}},ExpressionUUID->"afd77e9e-e508-4a94-a30c-\
+531c6d0124ae"],
+
+Cell["This should be fun.", "Text",
+ CellChangeTimes->{{3.9367301632073603`*^9, 
+  3.93673017072507*^9}},ExpressionUUID->"f95a6e38-06a8-486a-8a37-\
+c5e6e95637c2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Problem 3 \[LongDash] Making Contact with Integrals",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.9367214416104393`*^9, 3.936721449952364*^9}, {3.936730065448843*^9, 
+   3.936730098855196*^9}, {3.936730135711586*^9, 3.936730150324562*^9}, {
+   3.93673019077668*^9, 3.936730190879059*^9}, {3.936730322883006*^9, 
+   3.93673033263894*^9}},ExpressionUUID->"c0537b28-0bd6-4afe-bbe5-\
+706a3e8ae850"],
+
+Cell[TextData[{
+ "(a) Assume a particle follows a path defined by the function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"f", "(", "t", ")"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "301d5845-b127-404d-9a0e-20d6eb7ce6d8"],
+ " from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8be7e717-574a-49e6-a98b-a36a6ca8cdbd"],
+ ", to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", 
+    SubscriptBox["t", "f"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "00fed1d1-0210-48ba-baac-c183d49db4c3"],
+ ". Break the time from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6bf8afe3-35c1-440b-a566-fca4fbee467d"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", 
+    SubscriptBox["t", "f"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e99b7612-c7fc-4973-a8b7-ce84e2dc9578"],
+ " up into ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f111891e-4024-4ab5-aae9-2b4ad57f16a9"],
+ " equal and tiny intervals ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "565bfe4f-5857-47df-8493-3db244f5c2fb"],
+ ". What is the (approximate) expression for the amount of proper time \
+elapsed in the ",
+ Cell[BoxData[
+  FormBox["i", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dd9424d5-6724-49b3-911b-ecb1c4f79417"],
+ "th interval? Factor out ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9774785e-ceb9-4523-964d-a0da13ee0d07"],
+ " so that it is abundantly clear that your answer is directly proportional \
+to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f39239cf-9ab0-49db-8e8b-001917ccdb25"],
+ ".\n\nHINT: it is going to involve ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["f", "\[Prime]"], "(", 
+    SubscriptBox["t", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b763ce8-72a9-45d9-9d54-60902cb1b3ea"],
+ "). Go back to your notes on what it involved when we were computing \
+ordinary path lengths in ordinary space, when we had ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"f", "(", "x", ")"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ac4e8cb9-3aae-4579-831c-1e654df0730e"],
+ " instead of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"f", "(", "t", ")"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7ece0b96-4de5-4a33-91f9-e4cace7e0e0d"],
+ ", and follow the same steps.\n\n(b) In (a) you calculated the small amount \
+of proper time elapsed in the ",
+ Cell[BoxData[
+  FormBox["i", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0d03e7a0-acfb-4567-98fd-cbb58ca61e97"],
+ "th interval, and now you can add all ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b84aaa46-1c0a-40e3-ac86-56b568c9ef0d"],
+ " of them up, and you will get a sum that will look like:\n\n                \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"i", "=", "0"}], 
+      RowBox[{"N", "-", "1"}]],
+     FontSize->18], 
+    RowBox[{
+     StyleBox["[",
+      FontSize->18], 
+     RowBox[{
+     "whatever", " ", "you", " ", "got", " ", "in", " ", "part", " ", 
+      RowBox[{"(", "a", ")"}]}], "]"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c9ebc535-7e98-4f5b-bb2c-c4b10b3046cc"],
+ "           where          ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+    "N", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
+    "=", 
+    SubscriptBox["t", "f"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "99544f70-9fae-441b-8861-765d204ec761"],
+ "\n  \n Fill in whatever you got in part (a) and write out your answer for \
+the sum.\n \n(c) Now take the limit that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"N", "->", "\[Infinity]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7ae990c5-1e75-4a28-9c7f-7808ef1bc83e"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "->", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e0ec097d-65b9-4b19-99e2-b2d767e28680"],
+ ", while holding ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+    "N", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
+    "=", 
+    SubscriptBox["t", "f"]}], TraditionalForm]],ExpressionUUID->
+  "0216a205-3477-414b-8b03-b4b72aed7518"],
+ ". This is the definition of a left-handed sum for a Riemann integral. What \
+integral is it?\n\nNOTE: I am happy to help people who don\[CloseCurlyQuote]t \
+remember much calculus with part (c), but first  you should make a full \
+attempt at parts (a) and (b), for which you don\[CloseCurlyQuote]t need any \
+calculus. You are just adding up small amounts of proper time in exactly the \
+same way as we added up small amounts of distance in class."
+}], "Text",
+ CellChangeTimes->{{3.9367301632073603`*^9, 3.93673017072507*^9}, {
+  3.936730335967403*^9, 3.9367310195637627`*^9}, {3.9367310610731907`*^9, 
+  3.936731235556863*^9}, {3.936731479046701*^9, 
+  3.9367316042985353`*^9}},ExpressionUUID->"8b208a7e-4d52-4d2a-be1c-\
+b56a5dbc79ea"]
+}, Open  ]]
+},
+WindowSize->{808, 843},
+WindowMargins->{{527, Automatic}, {Automatic, 134}},
+PrintingCopies->10,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"94a17dbf-c624-4e0e-b97a-5ea811487e94"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 99, 1, 1, "PageBreak",ExpressionUUID->"a9f7b9cc-444d-46bc-a3b9-2ade23041c03",
+ PageBreakBelow->True],
+Cell[660, 23, 2938, 44, 104, "Text",ExpressionUUID->"9653d107-858f-4a33-977f-de6fefd36f0c"],
+Cell[3601, 69, 549, 12, 75, "Output",ExpressionUUID->"acfd4e91-2de2-4d28-bc1e-daefacb9c803"],
+Cell[4153, 83, 2508, 36, 58, "Text",ExpressionUUID->"b80ce52b-8828-4bad-a77a-27b7cdf57778"],
+Cell[6664, 121, 673, 14, 75, "Output",ExpressionUUID->"a1950941-5fdd-4bf9-97c3-21ea14b67aad"],
+Cell[7340, 137, 3719, 89, 590, "Text",ExpressionUUID->"5218499c-a6cb-4bde-8726-65d2579f8818"],
+Cell[11062, 228, 99, 1, 4, "PageBreak",ExpressionUUID->"ad2634fa-3cb3-4759-9e96-8cb893368248",
+ PageBreakBelow->True],
+Cell[CellGroupData[{
+Cell[11186, 233, 3220, 46, 54, "Section",ExpressionUUID->"afd77e9e-e508-4a94-a30c-531c6d0124ae"],
+Cell[14409, 281, 162, 3, 35, "Text",ExpressionUUID->"f95a6e38-06a8-486a-8a37-c5e6e95637c2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14608, 289, 3275, 46, 54, "Section",ExpressionUUID->"c0537b28-0bd6-4afe-bbe5-706a3e8ae850"],
+Cell[17886, 337, 5742, 161, 498, "Text",ExpressionUUID->"8b208a7e-4d52-4d2a-be1c-b56a5dbc79ea"]
+}, Open  ]]
+}
+]
+*)
+
