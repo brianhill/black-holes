@@ -30,20 +30,17 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 * Monday, Sept. 23 &mdash; Finish Chapter L &mdash; Problem Set 5, with due date delayed to the beginning of Monday's class, is [here](./assignments/ProblemSet05.nb.pdf) and in your file folders
 * Thursday, Sept. 26 &mdash; Exam 1
 
-### Week 6 &mdash; World-Lines of Accelerating Particles &mdash; More Presentations of Interesting Problems
-
-*Will volunteered to tackle Problem 5-7 on p. 168 as the presentation for Thursday, Oct. 3. Thank you, Will! He can handle it by
-himself, but maybe one of the rest of you will let him practice the presentation on you?*
+### Week 6 &mdash; World-Lines of Accelerating Particles &mdash; The Light-Cone and Causality
 
 * Monday, Sept. 30 &mdash; If you feel solid about Chapters 1, 2, 3, and L, there is not much new in Chapter 4 &mdash; If you feel you need to cement in some ideas with the twin paradox as the example then Chapter 4 is great &mdash; Everyone, whether feeling solid or not, should pay close attention to pp. 127-130 of Chapter 4 &mdash; Then continue studying through Section 5.5, p. 148, of Chapter 5 &mdash; Problem Set 6, due at the beginning of Monday's class, is [here](./assignments/ProblemSet06.nb.pdf) and in your file folders, along with tracing graph paper and a [hyperbola template](./assignments/HyperbolaTemplate.pdf)
 * Thursday, Oct. 3 &mdash; Finish Studying Chapter 5 &mdash; Problem Set 7, due at the beginning of Thursday's class, is [here](./assignments/ProblemSet07.nb.pdf) and in your file folders
 
-<img src="./resources/MakingContactWithIntegrals.png" alt="Making Contact with Integrals" width="85%">
+### Week 7 &mdash; More Presentations of Interesting Problems &mdash; Relativistic Momentum and Energy
 
-### Week 7 &mdash; The Light-Cone &mdash; Spacelike- and Timelike-Separated Events &mdash; Causality
+* Monday, Oct. 7 &mdash; Study all of Chapter 6 and also Sections 7.1 and 7.2 to p. 195 &mdash; Let's have three presentations on three problems from Chapters, 5, 6, and 7, such as 5-7 (the runner-on-the-train paradox), 6-6 (relativistic race-walking), and 7-3 (kinetic energy of a train collision, which is straightforward but instructive) &mdash; Target 10 minutes plus 5 minutes for questions per presentation &mdash; Organize yourselves into three groups of three (and Will is already one of the three for Problem 5-7) &mdash; There is no assignment other than studying the text to p. 195, and preparation of the three presentations &mdash; Expect the last assignment of the term, Problem Set 8, to be a bit longer and harder than Problem Sets 6 and 7 were &mdash; Non-relativistic momentum and energy &mdash; SI unit for energy &mdash; The eV &mdash; *E=mc<sup>2</sup>*
 
-* Monday, Oct. 7 &mdash; Start Chapter 6
-* Thursday, Oct. 10 &mdash; Finish Chapter 6
+<img src="./resources/LightCone.png" alt="Light Cone" width="60%">
+
+* Thursday, Oct. 10 &mdash; Study Chapter 7 to the end of Section 7.5, p. 206 &mdash; Problem Set 8, due at the beginning of Thursday's class, is [FORTHCOMING](./assignments/ProblemSet08.nb.pdf), but probably will include Problems 7-5, 7-6, and 7-7 &mdash; Problem 7-12 is superb, but possibly too hard to assign
 
 Continued on: [Daily Schedule Term 3](./daily_schedule_term_3.html)
-
