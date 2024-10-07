@@ -41,6 +41,6 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 <img src="./resources/LightCone.png" alt="Light Cone" width="60%">
 
-* Thursday, Oct. 10 &mdash; Study Chapter 7 to the end of Section 7.5, p. 206 &mdash; Problem Set 8, due at the beginning of Thursday's class, is [FORTHCOMING](./assignments/ProblemSet08.nb.pdf), but probably will include Problems 7-5, 7-6, and 7-7 &mdash; Problem 7-12 is superb, but possibly too hard to assign
+* Thursday, Oct. 10 &mdash; Study Chapter 7 to the end of Section 7.5, p. 206 &mdash; Problem Set 8, due at the beginning of Thursday's class, is [here](./assignments/ProblemSet08.nb.pdf)
 
 Continued on: [Daily Schedule Term 3](./daily_schedule_term_3.html)
