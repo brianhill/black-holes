@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6584,        137]
-NotebookOptionsPosition[      5828,        114]
-NotebookOutlinePosition[      6281,        132]
-CellTagsIndexPosition[      6238,        129]
+NotebookDataLength[     36640,        746]
+NotebookOptionsPosition[     34853,        705]
+NotebookOutlinePosition[     35306,        723]
+CellTagsIndexPosition[     35263,        720]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -37,14 +37,21 @@ HaNsL4DpbS0F56YB6XP3P4JpDYm/ss6BQH1cG+RAtPXRlLy4oLeO96JS80H0
 pKcZfAfTl9QcVyqGAePh6F0wDQDzWxKt
   "],ExpressionUUID->"0a9f033e-46a1-4578-becc-919930044f24"],
 
-Cell["The Runner-on-the-Train Paradox", "Subtitle",
+Cell[TextData[{
+ StyleBox["The Runner-on-the-Train Paradox ",
+  FontSize->18],
+ StyleBox["(Taylor and Wheeler, Problem 5-7)",
+  FontSize->18,
+  FontWeight->"Regular"]
+}], "Subtitle",
  CellChangeTimes->{
-  3.937476800303294*^9},ExpressionUUID->"ccb284ca-198a-4eb1-b023-\
+  3.937476800303294*^9, {3.9374848472594624`*^9, 
+   3.937484847590818*^9}},ExpressionUUID->"ccb284ca-198a-4eb1-b023-\
 888b31021a67"],
 
 Cell[CellGroupData[{
 
-Cell[TextData[StyleBox["The Runner-on-the-Train Paradox",
+Cell[TextData[StyleBox["Statement of the Paradox",
  FontSize->18,
  FontWeight->"Regular"]], "Section",
  CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
@@ -89,31 +96,615 @@ Cell[TextData[StyleBox["The Runner-on-the-Train Paradox",
    3.93672144161044*^9, 3.936721449952364*^9}, {3.93726978484687*^9, 
    3.9372698288911*^9}, {3.937269888277921*^9, 3.937269888518251*^9}, {
    3.937471857016249*^9, 3.937471906294787*^9}, {3.93747704567001*^9, 
-   3.9374770469421663`*^9}},ExpressionUUID->"06b4694c-22f4-4e02-867f-\
+   3.937477046942167*^9}, {3.9374830957279367`*^9, 3.9374831399507513`*^9}, {
+   3.93748486919092*^9, 
+   3.9374848773503838`*^9}},ExpressionUUID->"06b4694c-22f4-4e02-867f-\
 1b41a8ae64af"],
 
-Cell["\<\
-Pulvinar praesent montes dolor nostra commodo ornare semper maximus. \
-Himenaeos et dui orci dignissim nostra consectetur. Lacinia et malesuada \
-himenaeos nec accumsan hendrerit enim ad taciti. Non mi est montes non dictum \
-curae libero fringilla. Blandit etiam lobortis lacinia integer nostra dolor \
-adipiscing maximus. Et odio litora vulputate hendrerit condimentum mi mollis \
-fringilla cubilia. Lacus litora dictumst fringilla himenaeos venenatis id \
-aptent aptent sit. Maximus viverra nisl ultricies curabitur leo. Facilisi hac \
-hendrerit facilisis egestas ac nascetur amet cras. Venenatis metus lacinia \
-accumsan sagittis dui porttitor orci.
-
- 5-7 (The Runner-on-The-Train Paradox)\
-\>", "Text",
+Cell[TextData[{
+ "A runner is running backwards through a moving train and the runner carries \
+a clock that ticks with period ",
+ Cell[BoxData[
+  FormBox["T", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "03e3ee08-5840-4a4c-9a11-de665734bc6a"],
+ " (according to the runner). The runner runs with speed ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "35ea6bd2-93aa-406f-8133-2cdf50465f29"],
+ " with respect to the train. (Let\[CloseCurlyQuote]s make that the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"-", "x"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9b1bda72-3b91-4072-ae80-ea5cfb57dc8d"],
+ " direction, so if you use the whole Lorentz transformation machinery to \
+solve this problem, you need to put the runner\[CloseCurlyQuote]s frame as \
+moving with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["v", "rel"], "=", 
+    RowBox[{"-", "v"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7af5d10c-b64e-4310-a8c5-64869311307f"],
+ " with respect to the train.) The train is moving with speed ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b2326413-9252-4698-b7b4-c131a891239d"],
+ " (in the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"+", "x"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dc5b789b-f532-4985-8d7f-8c4504046ef3"],
+ " direction) relative to the Earth.\n\nThe paradox is the following \
+argument:\n\n(i) The runner\[CloseCurlyQuote]s clock appears to tick with \
+period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", "T"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b26070a-8af9-4504-bfc2-b735ba93c62a"],
+ " according to observers moving with the train (this is just time dilation).\
+\n(ii) We also know that a train-frame clock with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5cb96af9-7c95-43a8-b290-a07f6f013dbe"],
+ " appears to tick with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", 
+    RowBox[{"T", "'"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cc2e52c5-8555-4ca1-bc89-30a97b7df235"],
+ " according to observers on the Earth (this is just time dilation applied \
+again).\n(iii) That means something like the runner\[CloseCurlyQuote]s clock, \
+which the train-frame observers measure as ticking with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"T", "'"}], "=", 
+    RowBox[{"\[Gamma]", "\[VeryThinSpace]", "T"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cfc1504a-093d-4a6e-831c-394fc60248e2"],
+ ", should tick with period  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"\[Gamma]", "\[VeryThinSpace]"}], "2"], "T"}], TraditionalForm]],
+  
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7bb5d077-5b52-457b-a130-6d5922ab5a1e"],
+ " according to the Earth-frame observers (time dilation compounded).\n(iv) \
+But that can\[CloseCurlyQuote]t be right! The runner is stationary with \
+respect to the Earth, so of course the Earth observers say that the runner\
+\[CloseCurlyQuote]s clock ticks with period ",
+ Cell[BoxData[
+  FormBox["T", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8ef6b2b0-2e2a-4c1d-8640-5882f1e06022"],
+ ", not  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"\[Gamma]", "\[VeryThinSpace]"}], "2"], "T"}], TraditionalForm]],
+  
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b9385b9d-ffe1-45c1-93e3-dbad6ab86dbc"],
+ ".\n(v) So relativity is inconsistent and should be tossed!"
+}], "Text",
  CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
-   3.9374769616813707`*^9, 3.9374769622560577`*^9}, 
-   3.93747700779395*^9},ExpressionUUID->"f3634497-2bd7-4323-8609-\
+   3.937476961681371*^9, 3.937476962256058*^9}, 3.93747700779395*^9, {
+   3.9374825355462933`*^9, 3.93748309330118*^9}, {3.937483159304599*^9, 
+   3.937483223969933*^9}, {3.937483282426774*^9, 3.937483375057094*^9}, 
+   3.937484789642845*^9, {3.937484905898643*^9, 3.937484946279941*^9}, {
+   3.937484980560575*^9, 3.93748504660308*^9}, {3.937485294096551*^9, 
+   3.937485316371459*^9}, {3.937485499381835*^9, 
+   3.937485516404141*^9}},ExpressionUUID->"f3634497-2bd7-4323-8609-\
 555eb74c5d12"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Resolution of the Paradox",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.93672144161044*^9, 3.936721449952364*^9}, {3.93726978484687*^9, 
+   3.9372698288911*^9}, {3.937269888277921*^9, 3.937269888518251*^9}, {
+   3.937471857016249*^9, 3.937471906294787*^9}, {3.93747704567001*^9, 
+   3.937477046942167*^9}, {3.9374830957279367`*^9, 3.9374831399507513`*^9}, {
+   3.93748486919092*^9, 3.9374848773503838`*^9}, {3.937485056846595*^9, 
+   3.937485059471684*^9}},ExpressionUUID->"b7703b3f-f128-4daa-bf84-\
+053ff1fcb586"],
+
+Cell[TextData[{
+ "The first two steps in the argument above are fine. The resolution of the \
+paradox is that the third step is invalid. To make that clearer, let\
+\[CloseCurlyQuote]s reword the second step.\n\n(ii) An object that is is at \
+rest for train-frame observers and ticks with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c160c9ca-5c26-42a5-860c-986572614c94"],
+ " should tick with period  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", 
+    RowBox[{"T", "'"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "353a9db1-de02-4907-b8f9-9254f9ae7d83"],
+ " according to the Earth-frame observers.\n\nNow it is obvious that the \
+third step is invalid; the runner\[CloseCurlyQuote]s clock is not at rest for \
+the train-frame observers."
+}], "Text",
+ CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
+   3.937476961681371*^9, 3.937476962256058*^9}, 3.93747700779395*^9, {
+   3.9374825355462933`*^9, 3.93748309330118*^9}, {3.937483159304599*^9, 
+   3.937483223969933*^9}, {3.937483282426774*^9, 3.937483375057094*^9}, 
+   3.937484789642845*^9, {3.937484905898643*^9, 3.937484946279941*^9}, {
+   3.937484980560575*^9, 3.93748504660308*^9}, {3.937485088650792*^9, 
+   3.937485287089888*^9}, {3.937485330204569*^9, 
+   3.9374854684182796`*^9}},ExpressionUUID->"96ce2bbf-ae09-40db-8d6c-\
+d771a6a96070"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"88cac60d-43c2-49af-998c-5ec164adadce"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["1. A Valid Version of the Argument",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.93672144161044*^9, 3.936721449952364*^9}, {3.93726978484687*^9, 
+   3.9372698288911*^9}, {3.937269888277921*^9, 3.937269888518251*^9}, {
+   3.937471857016249*^9, 3.937471906294787*^9}, {3.93747704567001*^9, 
+   3.937477046942167*^9}, {3.9374830957279367`*^9, 3.9374831399507513`*^9}, {
+   3.93748486919092*^9, 3.9374848773503838`*^9}, {3.937485056846595*^9, 
+   3.937485059471684*^9}, {3.937485546206478*^9, 3.937485551083198*^9}, {
+   3.937486697412903*^9, 
+   3.937486697755703*^9}},ExpressionUUID->"bcd0fd98-cc8f-4810-9243-\
+4734b8e6cd99"],
+
+Cell[TextData[{
+ "(i) The runner\[CloseCurlyQuote]s clock appears to tick with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", "T"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bb36f17c-a58d-42dd-a435-0174ef98039b"],
+ " according to observers moving with the train.\n(ii) An object that is is \
+at rest for train-frame observers and ticks with period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "22a9f4bd-74f9-4118-bf43-2f3b5b1562fe"],
+ " should tick with period  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", 
+    RowBox[{"T", "'"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8d808038-02d9-4afd-9a39-f3cc31d2edbb"],
+ " according to the Earth-frame observers.\n(iii) The \
+runner\[CloseCurlyQuote]s clock is not at rest with respect to the train \
+frame clocks. In a period ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2dab36ef-387d-4408-9d4b-14aea4923696"],
+ " it has moved through the clocks by an amount ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"L", "'"}], "=", 
+    RowBox[{"v", "\[VeryThinSpace]", 
+     RowBox[{"T", "'"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6f7913e6-b015-4d4c-82a4-19782aa2cdb7"],
+ " in the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"-", "x"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e6a7dd6f-9b58-4ccb-a93e-64ac19de2437"],
+ " direction.\n(iv) An Earth-frame observer says that the line of clocks that \
+the train-frame observers have synchronized are not actually synchronized. In \
+fact, a clock that is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"L", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6c0d36a5-6bed-48e7-b3e3-4d996c167e3b"],
+ " to the left another clock is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", 
+    RowBox[{"L", "'"}], "v"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6eacd013-da14-4ae1-ad96-5580c5100078"],
+ " behind.\n\n(a) Finish the argument. Substitute in  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"L", "'"}], "=", 
+    RowBox[{"v", "\[VeryThinSpace]", 
+     RowBox[{"T", "'"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d131e30f-073d-4437-96fd-d86fa801ecba"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"T", "'"}], "=", 
+    RowBox[{"\[Gamma]", "\[VeryThinSpace]", "T"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3a4385f8-1ebd-43f1-a5f9-87c7a27784b9"],
+ " to find out what ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", "\[VeryThinSpace]", 
+    RowBox[{"L", "'"}], "v"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "af0bf407-2e65-4fb6-94fb-391e9861da57"],
+ " is in terms of ",
+ Cell[BoxData[
+  FormBox["T", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0dcf5905-862f-40df-9d95-84f5d283dde6"],
+ ".\n\n\n\n(b) The clock to the left is not synchronized, and therefore the \
+tick rate that was found in the paradoxical and wrong argument, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["\[Gamma]", "2"], "T"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7f28436a-2b8c-4a9f-81f5-34a2ca015d81"],
+ ", has to be corrected by the amount found in (a). Subtract whatever you got \
+in (a) from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["\[Gamma]", "2"], "T"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fc59a931-2cb6-472d-957d-0a73473ca41f"],
+ " and simplify.\n\n"
+}], "Text",
+ CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
+   3.937476961681371*^9, 3.937476962256058*^9}, 3.93747700779395*^9, {
+   3.9374825355462933`*^9, 3.93748309330118*^9}, {3.937483159304599*^9, 
+   3.937483223969933*^9}, {3.937483282426774*^9, 3.937483375057094*^9}, 
+   3.937484789642845*^9, {3.937484905898643*^9, 3.937484946279941*^9}, {
+   3.937484980560575*^9, 3.93748504660308*^9}, {3.937485088650792*^9, 
+   3.937485287089888*^9}, {3.937485330204569*^9, 3.9374854684182796`*^9}, {
+   3.937485572173875*^9, 3.9374861563721523`*^9}, {3.937486423038754*^9, 
+   3.937486426413979*^9}},ExpressionUUID->"73df4666-9d7c-4064-9cd5-\
+f965ece05910"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["2. Putting in Some Numbers",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.93672144161044*^9, 3.936721449952364*^9}, {3.93726978484687*^9, 
+   3.9372698288911*^9}, {3.937269888277921*^9, 3.937269888518251*^9}, {
+   3.937471857016249*^9, 3.937471906294787*^9}, {3.93747704567001*^9, 
+   3.937477046942167*^9}, {3.9374830957279367`*^9, 3.9374831399507513`*^9}, {
+   3.93748486919092*^9, 3.9374848773503838`*^9}, {3.937485056846595*^9, 
+   3.937485059471684*^9}, {3.937485546206478*^9, 3.937485551083198*^9}, {
+   3.937486159567432*^9, 3.937486169887919*^9}, {3.9374867013273067`*^9, 
+   3.93748670245408*^9}},ExpressionUUID->"73c60690-9167-442f-b211-\
+1ceede57b299"],
+
+Cell[TextData[{
+ "Let\[CloseCurlyQuote]s say ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "=", 
+    RowBox[{"16", 
+     StyleBox["s",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ab288911-68b6-4704-b1a8-969d5bde67a9"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "=", 
+    RowBox[{"3", "/", "5"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "35dbf6fa-ed91-48fa-9b89-a1b3d344cc09"],
+ ". Use those numbers to get answers for each part below.\n\n(a) What is \
+\[Gamma]?\n\n\n(b) What is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"T", "'"}], "=", 
+    RowBox[{"\[Gamma]", "\[VeryThinSpace]", "T"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f21f5a54-ed70-47f8-9fe6-d798da6ccacb"],
+ "?\n\n\n(c) What is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"L", "'"}], "=", 
+    RowBox[{"v", "\[VeryThinSpace]", 
+     RowBox[{"T", "'"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "55dae9f7-eccc-4a40-94eb-789bd98b8f04"],
+ "? (Of course, be convenient, and state your answer for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"L", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6b8654ef-b6e6-48b7-96a4-5dbf18e6107b"],
+ " in seconds.)\n\n\n(d) What is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Gamma]", "\[VeryThinSpace]", "v", "\[VeryThinSpace]", 
+     RowBox[{"L", "'"}]}], "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b8f4228c-2fb6-464e-8ed3-1768ef2f6396"],
+ "\n\n\n(e) What is  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["\[Gamma]", "2"], "T"}], "-", 
+    RowBox[{"\[Gamma]", "\[VeryThinSpace]", "v", "\[VeryThinSpace]", 
+     RowBox[{"L", "'"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3c864e5d-b7c8-4dcd-a021-7176e4d39570"],
+ "\n\n"
+}], "Text",
+ CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
+   3.937476961681371*^9, 3.937476962256058*^9}, 3.93747700779395*^9, {
+   3.9374825355462933`*^9, 3.93748309330118*^9}, {3.937483159304599*^9, 
+   3.937483223969933*^9}, {3.937483282426774*^9, 3.937483375057094*^9}, 
+   3.937484789642845*^9, {3.937484905898643*^9, 3.937484946279941*^9}, {
+   3.937484980560575*^9, 3.93748504660308*^9}, {3.937485088650792*^9, 
+   3.937485287089888*^9}, {3.937485330204569*^9, 3.9374854684182796`*^9}, {
+   3.937485572173875*^9, 3.9374861563721523`*^9}, {3.937486188476441*^9, 
+   3.937486374390911*^9}, {3.937486537282598*^9, 3.93748653795866*^9}, {
+   3.937486592948189*^9, 3.937486646741028*^9}, {3.937486678722109*^9, 
+   3.937486693364223*^9}, {3.9374870760951023`*^9, 
+   3.9374870761989202`*^9}},ExpressionUUID->"3c1f3f64-2a4f-4766-bf3f-\
+93a9bad4f4c1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["3. Making a Drawing",
+ FontSize->18,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.907161511820457*^9, 3.907161517693348*^9}, {
+   3.9071757851311502`*^9, 3.907175786965211*^9}, 3.907818209992303*^9, {
+   3.9078191362206*^9, 3.90781913785112*^9}, {3.907819172116008*^9, 
+   3.907819176110496*^9}, {3.907820387875669*^9, 3.907820402108921*^9}, {
+   3.907820981764664*^9, 3.907821007358383*^9}, {3.907821038037771*^9, 
+   3.907821042290193*^9}, {3.907821088606534*^9, 3.9078210900352592`*^9}, {
+   3.907821135428946*^9, 3.907821158579274*^9}, {3.907821196245142*^9, 
+   3.907821237363723*^9}, {3.907821349401204*^9, 3.907821396425806*^9}, {
+   3.907821450908679*^9, 3.907821516779191*^9}, {3.908397878489965*^9, 
+   3.908397951028851*^9}, {3.908398041423287*^9, 3.908398058613622*^9}, {
+   3.908398130040098*^9, 3.908398139118972*^9}, {3.908398169156537*^9, 
+   3.908398192128955*^9}, {3.908398252159361*^9, 3.908398411595109*^9}, {
+   3.908398456684402*^9, 3.908398536593797*^9}, {3.908398607154119*^9, 
+   3.908398652335915*^9}, {3.908630830378921*^9, 3.90863084576903*^9}, {
+   3.908975491833612*^9, 3.908975522492631*^9}, {3.908975666045314*^9, 
+   3.908975711042753*^9}, {3.908976051229232*^9, 3.908976178825238*^9}, {
+   3.913810107870986*^9, 3.913810533475247*^9}, {3.913810634111455*^9, 
+   3.913810644069963*^9}, {3.913810679147831*^9, 3.91381071872521*^9}, {
+   3.9138108312992373`*^9, 3.913810888253944*^9}, {3.913810965406918*^9, 
+   3.913811021243954*^9}, {3.913811051361785*^9, 3.91381106657822*^9}, {
+   3.9138110987262697`*^9, 3.913811100703505*^9}, {3.91402529255657*^9, 
+   3.914025351909107*^9}, {3.914025416733687*^9, 3.9140259055200663`*^9}, {
+   3.914025936874846*^9, 3.914025951556254*^9}, 3.914025996195584*^9, {
+   3.914027092732191*^9, 3.914027097367485*^9}, {3.914689729790235*^9, 
+   3.914689731758145*^9}, {3.914722046747615*^9, 3.9147220506395493`*^9}, {
+   3.914722493104393*^9, 3.914722498908587*^9}, {3.915036891845689*^9, 
+   3.9150368958269*^9}, {3.915037024343502*^9, 3.91503702475231*^9}, {
+   3.9150376744444027`*^9, 3.915037675054278*^9}, {3.91540499571329*^9, 
+   3.91540499994322*^9}, {3.916012997305713*^9, 3.916013003481572*^9}, {
+   3.916224696647458*^9, 3.916224698748835*^9}, {3.916226083811907*^9, 
+   3.916226091304624*^9}, {3.933960396055722*^9, 3.933960404369123*^9}, {
+   3.933960436241841*^9, 3.93396044712006*^9}, {3.933961839232917*^9, 
+   3.933961839266177*^9}, {3.933961870406005*^9, 3.933961880768933*^9}, {
+   3.934314668508291*^9, 3.934314670902116*^9}, {3.934566019735618*^9, 
+   3.934566023492865*^9}, {3.934567741482058*^9, 3.934567741581104*^9}, {
+   3.934568145623805*^9, 3.934568148601032*^9}, {3.934920615745637*^9, 
+   3.9349206158672743`*^9}, {3.9349207755267572`*^9, 3.934920798038578*^9}, {
+   3.935498388121041*^9, 3.935498395731588*^9}, {3.936383244202199*^9, 
+   3.936383250063457*^9}, {3.936721408026537*^9, 3.936721409689104*^9}, {
+   3.93672144161044*^9, 3.936721449952364*^9}, {3.93726978484687*^9, 
+   3.9372698288911*^9}, {3.937269888277921*^9, 3.937269888518251*^9}, {
+   3.937471857016249*^9, 3.937471906294787*^9}, {3.93747704567001*^9, 
+   3.937477046942167*^9}, {3.9374830957279367`*^9, 3.9374831399507513`*^9}, {
+   3.93748486919092*^9, 3.9374848773503838`*^9}, {3.937485056846595*^9, 
+   3.937485059471684*^9}, {3.937485546206478*^9, 3.937485551083198*^9}, {
+   3.937486159567432*^9, 3.937486169887919*^9}, {3.9374867013273067`*^9, 
+   3.93748670245408*^9}, {3.937486754263752*^9, 
+   3.937486771648397*^9}},ExpressionUUID->"23e99356-7d13-4233-bc88-\
+96fab8a2c6b1"],
+
+Cell[TextData[{
+ "Earth-frame observers say that clocks that are ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"L", "'"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f864d441-718b-44b5-9943-4a42ad9c1937"],
+ " apart and synchronized in the train frame are only ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"L", "'"}], "/", "\[Gamma]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3d82dd0e-5ce0-48cc-98ca-7aea80a1642a"],
+ " apart.\n\n(a) Continue plugging in numbers to find ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"L", "'"}], "/", "\[Gamma]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3e34a543-c71c-4c31-a56a-3f568943c39a"],
+ ".\n\n\n\n(b) In the large amount of space below, make a drawing of seven \
+train-frame clocks as viewed in the Earth frame. Have each clock just be a \
+blank circle. Put some whooshing streaks behind each clock. Show the distance \
+between the clocks according to the Earth observers.\n\n(c) On the drawing \
+you started in (b), draw in the second hand on the center of the seven \
+clocks, and have it point up.\n\n(d) On the drawing you started in (b) and \
+(c), draw in the second hand on the clock to the left of the center clock \
+using your answer to 2(d).\n\n(e) Finish the drawing you made in (b), (c) and \
+(d), by putting in the second hand on the remaining five clocks."
+}], "Text",
+ CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
+   3.937476961681371*^9, 3.937476962256058*^9}, 3.93747700779395*^9, {
+   3.9374825355462933`*^9, 3.93748309330118*^9}, {3.937483159304599*^9, 
+   3.937483223969933*^9}, {3.937483282426774*^9, 3.937483375057094*^9}, 
+   3.937484789642845*^9, {3.937484905898643*^9, 3.937484946279941*^9}, {
+   3.937484980560575*^9, 3.93748504660308*^9}, {3.937485088650792*^9, 
+   3.937485287089888*^9}, {3.937485330204569*^9, 3.9374854684182796`*^9}, {
+   3.937485572173875*^9, 3.9374861563721523`*^9}, {3.937486188476441*^9, 
+   3.937486374390911*^9}, {3.937486537282598*^9, 3.93748653795866*^9}, {
+   3.937486592948189*^9, 3.937486646741028*^9}, {3.937486678722109*^9, 
+   3.937486693364223*^9}, {3.937486810469432*^9, 3.937487049634515*^9}, {
+   3.937487082367338*^9, 3.9374871244273033`*^9}, {3.937487226730998*^9, 
+   3.937487419424073*^9}},ExpressionUUID->"b4f0f96d-ce64-4f50-8287-\
+89bf7b8d0abe"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 843},
-WindowMargins->{{59, Automatic}, {195, Automatic}},
+WindowMargins->{{514, Automatic}, {Automatic, 31}},
 PrintingCopies->10,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
@@ -133,10 +724,28 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 865, 15, 64, "Chapter",ExpressionUUID->"0a9f033e-46a1-4578-becc-919930044f24"],
-Cell[1448, 39, 153, 3, 53, "Subtitle",ExpressionUUID->"ccb284ca-198a-4eb1-b023-888b31021a67"],
+Cell[1448, 39, 336, 10, 45, "Subtitle",ExpressionUUID->"ccb284ca-198a-4eb1-b023-888b31021a67"],
 Cell[CellGroupData[{
-Cell[1626, 46, 3252, 46, 54, "Section",ExpressionUUID->"06b4694c-22f4-4e02-867f-1b41a8ae64af"],
-Cell[4881, 94, 919, 16, 196, "Text",ExpressionUUID->"f3634497-2bd7-4323-8609-555eb74c5d12"]
+Cell[1809, 53, 3348, 48, 54, "Section",ExpressionUUID->"06b4694c-22f4-4e02-867f-1b41a8ae64af"],
+Cell[5160, 103, 4334, 107, 426, "Text",ExpressionUUID->"f3634497-2bd7-4323-8609-555eb74c5d12"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9531, 215, 3395, 48, 54, "Section",ExpressionUUID->"b7703b3f-f128-4daa-bf84-053ff1fcb586"],
+Cell[12929, 265, 1450, 29, 173, "Text",ExpressionUUID->"96ce2bbf-ae09-40db-8d6c-d771a6a96070"],
+Cell[14382, 296, 99, 1, 4, "PageBreak",ExpressionUUID->"88cac60d-43c2-49af-998c-5ec164adadce",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14518, 302, 3504, 50, 54, "Section",ExpressionUUID->"bcd0fd98-cc8f-4810-9243-4734b8e6cd99"],
+Cell[18025, 354, 4428, 115, 403, "Text",ExpressionUUID->"73df4666-9d7c-4064-9cd5-f965ece05910"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22490, 474, 3543, 50, 54, "Section",ExpressionUUID->"73c60690-9167-442f-b211-1ceede57b299"],
+Cell[26036, 526, 2794, 73, 403, "Text",ExpressionUUID->"3c1f3f64-2a4f-4766-bf3f-93a9bad4f4c1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28867, 604, 3586, 51, 54, "Section",ExpressionUUID->"23e99356-7d13-4233-bc88-96fab8a2c6b1"],
+Cell[32456, 657, 2369, 44, 426, "Text",ExpressionUUID->"b4f0f96d-ce64-4f50-8287-89bf7b8d0abe"]
 }, Open  ]]
 }, Open  ]]
 }
