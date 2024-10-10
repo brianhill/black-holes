@@ -9,7 +9,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 ### Week 8 &mdash; Relativistic Momentum and Energy
 
 * Monday, Oct. 28 &mdash; No class (last day of Term 2-3 break)
-* Thursday, Oct. 31 &mdash; Study Chapter 7 of *Spacetime Physics* to the end of Section 7.5, p. 206 &mdash; Problem Set 8, due at the beginning of Thursday's class, is [here](./assignments/ProblemSet08.nb.pdf)
+* Thursday, Oct. 31 &mdash; Continue your study of Chapter 7 of *Spacetime Physics* to the end of Section 7.5, p. 206 &mdash; Problem Set 8, with due date delayed to the beginning of this Thursday's class, is [here](./assignments/ProblemSet08.nb.pdf)
 
 ### Week 9 &mdash; Start *Exploring Black Holes*
 
