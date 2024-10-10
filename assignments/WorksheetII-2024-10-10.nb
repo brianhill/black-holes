@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    797765,      13479]
-NotebookOptionsPosition[    795276,      13430]
-NotebookOutlinePosition[    795729,      13448]
-CellTagsIndexPosition[    795686,      13445]
+NotebookDataLength[    798861,      13481]
+NotebookOptionsPosition[    796372,      13432]
+NotebookOutlinePosition[    796825,      13450]
+CellTagsIndexPosition[    796782,      13447]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -221,19 +221,18 @@ Cell[BoxData[{
    RowBox[{"raceWalkerEventPlot", ",", " ", "raceWalkerTorsoPlot"}], "]"}],
   FontSize->10], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->{{3.9374948960968437`*^9, 3.937494903013784*^9}, {
-   3.9374951326607122`*^9, 3.93749522154176*^9}, {3.9374952600775023`*^9, 
-   3.937495321821445*^9}, {3.9374953519465513`*^9, 3.937495352003483*^9}, {
+   3.937495132660712*^9, 3.93749522154176*^9}, {3.9374952600775027`*^9, 
+   3.937495321821445*^9}, {3.937495351946552*^9, 3.937495352003483*^9}, {
    3.937495418311946*^9, 3.937495527632127*^9}, {3.937495569716638*^9, 
    3.937495637077317*^9}, {3.937495767817153*^9, 3.937495814028741*^9}, {
-   3.937495879211344*^9, 3.9374958810269337`*^9}, {3.9374959150483007`*^9, 
+   3.937495879211344*^9, 3.937495881026934*^9}, {3.9374959150483003`*^9, 
    3.937495945451165*^9}, {3.93749704472023*^9, 3.937497185483108*^9}, {
-   3.937497228567936*^9, 3.937497385469049*^9}, {3.9374975318769093`*^9, 
+   3.937497228567936*^9, 3.937497385469049*^9}, {3.9374975318769097`*^9, 
    3.937497598297255*^9}, {3.93749764392899*^9, 3.937497660980537*^9}, 
-   3.937498123472193*^9, {3.9374982689626913`*^9, 3.9374982816646357`*^9}, {
+   3.937498123472193*^9, {3.937498268962692*^9, 3.9374982816646357`*^9}, {
    3.937498507171929*^9, 3.937498535597188*^9}, {3.937503202873294*^9, 
-   3.937503274065833*^9}, 3.9375066557853928`*^9},
- CellLabel->
-  "In[202]:=",ExpressionUUID->"42b1be09-675b-4fe5-acb6-fe94ee462f89"],
+   3.937503274065833*^9}, 3.9375066557853937`*^9},
+ CellLabel->"In[1]:=",ExpressionUUID->"42b1be09-675b-4fe5-acb6-fe94ee462f89"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {
@@ -664,12 +663,12 @@ vbYaE0Crqqqqqqr6PwAAAAAAABRA0AhMtw==
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.9374976622068443`*^9, 3.937498038949325*^9, 3.937498075596591*^9, 
-   3.9374981262495728`*^9, 3.9374981695160837`*^9, 3.9374982285972157`*^9, 
-   3.9374982826847763`*^9, 3.9374986072324753`*^9, 3.9375031309053297`*^9, {
-   3.9375032395586452`*^9, 3.937503264528685*^9}, 3.937503382696814*^9, {
-   3.937503459993348*^9, 3.937503476857902*^9}, 3.937506682930162*^9},
- CellLabel->
-  "Out[205]=",ExpressionUUID->"b53efb7d-a6f2-466b-8119-e5bc5d725203"]
+   3.9374981262495728`*^9, 3.9374981695160837`*^9, 3.937498228597216*^9, 
+   3.937498282684777*^9, 3.9374986072324758`*^9, 3.9375031309053297`*^9, {
+   3.9375032395586443`*^9, 3.937503264528685*^9}, 3.937503382696814*^9, {
+   3.937503459993348*^9, 3.937503476857902*^9}, 3.937506682930162*^9, 
+   3.937508941367897*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"97e18a62-a94f-4030-8524-6f8c7eeda14c"]
 }, Open  ]]
 }, Open  ]],
 
@@ -727,37 +726,32 @@ Cell[TextData[StyleBox["1. Checking Legality and Speed of the Race-Walker",
 6e1ed86487ec"],
 
 Cell["\<\
-(a) In the plot above, using three straight, solid lines, connect BU -1 to FD \
-0, BU 0 to FD 1, and BU 1 to FD 2. Are these the almost-the-speed-of-light, \
-back-up-front-down placements as required by the description in Problem 6-6?
+(a) In the plot on the previous page, using three straight, solid lines, \
+connect BU -1 to FD 0, BU 0 to FD 1, and BU 1 to FD 2. Are these the \
+almost-the-speed-of-light, back-up-front-down placements as required by the \
+description in Problem 6-6?
 
-(b) Also on the plot above, with two straight but squiggly lines like the \
-squiggly lines that Taylor and Wheeler use on p. 161, mark the separations \
-that connect FD 0 to BU 0, and FD 1 to BU 1. Are these the light-like \
-separations that are required to signal the back foot that it is legal to \
-lift up?
+(b) Also on the plot, with two straight but squiggly lines like the squiggly \
+lines that Taylor and Wheeler use on p. 161, mark the separations that \
+connect FD 0 to BU 0, and FD 1 to BU 1. Are these the light-like separations \
+that are required to signal the back foot that it is legal to lift up?
 
 (c) The diagonal line represents the motion of the torso. By measuring off \
 the line on the plot, what speed does the torso have?
 
 
 (d) Finally, with a straight line, connect FD0 to BU 1. Does this represent a \
-foot at rest?\
+foot at rest?
+\
 \>", "Text",
- CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
-  3.93747699228141*^9, 3.937477017797021*^9}, {3.9374940929233828`*^9, 
-  3.9374941054925823`*^9}, {3.937494136723647*^9, 3.937494396464698*^9}, {
-  3.937494524424138*^9, 3.93749462618626*^9}, {3.9374947921589937`*^9, 
-  3.9374948847562304`*^9}, {3.937495032935915*^9, 3.93749512618326*^9}, {
-  3.937498418036829*^9, 3.9374984363078413`*^9}, {3.937503073102359*^9, 
-  3.937503108380762*^9}, {3.937503378556891*^9, 3.937503380050894*^9}, {
-  3.9375035418683157`*^9, 3.937503791243187*^9}, {3.9375039620999737`*^9, 
-  3.937503986627604*^9}, {3.937504030551466*^9, 3.9375040746234426`*^9}, {
-  3.937504121278078*^9, 3.937504144648027*^9}, {3.937505123947358*^9, 
-  3.937505165334016*^9}, {3.9375056892077217`*^9, 3.937505723819347*^9}, {
-  3.9375058483996477`*^9, 3.937505856381578*^9}, {3.937505979840308*^9, 
-  3.937506058877549*^9}},ExpressionUUID->"78b8dd6e-6e24-4951-b3a2-\
-cb24dbe1072c"]
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQ/eqH/yblsLeOL340gOkARk4DFSBt1GhpDKKje+Z2
+6gBp28P63SBaTkO8H0Sfu9e3HkR3TerdD6JvfHU9A6JrxFgfgmgu4xlvQDTL
+Z9n/INrl7lEuXSC9RddxmR6QvnqzcwWIbnNTfmMApE30ez6AaN5LgUKGQPrN
+gkYw7XBytxqINjjx3BVE/zVyjgbRoaIhcSB6ztKLySDa7nNwJohmeaaRD6IX
+7xEpAtGHAuregGinDas+gujlS9WMjYC0uEWVOYh+fZLHHUQ/NuXxANHnHleF
+g+hHIjGJINp8+5c7xkA60C7yPogGANP3jFI=
+  "],ExpressionUUID->"78b8dd6e-6e24-4951-b3a2-cb24dbe1072c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -820,37 +814,36 @@ ordinary and legal race-walker. So the super-race-walker has torso speed ",
  Cell[BoxData[
   FormBox[
    RowBox[{"v", "=", 
-    RowBox[{"1", "/", "3"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"1", "/", "3"}]}], TraditionalForm]],ExpressionUUID->
   "5b27a466-1258-49fb-a910-742c8f2defaf"],
  " with respect to the race-walker, who in turn has speed ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["v", "rel"], "=", 
-    RowBox[{"1", "/", "3"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"1", "/", "3"}]}], TraditionalForm]],ExpressionUUID->
   "886658fb-772b-4cce-bcd9-6d67cf83c04c"],
  " with respect to the Earth.\n\n(a) Using the velocity addition formula, \
 what is the speed of the super-race-walker with respect to the Earth?\n\n(b) \
 It\[CloseCurlyQuote]s a bunch of work to use the Lorentz transformation to \
 transform each event in the plot in Problem 1 to an Earth-frame plot, but we \
 need to do it for all six events to start to see what is going on. I\
-\[CloseCurlyQuote]ll have Mathematica do half of the work for you."
+\[CloseCurlyQuote]ll have Mathematica do two-thirds of the work for you."
 }], "Text",
  CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
-   3.93747699228141*^9, 3.937477017797021*^9}, {3.9374940929233828`*^9, 
-   3.9374941054925823`*^9}, {3.937494136723647*^9, 3.937494396464698*^9}, {
-   3.937494524424138*^9, 3.93749462618626*^9}, {3.9374947921589937`*^9, 
+   3.93747699228141*^9, 3.937477017797021*^9}, {3.937494092923383*^9, 
+   3.937494105492583*^9}, {3.937494136723647*^9, 3.937494396464698*^9}, {
+   3.937494524424138*^9, 3.93749462618626*^9}, {3.9374947921589947`*^9, 
    3.9374948847562304`*^9}, {3.937495032935915*^9, 3.93749512618326*^9}, {
-   3.937498418036829*^9, 3.9374984363078413`*^9}, {3.937503073102359*^9, 
+   3.937498418036829*^9, 3.937498436307841*^9}, {3.937503073102359*^9, 
    3.937503108380762*^9}, {3.937503378556891*^9, 3.937503380050894*^9}, {
-   3.9375035418683157`*^9, 3.937503791243187*^9}, {3.937503909777383*^9, 
-   3.9375039482246304`*^9}, {3.937504154399343*^9, 3.937504364789543*^9}, {
+   3.9375035418683167`*^9, 3.937503791243187*^9}, {3.937503909777383*^9, 
+   3.937503948224631*^9}, {3.937504154399343*^9, 3.937504364789543*^9}, {
    3.937504500183324*^9, 3.937504515499021*^9}, {3.937505046814693*^9, 
    3.937505096073112*^9}, {3.937505205685666*^9, 3.937505246818115*^9}, {
-   3.937506073068338*^9, 3.93750609559892*^9}, 
-   3.937506897830213*^9},ExpressionUUID->"b6eb853c-a41b-4788-928b-\
+   3.937506073068338*^9, 3.93750609559892*^9}, 3.937506897830213*^9, {
+   3.937508987447832*^9, 
+   3.937508989200924*^9}},ExpressionUUID->"b6eb853c-a41b-4788-928b-\
 b968935c15ba"],
 
 Cell[BoxData[
@@ -867,8 +860,7 @@ Cell[BoxData[
    3.937497887746586*^9, 3.937497930959034*^9}, {3.937498202101388*^9, 
    3.937498221572028*^9}, {3.937503822898076*^9, 3.937503836290122*^9}, {
    3.9375038767486057`*^9, 3.937503878666642*^9}},
- CellLabel->
-  "In[206]:=",ExpressionUUID->"ef6e383a-9ddc-4d9b-98b3-f515a9635b68"],
+ CellLabel->"In[5]:=",ExpressionUUID->"ef6e383a-9ddc-4d9b-98b3-f515a9635b68"],
 
 Cell[TextData[{
  "To two decimal places, ",
@@ -1321,8 +1313,7 @@ fq9e33of9TcBLmj/ALmyhTM=
   ImageSize->{221.05078125, Automatic},
   ImageSizeRaw->{330., 166.},
   PlotRange->{{0, 330.}, {0, 166.}}]], "Input",
- CellLabel->
-  "In[207]:=",ExpressionUUID->"5e0364c1-5180-4848-bbb4-5e58fb47587c"],
+ CellLabel->"In[6]:=",ExpressionUUID->"5e0364c1-5180-4848-bbb4-5e58fb47587c"],
 
 Cell[TextData[{
  "\n\n(b) Again use equation L-10a to transform the BU 1 coordinates ",
@@ -1332,51 +1323,27 @@ Cell[TextData[{
     RowBox[{
      RowBox[{"t", "'"}], "=", "2"}], ",", " ", 
     RowBox[{
-     RowBox[{"x", "'"}], "=", "0"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"x", "'"}], "=", "0"}]}], TraditionalForm]],ExpressionUUID->
   "e68336e9-8a5e-46b3-a30c-3110fa176f7c"],
  " to ",
  Cell[BoxData[
-  FormBox["t", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["t", TraditionalForm]],ExpressionUUID->
   "9d1625ba-b049-44b8-b73f-2caaf779346c"],
  " and ",
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["x", TraditionalForm]],ExpressionUUID->
   "1d0df9d4-fafb-4b26-aef8-d2b8c9c4473f"],
- " coordinates and then add BU 1 to the plot in Problem 3.\n\n\n(c) One last \
-time, use equation L-10a to transform the FD 2 coordinates ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    RowBox[{
-     RowBox[{"t", "'"}], "=", "4"}], ",", " ", 
-    RowBox[{
-     RowBox[{"x", "'"}], "=", "2"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "92b74798-3cc0-45cf-bf49-1e31143ffaa6"],
- " to ",
- Cell[BoxData[
-  FormBox["t", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "3a46a407-6d5d-4603-b120-4bfdfafb3d49"],
- " and ",
- Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "782f2d96-710b-4951-8c8a-70dfb2dd925c"],
- " coordinates and then add FD 2 to the plot in Problem 3.\n\n"
+ " coordinates and then add BU 1 to the plot in Problem 3.\n\n"
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGCQAmIQ/eqH/yblsLeOL340gOkARk4DFSBt1GhpDKKjeuZ2
+1:eJxTTMoPSmViYGCQBmIQ/eqH/yblsLeOL340gOkARk4DFSBt1GhpDKKjeuZ2
 6gBpm8P63SBaTkO8H0Sfu9e3HkR3TerdD6JvfHU9A6KrxFgfgmgu4xlvQDTL
 Z9n/INrl7lEuXSC9RddxmR6QvnazcwWIbnNTfmMApE30ez6AaN5LgUKGQPrN
 gkYwbXdytxqINjjx3BVEBz3YEQKidQzaI0F09nGfYhD9wXlmL4hecvfGRBDd
 xOg0FazvtsUyEP3YZBuY3sNcsRksvrP/CojuMOO7BaKtBFfdBtur1/wfRGuF
 bmY0AtI5LiEcIFol/ieYZjrBJgCid+2/JQiiJSr/yoPouA9diiB6zj2fLBCd
 UhUKpvd/WlMOovMWCVWA6HcdfMdB9OEdu8H0pWr2MyC6d7nvFRDtFK9zC0SL
-ZeeBaQAJL8B2
+ZeeBaZaenReMgXRN7mUwDQBVhMiK
   "],ExpressionUUID->"c4c670d2-49fc-41f6-abc9-795df204ff6f"]
 }, Open  ]],
 
@@ -1435,22 +1402,22 @@ Super-Race-Walker",
 93f0e981031d"],
 
 Cell["\<\
-As promised, I let Mathematica do half of the work by transforming BU -1, FD \
-0, and BU 0.\
+As promised, I let Mathematica do two thirds of the work by transforming four \
+of the six points.\
 \>", "Text",
  CellChangeTimes->{{3.937475986499135*^9, 3.937475988030384*^9}, {
-  3.93747699228141*^9, 3.937477017797021*^9}, {3.9374940929233828`*^9, 
-  3.9374941054925823`*^9}, {3.937494136723647*^9, 3.937494396464698*^9}, {
-  3.937494524424138*^9, 3.93749462618626*^9}, {3.9374947921589937`*^9, 
+  3.93747699228141*^9, 3.937477017797021*^9}, {3.937494092923383*^9, 
+  3.937494105492583*^9}, {3.937494136723647*^9, 3.937494396464698*^9}, {
+  3.937494524424138*^9, 3.93749462618626*^9}, {3.9374947921589947`*^9, 
   3.9374948847562304`*^9}, {3.937495032935915*^9, 3.93749512618326*^9}, {
-  3.937498418036829*^9, 3.9374984363078413`*^9}, {3.937503073102359*^9, 
+  3.937498418036829*^9, 3.937498436307841*^9}, {3.937503073102359*^9, 
   3.937503108380762*^9}, {3.937503378556891*^9, 3.937503380050894*^9}, {
-  3.9375035418683157`*^9, 3.937503791243187*^9}, {3.937503909777383*^9, 
-  3.9375039482246304`*^9}, {3.937504154399343*^9, 3.937504364789543*^9}, {
+  3.9375035418683167`*^9, 3.937503791243187*^9}, {3.937503909777383*^9, 
+  3.937503948224631*^9}, {3.937504154399343*^9, 3.937504364789543*^9}, {
   3.937504500183324*^9, 3.937504515499021*^9}, {3.937505046814693*^9, 
   3.937505096073112*^9}, {3.937505205685666*^9, 3.937505246818115*^9}, {
-  3.937505603903521*^9, 
-  3.937505663021412*^9}},ExpressionUUID->"9bcb0052-93c2-485c-b255-\
+  3.937505603903521*^9, 3.937505663021412*^9}, {3.937509020300832*^9, 
+  3.937509029942129*^9}},ExpressionUUID->"9bcb0052-93c2-485c-b255-\
 cece3fecb480"],
 
 Cell[CellGroupData[{
@@ -1497,8 +1464,14 @@ Cell[BoxData[{
          RowBox[{"{", 
           RowBox[{
            RowBox[{"-", "1"}], ",", 
-           RowBox[{"-", "1"}]}], "}"}], "]"}], ",", "\"\<BU 0\>\""}], "]"}]}],
-      "\[IndentingNewLine]", "}"}]}], ";"}],
+           RowBox[{"-", "1"}]}], "}"}], "]"}], ",", "\"\<BU 0\>\""}], "]"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"Labeled", "[", 
+       RowBox[{
+        RowBox[{"lorentzTransformation", "[", 
+         RowBox[{"{", 
+          RowBox[{"2", ",", "4"}], "}"}], "]"}], ",", "\"\<FD 2\>\""}], 
+       "]"}]}], "\[IndentingNewLine]", "}"}]}], ";"}],
   FontSize->12], "\[IndentingNewLine]", 
  StyleBox[
   RowBox[{
@@ -1543,24 +1516,25 @@ Cell[BoxData[{
     "]"}],
   FontSize->12]}], "Input",
  CellChangeTimes->{{3.9374948960968437`*^9, 3.937494903013784*^9}, {
-   3.9374951326607122`*^9, 3.93749522154176*^9}, {3.9374952600775023`*^9, 
-   3.937495321821445*^9}, {3.9374953519465513`*^9, 3.937495352003483*^9}, {
+   3.937495132660712*^9, 3.93749522154176*^9}, {3.9374952600775027`*^9, 
+   3.937495321821445*^9}, {3.937495351946552*^9, 3.937495352003483*^9}, {
    3.937495418311946*^9, 3.937495527632127*^9}, {3.937495569716638*^9, 
    3.937495637077317*^9}, {3.937495767817153*^9, 3.937495814028741*^9}, {
-   3.937495879211344*^9, 3.9374958810269337`*^9}, {3.9374959150483007`*^9, 
+   3.937495879211344*^9, 3.937495881026934*^9}, {3.9374959150483003`*^9, 
    3.937495945451165*^9}, {3.93749704472023*^9, 3.937497185483108*^9}, {
-   3.937497228567936*^9, 3.937497385469049*^9}, {3.9374975318769093`*^9, 
+   3.937497228567936*^9, 3.937497385469049*^9}, {3.9374975318769097`*^9, 
    3.937497598297255*^9}, {3.9374979677616*^9, 3.937498006298934*^9}, {
-   3.937498055894677*^9, 3.9374980704591417`*^9}, 3.9374981140029287`*^9, {
-   3.9374981652921124`*^9, 3.93749816768956*^9}, {3.9374985582351093`*^9, 
+   3.937498055894677*^9, 3.9374980704591413`*^9}, 3.9374981140029287`*^9, {
+   3.937498165292113*^9, 3.93749816768956*^9}, {3.9374985582351093`*^9, 
    3.937498603804369*^9}, {3.937502904486484*^9, 3.937502947785481*^9}, {
-   3.9375033973441343`*^9, 3.9375034042250853`*^9}, {3.937503473662956*^9, 
-   3.937503475389282*^9}, {3.9375047184919767`*^9, 3.937504722962781*^9}, {
-   3.9375049588576508`*^9, 3.937504962181847*^9}, {3.9375066672439137`*^9, 
+   3.9375033973441343`*^9, 3.937503404225085*^9}, {3.937503473662956*^9, 
+   3.937503475389282*^9}, {3.937504718491978*^9, 3.937504722962781*^9}, {
+   3.9375049588576517`*^9, 3.937504962181847*^9}, {3.937506667243914*^9, 
    3.9375066674395742`*^9}, 3.937506748597611*^9, {3.937507120924727*^9, 
-   3.937507120978866*^9}, {3.9375071590417747`*^9, 
-   3.937507159111327*^9}},ExpressionUUID->"0cbeaf7a-10ad-4207-a89f-\
-66b62fca46b9"],
+   3.937507120978866*^9}, {3.9375071590417747`*^9, 3.937507159111327*^9}, {
+   3.937508905923114*^9, 3.9375089329388943`*^9}, {3.937509007404101*^9, 
+   3.937509008358185*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"0cbeaf7a-10ad-4207-a89f-66b62fca46b9"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {
@@ -1569,7 +1543,7 @@ Cell[BoxData[
        0.012833333333333334`], AbsoluteThickness[2], 
        PointBox[{{-3.5355339059327378`, -4.949747468305833}, \
 {-0.7071067811865476, -2.1213203435596424`}, {-1.4142135623730951`, \
--1.4142135623730951`}}]},
+-1.4142135623730951`}, {3.5355339059327378`, 4.949747468305833}}]},
       Annotation[#, "Charting`Private`Tag#1"]& ], {
       TagBox[
        {Opacity[0.], PointBox[{{-3.5355339059327378`, -4.949747468305833}}]},
@@ -1580,8 +1554,38 @@ Cell[BoxData[
        Annotation[#, {{Labeled}, Charting`Private`Tag, {2}}]& ], 
       TagBox[
        {Opacity[0.], PointBox[{{-1.4142135623730951`, -1.4142135623730951`}}]},
-       Annotation[#, {{Labeled}, Charting`Private`Tag, {3}}]& ]}}, {{{{}, {
+       Annotation[#, {{Labeled}, Charting`Private`Tag, {3}}]& ], 
+      TagBox[
+       {Opacity[0.], PointBox[{{3.5355339059327378`, 4.949747468305833}}]},
+       Annotation[#, {{Labeled}, Charting`Private`Tag, {4}}]& ]}}, {{{{}, {
         GraphicsGroupBox[{
+          {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
+            NCache[
+             Rational[2, 3], 0.6666666666666666]]}], 
+           PolygonBox[{
+            Offset[{23., 6.000000000000003}, {3.5873179487397415`, 
+              5.0015315111128364`}], 
+             Offset[{23., 2.6645352591003757`*^-15}, {3.5873179487397415`, 
+              5.0015315111128364`}], 
+             Offset[{0., -2.6645352591003757`*^-15}, {3.5873179487397415`, 
+              5.0015315111128364`}], 
+             Offset[{0., 5.999999999999997}, {3.5873179487397415`, 
+              5.0015315111128364`}]}]}, 
+          {RGBColor[
+           0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+           AbsoluteThickness[1.25], EdgeForm[None]}, {}, InsetBox[
+           StyleBox[
+            RotationBox["\<\"FD 2\"\>",
+             BoxRotation->0.],
+            StripOnInput->False,
+            LineOpacity->1,
+            FrontFaceOpacity->1,
+            BackFaceOpacity->1,
+            Opacity->1,
+            FontOpacity->1], 
+           Offset[{11.5, 3.}, {3.5873179487397415, 5.0015315111128364}], 
+           NCache[ImageScaled[{Rational[1, 2], Rational[1, 2]}], 
+            ImageScaled[{0.5, 0.5}]]]}], GraphicsGroupBox[{
           {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
             NCache[
              Rational[2, 3], 0.6666666666666666]]}], 
@@ -1676,20 +1680,21 @@ Cell[BoxData[
         TagBox[
          {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
           Opacity[1.], LineBox[CompressedData["
-1:eJwBQQK+/SFib1JlAgAAACMAAAACAAAAAAAAAAAACMAAAAAAAAAUwFoFi3m3
-RwfAdYSeOm5mE8B70Bkdy70FwGbY6kIpHhLA9HN34A07BMCg4Ljl4NsQwBea
-badO0gLA0QAMF4NeD8DwQ5/GIEsBwOQbtPWL0gzA5uDS0uG7/78VZlra5nEK
-wJ3qBFjg7/y/2BgE9DodCMC/+62NAef5vx+nu6DWlQXANRKIyh4S97+CZHFT
-xDkDwBYw2bdeAPS/Z/00mfmqAMCo/sfk/Pzwv8L99ydQUPy/HaXPMS5b7L/u
-XoIpUaH3v8Bb/fqnQua/IHcoUeGM8r8LHY3SGZLgvxLblQkrnuu/WdoVFqLP
-1L/1NRK9sVfhv8B6EAsTacG/lMxwEnUEzb9CUgpy97SkP+GZCN94QbE/iGhd
-QHmqzT8c101gurjYP+8IWDXqQ9o/cQd0LEPj5T9rTQVmj7ziPweBs1REOu8/
-iIdwUOTQ6D9Gxl2YE670P/22eSxBfe4/0m1l+mBo+T/Oa8pTrFHyP1ZeUTYf
-iP4/bEu60VlW9T/aPhuE9ccBQLYleUgLJ/g/bZ8PZ4kgBECV+MAOmjT7P3wk
-9rbVqwZAIMbXzSwO/j9wet4A0AsJQH1xqKawbABA0GfDFdFfC0A0fCmOufAB
-QKx5mpeK5g1AQQQScsRaA0A2rrkJ+SAQQJkIv/094wRA1TEf/ghoEUBGitOF
-uVEGQOWdhe9vmRJAmzMZ7gW5B0CsVWpG2sQTQAAAAAAAAAhAAAAAAAAAFEA/
-pglG
+1:eJwBcQKO/SFib1JlAgAAACYAAAACAAAAAQAAAAAACMAAAAAAAAAUwKMO3hmY
+4QbAiGGOFVQRE8CcSjFy04kFwIITKd/a8hHAgmxheClJBMBs2vuOoucQwHsD
+qndy7QLAd7Bwx76LD8BhgM8k1qgBwPfVWT26bg3Alb3lmJxqAMBNkSlUWlwL
+wLrfKAysIv6/cLrMtOQcCcAjEEBCVJ77v3IN4OHwAwfAsiqIauLj+L8/zsZY
+570EwN/FsSA2Nva/5CSUcIKCAsDlLJUyv7bzv2ql0VSfbQDAEX6pNi4B8b9x
+J8UFTVf8vyw27yyl8+y/zlfH+l4g+L+DRO3QuXjnv8JjcINFj/O/FVSukFkX
+4r/NNs2b6ibuv7L2xQ/IJNq/lE16YlHJ5b+l2+WN6YTOvwo36qDCbtm/XVEc
+tNtjtL/OQ8LA4f3Av7kKe9XCdbM/8IjmsXc3wD814gEegVjPP4I8rEMWH9o/
+I/C7+TrC2T/H8nElMXflP0mj2c1OWOI/JBDAAS6T7j9FTRID9bXnPw/rOS1M
+wvM/j1/XgDC37D9MerPA/e33P8dOHQ1QEvE/9i2GwNpz/D/tIRV+0przP/BG
+vBNaVgBAdXQrYY8W9j8M4U4mImgCQNfcEFJmyPg/XQ0O7/+mBEBgeTznB0z7
+P9APXetbvwZAwys3isMF/j93pNidzQQJQCYJvOikSABAPg/kg70jC0AdvGtF
+BYgBQDDkCMkIOA1AAPoCqXLiAkBUS1rEaXkPQPdRvV7FJQRATsSdeSTKEEDb
+NF8bJYQFQAysJOwe7hFAcFcQESLcBkDdSDgOxwwTQAAAAAAAAAhAAAAAAAAA
+FEBwfhz6
            "]]},
          Annotation[#, "Charting`Private`Tag#1"]& ]}, {}},
       {"WolframDynamicHighlight", <|
@@ -1706,20 +1711,21 @@ pglG
                RGBColor[0.368417, 0.506779, 0.709798], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
-1:eJwBQQK+/SFib1JlAgAAACMAAAACAAAAAAAAAAAACMAAAAAAAAAUwFoFi3m3
-RwfAdYSeOm5mE8B70Bkdy70FwGbY6kIpHhLA9HN34A07BMCg4Ljl4NsQwBea
-badO0gLA0QAMF4NeD8DwQ5/GIEsBwOQbtPWL0gzA5uDS0uG7/78VZlra5nEK
-wJ3qBFjg7/y/2BgE9DodCMC/+62NAef5vx+nu6DWlQXANRKIyh4S97+CZHFT
-xDkDwBYw2bdeAPS/Z/00mfmqAMCo/sfk/Pzwv8L99ydQUPy/HaXPMS5b7L/u
-XoIpUaH3v8Bb/fqnQua/IHcoUeGM8r8LHY3SGZLgvxLblQkrnuu/WdoVFqLP
-1L/1NRK9sVfhv8B6EAsTacG/lMxwEnUEzb9CUgpy97SkP+GZCN94QbE/iGhd
-QHmqzT8c101gurjYP+8IWDXqQ9o/cQd0LEPj5T9rTQVmj7ziPweBs1REOu8/
-iIdwUOTQ6D9Gxl2YE670P/22eSxBfe4/0m1l+mBo+T/Oa8pTrFHyP1ZeUTYf
-iP4/bEu60VlW9T/aPhuE9ccBQLYleUgLJ/g/bZ8PZ4kgBECV+MAOmjT7P3wk
-9rbVqwZAIMbXzSwO/j9wet4A0AsJQH1xqKawbABA0GfDFdFfC0A0fCmOufAB
-QKx5mpeK5g1AQQQScsRaA0A2rrkJ+SAQQJkIv/094wRA1TEf/ghoEUBGitOF
-uVEGQOWdhe9vmRJAmzMZ7gW5B0CsVWpG2sQTQAAAAAAAAAhAAAAAAAAAFEA/
-pglG
+1:eJwBcQKO/SFib1JlAgAAACYAAAACAAAAAQAAAAAACMAAAAAAAAAUwKMO3hmY
+4QbAiGGOFVQRE8CcSjFy04kFwIITKd/a8hHAgmxheClJBMBs2vuOoucQwHsD
+qndy7QLAd7Bwx76LD8BhgM8k1qgBwPfVWT26bg3Alb3lmJxqAMBNkSlUWlwL
+wLrfKAysIv6/cLrMtOQcCcAjEEBCVJ77v3IN4OHwAwfAsiqIauLj+L8/zsZY
+570EwN/FsSA2Nva/5CSUcIKCAsDlLJUyv7bzv2ql0VSfbQDAEX6pNi4B8b9x
+J8UFTVf8vyw27yyl8+y/zlfH+l4g+L+DRO3QuXjnv8JjcINFj/O/FVSukFkX
+4r/NNs2b6ibuv7L2xQ/IJNq/lE16YlHJ5b+l2+WN6YTOvwo36qDCbtm/XVEc
+tNtjtL/OQ8LA4f3Av7kKe9XCdbM/8IjmsXc3wD814gEegVjPP4I8rEMWH9o/
+I/C7+TrC2T/H8nElMXflP0mj2c1OWOI/JBDAAS6T7j9FTRID9bXnPw/rOS1M
+wvM/j1/XgDC37D9MerPA/e33P8dOHQ1QEvE/9i2GwNpz/D/tIRV+0przP/BG
+vBNaVgBAdXQrYY8W9j8M4U4mImgCQNfcEFJmyPg/XQ0O7/+mBEBgeTznB0z7
+P9APXetbvwZAwys3isMF/j93pNidzQQJQCYJvOikSABAPg/kg70jC0AdvGtF
+BYgBQDDkCMkIOA1AAPoCqXLiAkBUS1rEaXkPQPdRvV7FJQRATsSdeSTKEEDb
+NF8bJYQFQAysJOwe7hFAcFcQESLcBkDdSDgOxwwTQAAAAAAAAAhAAAAAAAAA
+FEBwfhz6
                "]]}, "Charting`Private`Tag#1"]}}, {}}, <|
          "HighlightElements" -> <|
            "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
@@ -1777,20 +1783,21 @@ pglG
            RGBColor[0.368417, 0.506779, 0.709798], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
-1:eJwBQQK+/SFib1JlAgAAACMAAAACAAAAAAAAAAAACMAAAAAAAAAUwFoFi3m3
-RwfAdYSeOm5mE8B70Bkdy70FwGbY6kIpHhLA9HN34A07BMCg4Ljl4NsQwBea
-badO0gLA0QAMF4NeD8DwQ5/GIEsBwOQbtPWL0gzA5uDS0uG7/78VZlra5nEK
-wJ3qBFjg7/y/2BgE9DodCMC/+62NAef5vx+nu6DWlQXANRKIyh4S97+CZHFT
-xDkDwBYw2bdeAPS/Z/00mfmqAMCo/sfk/Pzwv8L99ydQUPy/HaXPMS5b7L/u
-XoIpUaH3v8Bb/fqnQua/IHcoUeGM8r8LHY3SGZLgvxLblQkrnuu/WdoVFqLP
-1L/1NRK9sVfhv8B6EAsTacG/lMxwEnUEzb9CUgpy97SkP+GZCN94QbE/iGhd
-QHmqzT8c101gurjYP+8IWDXqQ9o/cQd0LEPj5T9rTQVmj7ziPweBs1REOu8/
-iIdwUOTQ6D9Gxl2YE670P/22eSxBfe4/0m1l+mBo+T/Oa8pTrFHyP1ZeUTYf
-iP4/bEu60VlW9T/aPhuE9ccBQLYleUgLJ/g/bZ8PZ4kgBECV+MAOmjT7P3wk
-9rbVqwZAIMbXzSwO/j9wet4A0AsJQH1xqKawbABA0GfDFdFfC0A0fCmOufAB
-QKx5mpeK5g1AQQQScsRaA0A2rrkJ+SAQQJkIv/094wRA1TEf/ghoEUBGitOF
-uVEGQOWdhe9vmRJAmzMZ7gW5B0CsVWpG2sQTQAAAAAAAAAhAAAAAAAAAFEA/
-pglG
+1:eJwBcQKO/SFib1JlAgAAACYAAAACAAAAAQAAAAAACMAAAAAAAAAUwKMO3hmY
+4QbAiGGOFVQRE8CcSjFy04kFwIITKd/a8hHAgmxheClJBMBs2vuOoucQwHsD
+qndy7QLAd7Bwx76LD8BhgM8k1qgBwPfVWT26bg3Alb3lmJxqAMBNkSlUWlwL
+wLrfKAysIv6/cLrMtOQcCcAjEEBCVJ77v3IN4OHwAwfAsiqIauLj+L8/zsZY
+570EwN/FsSA2Nva/5CSUcIKCAsDlLJUyv7bzv2ql0VSfbQDAEX6pNi4B8b9x
+J8UFTVf8vyw27yyl8+y/zlfH+l4g+L+DRO3QuXjnv8JjcINFj/O/FVSukFkX
+4r/NNs2b6ibuv7L2xQ/IJNq/lE16YlHJ5b+l2+WN6YTOvwo36qDCbtm/XVEc
+tNtjtL/OQ8LA4f3Av7kKe9XCdbM/8IjmsXc3wD814gEegVjPP4I8rEMWH9o/
+I/C7+TrC2T/H8nElMXflP0mj2c1OWOI/JBDAAS6T7j9FTRID9bXnPw/rOS1M
+wvM/j1/XgDC37D9MerPA/e33P8dOHQ1QEvE/9i2GwNpz/D/tIRV+0przP/BG
+vBNaVgBAdXQrYY8W9j8M4U4mImgCQNfcEFJmyPg/XQ0O7/+mBEBgeTznB0z7
+P9APXetbvwZAwys3isMF/j93pNidzQQJQCYJvOikSABAPg/kg70jC0AdvGtF
+BYgBQDDkCMkIOA1AAPoCqXLiAkBUS1rEaXkPQPdRvV7FJQRATsSdeSTKEEDb
+NF8bJYQFQAysJOwe7hFAcFcQESLcBkDdSDgOxwwTQAAAAAAAAAhAAAAAAAAA
+FEBwfhz6
            "]]}, "Charting`Private`Tag#1"]}}, {}}, <|
      "HighlightElements" -> <|
        "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
@@ -1899,54 +1906,50 @@ pglG
      Scaled[0.08]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{{3.937495153973591*^9, 3.937495180636736*^9}, 
-   3.9374952229515953`*^9, {3.937495290668882*^9, 3.937495322322391*^9}, 
-   3.937495352690445*^9, 3.9374954538866796`*^9, 3.937495530615979*^9, 
-   3.937495586247431*^9, 3.937495638209033*^9, 3.9374958181576033`*^9, 
+   3.937495222951596*^9, {3.937495290668882*^9, 3.937495322322391*^9}, 
+   3.937495352690445*^9, 3.937495453886679*^9, 3.937495530615979*^9, 
+   3.937495586247431*^9, 3.937495638209033*^9, 3.9374958181576037`*^9, 
    3.9374958816159353`*^9, {3.93749592249603*^9, 3.937495945933194*^9}, 
-   3.937497126470998*^9, {3.937497177172612*^9, 3.9374971861522627`*^9}, {
-   3.937497249058138*^9, 3.9374972779162188`*^9}, {3.937497373033895*^9, 
+   3.937497126470998*^9, {3.937497177172612*^9, 3.937497186152263*^9}, {
+   3.937497249058138*^9, 3.937497277916219*^9}, {3.937497373033895*^9, 
    3.9374973861282167`*^9}, {3.937497589834857*^9, 3.937497599204146*^9}, {
-   3.93749801746618*^9, 3.9374980390155582`*^9}, 3.9374980756614513`*^9, 
+   3.93749801746618*^9, 3.937498039015558*^9}, 3.9374980756614513`*^9, 
    3.9374981263195963`*^9, 3.93749816958925*^9, 3.93749822866123*^9, 
    3.937498607301709*^9, 3.9375029162799664`*^9, 3.937502949010466*^9, 
    3.937503130974978*^9, {3.9375032396249857`*^9, 3.937503264595642*^9}, 
    3.937503382766403*^9, {3.937503460062213*^9, 3.93750347692479*^9}, 
-   3.937506683010728*^9, 3.937507008709646*^9, 3.937507123021735*^9},
- CellLabel->
-  "Out[223]=",ExpressionUUID->"2154f94c-8deb-4e54-becc-b4d0ffc9d9d8"]
+   3.937506683010728*^9, 3.937507008709646*^9, 3.937507123021735*^9, 
+   3.937508941558098*^9, 3.937509010617305*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"3a917265-f8fb-453f-b1eb-1cd7ab40ec3a"]
 }, Open  ]],
 
-Cell["\<\
-
-
-(a) In the plot on the previous page, using three straight, solid lines, \
-connect BU -1 to FD 0, BU 0 to FD 1, and BU 1 to FD 2. Are these legal \
-almost-the-speed-of-light, back-up-front-down placements?
-
-
-(b) Also on the plot, with two straight but squiggly lines, mark the \
-separations that connect FD 0 to BU 0, and FD 1 to BU 1. Are these the \
-light-like separations that are required to signal the back foot that it is \
-legal to lift up?
-
-
+Cell[TextData[{
+ "\n\n(a) In the plot on the previous page, using three straight, solid \
+lines, connect BU -1 to FD 0, BU 0 to FD 1, and BU 1 to FD 2. Are these legal \
+almost-the-speed-of-light, back-up-front-down placements?\n\n\n(b) Also on \
+the plot, with two straight but squiggly lines, mark the separations that \
+connect FD 0 to BU 0, and FD 1 to BU 1. Are these the light-like separations \
+that are required to signal the back foot that it is legal to lift up?\n\n\n\
 (c) The diagonal line represents the motion of the torso. By measuring off \
 the line on the plot, what speed does the torso have? Does this agree with \
-2(a)?
-
-
-(d) Finally, with a straight line, connect FD 0 to BU 1. Does this represent \
-a foot at rest with respect to the Earth? Was Paul Horowitz right? Do you \
-feel better now about getting things wrong if Harvard Prof. Paul Horowitz \
-sometimes gets them wrong too?
-
-\
-\>", "Text",
+2(a)? HINT: If you go up the vertical axis to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "5"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d7568f09-6304-4a6c-a0d7-4d5deedfb2a8"],
+ " and measure across, you\[CloseCurlyQuote]ll find a tidy ratio.\n\n\n(d) \
+Finally, with a straight line, connect FD 0 to BU 1. Does this represent a \
+foot at rest with respect to the Earth?\n\n\n\n(e) Was Harvard Prof. Paul \
+Horowitz right? Do you feel better now about getting things wrong if Prof. \
+Horowitz sometimes gets them wrong too?\n\n"
+}], "Text",
  CellChangeTimes->{{3.937506288883855*^9, 3.937506341341016*^9}, {
   3.9375063741809883`*^9, 3.9375064095492907`*^9}, {3.937506567988428*^9, 
-  3.937506617906612*^9}, {3.9375067657204943`*^9, 3.937506792138885*^9}, {
+  3.937506617906612*^9}, {3.9375067657204947`*^9, 3.937506792138885*^9}, {
   3.9375070596590643`*^9, 3.937507068297841*^9}, {3.937507175972529*^9, 
-  3.937507211897101*^9}},ExpressionUUID->"8d2593b9-9e1d-4e5b-a46f-\
+  3.937507211897101*^9}, {3.937509170173073*^9, 
+  3.937509233609599*^9}},ExpressionUUID->"8d2593b9-9e1d-4e5b-a46f-\
 1c089cbef220"],
 
 Cell[BoxData[
@@ -13423,8 +13426,7 @@ fq9e33of9TcBLmj/ALmyhTM=
   ImageSize->{505.12968750000005`, Automatic},
   ImageSizeRaw->{1460., 1090.},
   PlotRange->{{0, 1460.}, {0, 1090.}}]], "Input",
- CellLabel->
-  "In[213]:=",ExpressionUUID->"2c829119-f651-484d-9d9e-6321a3483b16"]
+ CellLabel->"In[12]:=",ExpressionUUID->"2c829119-f651-484d-9d9e-6321a3483b16"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -13454,31 +13456,31 @@ Cell[CellGroupData[{
 Cell[2795, 60, 3317, 47, 54, "Section",ExpressionUUID->"06b4694c-22f4-4e02-867f-1b41a8ae64af"],
 Cell[6115, 109, 1135, 17, 81, "Text",ExpressionUUID->"2adfe921-4f6f-48d4-9b07-efa280231439"],
 Cell[CellGroupData[{
-Cell[7275, 130, 3821, 105, 262, "Input",ExpressionUUID->"42b1be09-675b-4fe5-acb6-fe94ee462f89"],
-Cell[11099, 237, 19353, 434, 336, "Output",ExpressionUUID->"b53efb7d-a6f2-466b-8119-e5bc5d725203"]
+Cell[7275, 130, 3808, 104, 262, "Input",ExpressionUUID->"42b1be09-675b-4fe5-acb6-fe94ee462f89"],
+Cell[11086, 236, 19370, 434, 336, "Output",ExpressionUUID->"97e18a62-a94f-4030-8524-6f8c7eeda14c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30501, 677, 3491, 49, 54, "Section",ExpressionUUID->"ab5157ce-7a90-4202-96dc-6e1ed86487ec"],
-Cell[33995, 728, 1755, 31, 265, "Text",ExpressionUUID->"78b8dd6e-6e24-4951-b3a2-cb24dbe1072c"]
+Cell[30505, 676, 3491, 49, 54, "Section",ExpressionUUID->"ab5157ce-7a90-4202-96dc-6e1ed86487ec"],
+Cell[33999, 727, 1247, 26, 288, "Text",ExpressionUUID->"78b8dd6e-6e24-4951-b3a2-cb24dbe1072c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[35787, 764, 3419, 49, 54, "Section",ExpressionUUID->"e3f20047-2dc4-455f-b979-7174445a8978"],
-Cell[39209, 815, 2114, 38, 196, "Text",ExpressionUUID->"b6eb853c-a41b-4788-928b-b968935c15ba"],
-Cell[41326, 855, 622, 15, 33, "Input",ExpressionUUID->"ef6e383a-9ddc-4d9b-98b3-f515a9635b68"],
-Cell[41951, 872, 1655, 45, 58, "Text",ExpressionUUID->"0eea298c-3a5a-443d-8b6a-51bbbb88f0fc"],
-Cell[43609, 919, 24340, 405, 124, "Input",ExpressionUUID->"5e0364c1-5180-4848-bbb4-5e58fb47587c"],
-Cell[67952, 1326, 1956, 53, 242, "Text",ExpressionUUID->"c4c670d2-49fc-41f6-abc9-795df204ff6f"]
+Cell[35283, 758, 3419, 49, 54, "Section",ExpressionUUID->"e3f20047-2dc4-455f-b979-7174445a8978"],
+Cell[38705, 809, 2100, 37, 196, "Text",ExpressionUUID->"b6eb853c-a41b-4788-928b-b968935c15ba"],
+Cell[40808, 848, 617, 14, 33, "Input",ExpressionUUID->"ef6e383a-9ddc-4d9b-98b3-f515a9635b68"],
+Cell[41428, 864, 1655, 45, 58, "Text",ExpressionUUID->"0eea298c-3a5a-443d-8b6a-51bbbb88f0fc"],
+Cell[43086, 911, 24335, 404, 124, "Input",ExpressionUUID->"5e0364c1-5180-4848-bbb4-5e58fb47587c"],
+Cell[67424, 1317, 1181, 29, 150, "Text",ExpressionUUID->"c4c670d2-49fc-41f6-abc9-795df204ff6f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69945, 1384, 3499, 50, 54, "Section",ExpressionUUID->"51956a93-7de5-4c35-a67e-93f0e981031d"],
-Cell[73447, 1436, 1021, 17, 35, "Text",ExpressionUUID->"9bcb0052-93c2-485c-b255-cece3fecb480"],
+Cell[68642, 1351, 3499, 50, 54, "Section",ExpressionUUID->"51956a93-7de5-4c35-a67e-93f0e981031d"],
+Cell[72144, 1403, 1066, 17, 35, "Text",ExpressionUUID->"9bcb0052-93c2-485c-b255-cece3fecb480"],
 Cell[CellGroupData[{
-Cell[74493, 1457, 4174, 105, 182, "Input",ExpressionUUID->"0cbeaf7a-10ad-4207-a89f-66b62fca46b9"],
-Cell[78670, 1564, 15655, 351, 395, "Output",ExpressionUUID->"2154f94c-8deb-4e54-becc-b4d0ffc9d9d8"]
+Cell[73235, 1424, 4514, 112, 220, "Input",ExpressionUUID->"0cbeaf7a-10ad-4207-a89f-66b62fca46b9"],
+Cell[77752, 1538, 17316, 384, 395, "Output",ExpressionUUID->"3a917265-f8fb-453f-b1eb-1cd7ab40ec3a"]
 }, Open  ]],
-Cell[94340, 1918, 1274, 31, 426, "Text",ExpressionUUID->"8d2593b9-9e1d-4e5b-a46f-1c089cbef220"],
-Cell[95617, 1951, 699631, 11475, 390, "Input",ExpressionUUID->"2c829119-f651-484d-9d9e-6321a3483b16"]
+Cell[95083, 1925, 1631, 27, 518, "Text",ExpressionUUID->"8d2593b9-9e1d-4e5b-a46f-1c089cbef220"],
+Cell[96717, 1954, 699627, 11474, 390, "Input",ExpressionUUID->"2c829119-f651-484d-9d9e-6321a3483b16"]
 }, Open  ]]
 }, Open  ]]
 }
