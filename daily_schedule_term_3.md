@@ -11,7 +11,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Oct. 28 &mdash; No class (last day of Term 2-3 break)
 * Thursday, Oct. 31 &mdash; Continue your study of Chapter 7 of *Spacetime Physics* to the end of Section 7.5, p. 206 &mdash; Problem Set 8, with due date delayed to the beginning of this Thursday's class, is [here](./assignments/ProblemSet08.nb.pdf)
 
-### Week 9 &mdash; Start *Exploring Black Holes*
+### Week 9 &mdash; Start *Exploring Black Holes* &mdash; Spherical Polar Coordinates &mdash; Reduced Radius &mdash; Schwarzschild Metric
 
 NOTE: For the rest of Term 3, we will devote ourselves to covering at least half of *Exploring Black Holes,* [https://www.eftaylor.com/exploringblackholes/](https://www.eftaylor.com/exploringblackholes/) (the link is to the 2nd edition). Since all of you have physical copies of the 1st edition, chapter, page, problem, and equation numbers below refer to the 1st edition. To my mind, the 1st edition is actually the better edition, because the material in the 2nd edition that was added is too advanced for our purposes. One can always simply skip that material, but the simplicity and elegance of the text is obscured by its presence.
 
@@ -20,4 +20,4 @@ NOTE: For the rest of Term 3, we will devote ourselves to covering at least half
 
 *NB: We queued up as a topic, and still need to discuss the relation between E, p, h, &lambda;, and &nu; for photons, and contrast it with the relation between E, p, and m for massive particles*
 
-<img src="./resources/BlackHoleConstructionCompany.png" alt="Black Hole Construction Company Plans" width="100%">n
+<img src="./resources/BlackHoleConstructionCompany.png" alt="Black Hole Construction Company Plans" width="100%">
