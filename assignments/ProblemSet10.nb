@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    128152,       2553]
-NotebookOptionsPosition[    123138,       2458]
-NotebookOutlinePosition[    123632,       2477]
-CellTagsIndexPosition[    123589,       2474]
+NotebookDataLength[    128292,       2554]
+NotebookOptionsPosition[    123278,       2459]
+NotebookOutlinePosition[    123772,       2478]
+CellTagsIndexPosition[    123729,       2475]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2320,18 +2320,19 @@ Cell[TextData[StyleBox["Problem 2 \[LongDash] Set Up the Construction Problem",
 1b41a8ae64af"],
 
 Cell[TextData[{
- "See Problem 2-4 at the end of EBH Chapter 2 for what is being discussed \
-here.\n\nYour classmates (Sasha and Eden), are going to do the full \
-consultation to the Black Hole Construction Company. The other 6 of you have \
-heard about the consulting project but are only going to do Part A. Please do \
-Part A by making two drawings that show (i) What the President mistakenly had \
-his robots doing, and (ii) what his robots should instead be doing.\n\nIf you \
-make your drawings appropriate for building shells from 11,000 meters down to \
-10,000 meters in 1-meter intervals that would be very hard to draw to scale. \
-Therefore change the problem to be to build shells extending from 15km down \
-to 10km in 1km intervals. That should be drawable to scale. Of course, \
-spacetime is curved and you have flat paper. So you will either have to \
-sacrifice the ",
+ "See Problem #4 at the end of EBH Chapter 2 for what is being referred to as \
+\[OpenCurlyDoubleQuote]The Black Hole Construction Company\
+\[CloseCurlyDoubleQuote] problem.\n\nYour classmates (Sasha and Eden), are \
+going to do the full consultation to the Black Hole Construction Company. The \
+other 6 of you have heard about the consulting project but are only going to \
+do Part A. Please do Part A by making two drawings that show (i) What the \
+President mistakenly had his robots doing, and (ii) what his robots should \
+instead be doing.\n\nIf you make your drawings appropriate for building \
+shells from 11,000 meters down to 10,000 meters in 1-meter intervals that \
+would be very hard to draw to scale. Therefore change the problem to be to \
+build shells extending from 15km down to 10km in 1km intervals. That should \
+be drawable to scale. Of course, spacetime is curved and you have flat paper. \
+So you will either have to sacrifice the ",
  Cell[BoxData[
   FormBox["r", TraditionalForm]],ExpressionUUID->
   "28bc0f64-0923-4df5-ace5-6a7396ca1a32"],
@@ -2350,9 +2351,9 @@ circumferences realistic, and sacrifice the ",
   3.939737404194033*^9, 3.939737578471113*^9}, {3.939737613185306*^9, 
   3.93973767975634*^9}, {3.939754011496208*^9, 3.939754044783524*^9}, {
   3.939754084431056*^9, 3.939754157315095*^9}, {3.939754789040417*^9, 
-  3.939754872296232*^9}, {3.939755355692322*^9, 3.9397553807111993`*^9}, {
-  3.939764226626224*^9, 
-  3.939764262186507*^9}},ExpressionUUID->"4c9f81e4-d06f-49be-aa01-\
+  3.939754872296232*^9}, {3.939755355692322*^9, 3.939755380711199*^9}, {
+  3.939764226626224*^9, 3.939764262186507*^9}, {3.9397661075904427`*^9, 
+  3.9397661261388397`*^9}},ExpressionUUID->"4c9f81e4-d06f-49be-aa01-\
 19fe3b3bd4cb"],
 
 Cell["", "PageBreak",
@@ -2543,16 +2544,16 @@ Cell[111542, 2264, 99, 1, 4, "PageBreak",ExpressionUUID->"2f2b8cd8-aa25-4cde-ad9
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[111690, 2271, 3377, 48, 62, "Section",ExpressionUUID->"06b4694c-22f4-4e02-867f-1b41a8ae64af"],
-Cell[115070, 2321, 2058, 34, 311, "Text",ExpressionUUID->"4c9f81e4-d06f-49be-aa01-19fe3b3bd4cb"],
-Cell[117131, 2357, 99, 1, 4, "PageBreak",ExpressionUUID->"51b7ea0c-6a45-4a63-bf88-c9f522a4210a",
+Cell[115070, 2321, 2198, 35, 334, "Text",ExpressionUUID->"4c9f81e4-d06f-49be-aa01-19fe3b3bd4cb"],
+Cell[117271, 2358, 99, 1, 4, "PageBreak",ExpressionUUID->"51b7ea0c-6a45-4a63-bf88-c9f522a4210a",
  PageBreakBelow->True],
-Cell[117233, 2360, 762, 11, 35, "Text",ExpressionUUID->"5d52d175-57b8-4951-b846-f0cc9f413a7e"],
-Cell[117998, 2373, 99, 1, 4, "PageBreak",ExpressionUUID->"a8860b2d-79c3-49e6-bc65-a69e9f075258",
+Cell[117373, 2361, 762, 11, 35, "Text",ExpressionUUID->"5d52d175-57b8-4951-b846-f0cc9f413a7e"],
+Cell[118138, 2374, 99, 1, 4, "PageBreak",ExpressionUUID->"a8860b2d-79c3-49e6-bc65-a69e9f075258",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[118134, 2379, 3400, 49, 62, "Section",ExpressionUUID->"ce27dad8-93bd-4644-aa22-1d3376bfd4d7"],
-Cell[121537, 2430, 1573, 24, 242, "Text",ExpressionUUID->"8c61db21-3005-419b-8e28-6b8da466a2dc"]
+Cell[118274, 2380, 3400, 49, 62, "Section",ExpressionUUID->"ce27dad8-93bd-4644-aa22-1d3376bfd4d7"],
+Cell[121677, 2431, 1573, 24, 242, "Text",ExpressionUUID->"8c61db21-3005-419b-8e28-6b8da466a2dc"]
 }, Open  ]]
 }, Open  ]]
 }
