@@ -20,4 +20,34 @@ NOTE: For the rest of Term 3, we will devote ourselves to covering at least half
 
 *NB: We queued up as a topic, and still need to discuss the relation between E, p, h, &lambda;, and &nu; for photons, and contrast it with the relation between E, p, and m for massive particles*
 
+### Week 10 &mdash; Finish Introducing the Schwarzschild Metric
+
+* Monday, Nov. 11 &mdash; 
+* Thursday, Nov. 14 &mdash; 
+
+### Week 11 &mdash; Exam 2
+
+* Monday, Nov. 18 &mdash; Exam 2
+* Thursday, Nov. 21 &mdash;
+
+### Week 12 &mdash;
+
+* Monday, Nov. 25 &mdash;
+* Thursday, Nov. 28 &mdash; No class - Shakespeare Festival
+
+### Week 13 &mdash;
+
+* Monday, Dec. 2 &mdash;
+* Thursday, Dec. 5 &mdash;
+
+### Week 14 &mdash;
+
+* Monday, Dec. 9 &mdash;
+* Thursday, Dec. 12 &mdash;
+
+### Week 15 &mdash;
+
+* Monday, Dec. 16 &mdash; Exam 3
+* Thursday, Dec. 19 &mdash;
+
 <img src="./resources/BlackHoleConstructionCompany.png" alt="Black Hole Construction Company Plans" width="100%">
