@@ -1,0 +1,246 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8630,        236]
+NotebookOptionsPosition[      7193,        204]
+NotebookOutlinePosition[      7647,        222]
+CellTagsIndexPosition[      7604,        219]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", 
+     RowBox[{"shell", " ", "at", " ", "11000"}]], "=", 
+    RowBox[{"1.1", " ", "*", " ", 
+     SubscriptBox["r", 
+      RowBox[{"event", " ", "horizon"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2299791d-a918-4159-b038-c7aadb78c784"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", 
+     RowBox[{"shell", " ", "at", " ", "12000"}]], "=", 
+    RowBox[{"1.2", " ", "*", " ", 
+     SubscriptBox["r", 
+      RowBox[{"event", " ", "horizon"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b85cfb3f-f923-48d9-8458-fcce35b73213"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["r", 
+       RowBox[{"shell", " ", "at", " ", "12000"}]], "-", 
+      SubscriptBox["r", 
+       RowBox[{"shell", " ", "at", " ", "11000"}]]}], "=", 
+     RowBox[{"0.1", " ", "*", " ", 
+      SubscriptBox["r", 
+       RowBox[{"event", " ", "horizon"}]]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ec35a595-2f65-4ab1-998c-70e8fda58de3"],
+ "\n\nA way of estimating the measured distance between these shells (in the \
+radial direction):"
+}], "Text",
+ CellChangeTimes->{{3.939953329034576*^9, 3.939953469400687*^9}, {
+  3.939953505087613*^9, 3.939953521981967*^9}, {3.939953580419393*^9, 
+  3.939953605632778*^9}, {3.939953688318853*^9, 
+  3.939953697108404*^9}},ExpressionUUID->"dad3eae9-d689-4eae-bc94-\
+42d4f31a6ab3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"0.1", " ", "*", 
+   SubscriptBox["r", 
+    RowBox[{"event", " ", "horizon"}]]}], 
+  RowBox[{"Sqrt", "[", 
+   RowBox[{"1", "-", 
+    RowBox[{"1", "/", "1.15"}]}], "]"}]]], "Input",
+ CellChangeTimes->{{3.939936160395952*^9, 3.939936172034367*^9}, {
+  3.939953290112817*^9, 3.93995329078233*^9}, {3.9399534902512817`*^9, 
+  3.939953493969833*^9}, {3.939953569651128*^9, 3.9399535736948013`*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"0eb4d0d0-6028-408c-8330-90684b2467aa"],
+
+Cell[BoxData[
+ RowBox[{"0.2768874620972693`", " ", 
+  SubscriptBox["r", 
+   RowBox[{"event", " ", "horizon"}]]}]], "Output",
+ CellChangeTimes->{3.939936173233268*^9, 3.939953291483996*^9, 
+  3.939953574337076*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"1b5f3680-31b4-4c15-a5b8-807f9e443452"]
+}, Open  ]],
+
+Cell["\<\
+An exact way of computing the measured distance between these shells (in the \
+radial direction):\
+\>", "Text",
+ CellChangeTimes->{{3.939953329034576*^9, 3.939953469400687*^9}, {
+   3.939953505087613*^9, 3.939953521981967*^9}, {3.939953580419393*^9, 
+   3.939953638723791*^9}, 
+   3.939953699976101*^9},ExpressionUUID->"12f4ce6b-b547-42b1-bcd1-\
+763a7c073f79"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"integrand", "[", "\[Rho]_", "]"}], ":=", 
+   FractionBox["1", 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      FractionBox["1", "\[Rho]"]}]]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"N", "[", 
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     RowBox[{"integrand", "[", "\[Rho]", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\[Rho]", ",", 
+       RowBox[{"11", "/", "10"}], ",", 
+       RowBox[{"12", "/", "10"}]}], "}"}]}], "]"}], "]"}], "*", 
+  SubscriptBox["r", 
+   RowBox[{"event", " ", "horizon"}]]}]}], "Input",
+ CellChangeTimes->{{3.9399241454487457`*^9, 3.93992418795858*^9}, {
+  3.939953648825712*^9, 3.939953668396899*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"3d7fd4f1-5196-4908-a536-f478ab95fc0c"],
+
+Cell[BoxData[
+ RowBox[{"0.280561580908989`", " ", 
+  SubscriptBox["r", 
+   RowBox[{"event", " ", "horizon"}]]}]], "Output",
+ CellChangeTimes->{3.939953671687827*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"db306027-bb77-4e55-a1e7-1ffabd46046f"]
+}, Open  ]],
+
+Cell["\<\
+Very nice agreement between the two methods. And both are dramatically \
+different than the naive interpretation of the Black Hole Construction \
+Company Contract. They are about 2.8 times as big!\
+\>", "Text",
+ CellChangeTimes->{{3.939953329034576*^9, 3.939953469400687*^9}, {
+  3.939953505087613*^9, 3.939953521981967*^9}, {3.939953580419393*^9, 
+  3.939953638723791*^9}, {3.939953699976101*^9, 3.939953775262157*^9}, {
+  3.939953858697372*^9, 3.939953889567091*^9}, {3.939953972311108*^9, 
+  3.939953978881625*^9}},ExpressionUUID->"2c400959-c807-438e-9d67-\
+dd16e04e92a9"],
+
+Cell[TextData[{
+ "Let\[CloseCurlyQuote]s compute the distance from the shell at ",
+ Cell[BoxData[
+  FormBox["10000", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "261ab5c4-9fe1-427d-932d-90c911b7fdc3"],
+ " to the shell at ",
+ Cell[BoxData[
+  FormBox["11000", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e0a1b2c3-1c3e-44b7-b22c-bf31a8f6628b"],
+ ". The naive interpretation will disagree even more radically with the \
+correct calculation, because we are doing the last 1000 meters to the event \
+horizon."
+}], "Text",
+ CellChangeTimes->{{3.939953329034576*^9, 3.939953469400687*^9}, {
+  3.939953505087613*^9, 3.939953521981967*^9}, {3.939953580419393*^9, 
+  3.939953638723791*^9}, {3.939953699976101*^9, 
+  3.939953940809347*^9}},ExpressionUUID->"532546d5-5068-4b28-b5d1-\
+4c5e81bd02e2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"N", "[", 
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     RowBox[{"integrand", "[", "\[Rho]", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\[Rho]", ",", 
+       RowBox[{"10", "/", "10"}], ",", 
+       RowBox[{"11", "/", "10"}]}], "}"}]}], "]"}], "]"}], "*", 
+  SubscriptBox["r", 
+   RowBox[{"event", " ", "horizon"}]]}]], "Input",
+ CellChangeTimes->{{3.939953953186829*^9, 3.939953955810405*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"c9a6e849-9849-4299-afb7-fcc8d2795b7f"],
+
+Cell[BoxData[
+ RowBox[{"0.6428437308929293`", " ", 
+  SubscriptBox["r", 
+   RowBox[{"event", " ", "horizon"}]]}]], "Output",
+ CellChangeTimes->{3.939953957437077*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"bb4df133-332b-4f7c-8b97-c9fa458bfc8f"]
+}, Open  ]],
+
+Cell["\<\
+The disagreement between the exact method and the naive method is now 6.4 \
+times. No wonder the company was going broke! They would have built 6.4 times \
+as many shells as they were actually contracted to!\
+\>", "Text",
+ CellChangeTimes->{{3.939953329034576*^9, 3.939953469400687*^9}, {
+  3.939953505087613*^9, 3.939953521981967*^9}, {3.939953580419393*^9, 
+  3.939953638723791*^9}, {3.939953699976101*^9, 3.939953940809347*^9}, {
+  3.93995398663802*^9, 
+  3.939954046027039*^9}},ExpressionUUID->"428436c3-0280-4cb3-9d06-\
+3e1b08755dec"]
+},
+WindowSize->{808, 746},
+WindowMargins->{{Automatic, 435}, {Automatic, -255}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"52c8eb15-3ed5-4af2-8a46-26713cd37d9f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1590, 45, 141, "Text",ExpressionUUID->"dad3eae9-d689-4eae-bc94-42d4f31a6ab3"],
+Cell[CellGroupData[{
+Cell[2173, 69, 510, 11, 48, "Input",ExpressionUUID->"0eb4d0d0-6028-408c-8330-90684b2467aa"],
+Cell[2686, 82, 292, 6, 34, "Output",ExpressionUUID->"1b5f3680-31b4-4c15-a5b8-807f9e443452"]
+}, Open  ]],
+Cell[2993, 91, 370, 8, 35, "Text",ExpressionUUID->"12f4ce6b-b547-42b1-bcd1-763a7c073f79"],
+Cell[CellGroupData[{
+Cell[3388, 103, 768, 21, 89, "Input",ExpressionUUID->"3d7fd4f1-5196-4908-a536-f478ab95fc0c"],
+Cell[4159, 126, 244, 5, 34, "Output",ExpressionUUID->"db306027-bb77-4e55-a1e7-1ffabd46046f"]
+}, Open  ]],
+Cell[4418, 134, 585, 10, 58, "Text",ExpressionUUID->"2c400959-c807-438e-9d67-dd16e04e92a9"],
+Cell[5006, 146, 834, 19, 58, "Text",ExpressionUUID->"532546d5-5068-4b28-b5d1-4c5e81bd02e2"],
+Cell[CellGroupData[{
+Cell[5865, 169, 512, 13, 30, "Input",ExpressionUUID->"c9a6e849-9849-4299-afb7-fcc8d2795b7f"],
+Cell[6380, 184, 245, 5, 34, "Output",ExpressionUUID->"bb4df133-332b-4f7c-8b97-c9fa458bfc8f"]
+}, Open  ]],
+Cell[6640, 192, 549, 10, 58, "Text",ExpressionUUID->"428436c3-0280-4cb3-9d06-3e1b08755dec"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
