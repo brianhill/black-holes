@@ -22,10 +22,10 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Nov. 11 &mdash; Problem Set 11 is [here](./assignments/ProblemSet11.nb.pdf) and in your file folders &mdash; Finish reading Chapter 2 &mdash; We discussed the relation between E, p, h, &lambda;, and &nu; for photons, and contrasted it with the relation between E, p, and m for massive particles* &mdash; Presentation: Walker and Rebecca, the Zeno's Paradox problem
 * Thursday, Nov. 14 &mdash; Problem Set 12 is [here](./assignments/ProblemSet12.nb.pdf) and in your file folders &mdash; No new reading assignment (just continue to consolidate your understanding of Chapter 2) &mdash; Presentation: Eli and Eden, the Chesapeake Bay problem
 
-### Week 11 &mdash; Exam 2 &mdash; Energy and Momentum Conservation in the Schwarzschild Metric
+### Week 11 &mdash; Exam 2 &mdash; Plunging
 
 * Monday, Nov. 18 &mdash; [Exam 2](./exams/Exam2.nb.pdf) covering everything from Chapter 4 to Section 7.5 of *Spacetime Physics*, and Chapters 1 and 2 of *Exploring Black Holes*
-* Thursday, Nov. 21 &mdash; Start Chapter 3 &mdash; The application of the Principle of Extremal Aging to paths in the Schwarzchild metric
+* Thursday, Nov. 21 &mdash; Study Chapter 3 through Section 3-6 (through p. 3-18) &mdash; We need two groups of two presenters from among those that didn't present the last two times, so that would be Jeremy, Kel, Rania, and Sasha &mdash; The two topics I can imagine being good to present are Sample Problem 2 (p. 3-22) and Sample Problem 3 (p. 3-25) &mdash; Problem Set 13 is [here](./assignments/ProblemSet13.nb.pdf) and in your file folders
 
 ### Week 12 &mdash;
 
