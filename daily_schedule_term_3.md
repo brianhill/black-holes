@@ -16,7 +16,6 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Nov. 4 &mdash; Study Chapter 1 of *Exploring Black Holes* through Section 1-7, p. 1-13 &mdash; Problem Set 9 is [here](./assignments/ProblemSet09.nb.pdf) and in your file folders and two groups of you have volunteered for presentations as noted in the problem set &mdash; Discussion of the Principle of Extremal Aging &mdash; Spherical polar coordinates &mdash; The &ldquo;reduced&rdquo; radius
 * Thursday, Nov. 7 &mdash; Study Chapter 2 of *Exploring Black Holes* through p. 2-20 &mdash; Problem Set 10 is [here](./assignments/ProblemSet10.nb.pdf) and in your file folders and a group (consisting of Eden and Sasha) will present the full Black Hole Company Construction Problem
 
-
 ### Week 10 &mdash; Finish Introducing the Schwarzschild Metric
 
 * Monday, Nov. 11 &mdash; Problem Set 11 is [here](./assignments/ProblemSet11.nb.pdf) and in your file folders &mdash; Finish reading Chapter 2 &mdash; We discussed the relation between E, p, h, &lambda;, and &nu; for photons, and contrasted it with the relation between E, p, and m for massive particles* &mdash; Presentation: Walker and Rebecca, the Zeno's Paradox problem
