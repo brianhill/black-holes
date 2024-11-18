@@ -47,4 +47,4 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 16 &mdash; Exam 3
 * Thursday, Dec. 19 &mdash;
 
-<img src="./resources/LatitudeAndLongitude.png" alt="Latitude and Longitude" width="100%">
+<img src="./resources/BookkeeperVsShellSpeed.png" alt="Bookkeeper vs. Shell Speed" width="100%">
