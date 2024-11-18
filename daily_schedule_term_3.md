@@ -24,7 +24,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 
 ### Week 11 &mdash; Exam 2 &mdash; Energy and Momentum Conservation in the Schwarzschild Metric
 
-* Monday, Nov. 18 &mdash; Exam 2 covering everything since Chapter 4 to Section 7.5 of *Spacetime Physics*, and Chapters 1 and 2 of *Exploring Black Holes*
+* Monday, Nov. 18 &mdash; [Exam 2](./exams/Exam2.nb.pdf) covering everything from Chapter 4 to Section 7.5 of *Spacetime Physics*, and Chapters 1 and 2 of *Exploring Black Holes*
 * Thursday, Nov. 21 &mdash; Start Chapter 3 &mdash; The application of the Principle of Extremal Aging to paths in the Schwarzchild metric
 
 ### Week 12 &mdash;

@@ -28,7 +28,7 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 ### Week 5 &mdash; Finish The Lorentz Transformation Formulas &mdash; Exam 1
 
 * Monday, Sept. 23 &mdash; Finish Chapter L &mdash; Problem Set 5, with due date delayed to the beginning of Monday's class, is [here](./assignments/ProblemSet05.nb.pdf)
-* Thursday, Sept. 26 &mdash; Exam 1
+* Thursday, Sept. 26 &mdash; [Exam 1](./exams/Exam1.nb.pdf)
 
 ### Week 6 &mdash; World-Lines of Accelerating Particles &mdash; The Light-Cone and Causality
 
