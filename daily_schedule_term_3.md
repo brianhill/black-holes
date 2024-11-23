@@ -26,15 +26,15 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Nov. 18 &mdash; [Exam 2](./exams/Exam2.nb.pdf) covering everything from Chapter 4 to Section 7.5 of *Spacetime Physics*, and Chapters 1 and 2 of *Exploring Black Holes*
 * Thursday, Nov. 21 &mdash; Study Chapter 3 through Section 3-6 (through p. 3-18) &mdash; We need two groups of two presenters from among those that didn't present the last two times, so that would be Jeremy, Kel, Rania, and Sasha &mdash; The two topics I can imagine being good to present are Sample Problem 2 (p. 3-22) and Sample Problem 3 (p. 3-25) &mdash; Problem Set 13 is [here](./assignments/ProblemSet13.nb.pdf) and in your file folders
 
-### Week 12 &mdash; Finish Plunging
+### Week 12 &mdash; Finish Plunging &mdash; Start Rain Coordinates
 
-* Monday, Nov. 25 &mdash; Finish your study of Chapter 3 &mdash; For Problem Set 14, I will choose a few of the harder problems from the end of Chapter 3 to assign &mdash; If somebody is passionate about one of the problems at the end of Chapter 3 and would like to present it, that would be ideal &mdash; If there isn't much more that you all want to discuss regarding Chapter 3, I could start you into some of the subsequent material, but it would be better to scrutinize and master Chapter 3
+* Monday, Nov. 25 &mdash; Finish your study of Chapter 3 (pp. 3-19 to 3-26) and then continue to page B-13 of Chapter B &mdash; Problem Set 14 is [here](./assignments/ProblemSet14.nb.pdf) and in your file folders
 * Thursday, Nov. 28 &mdash; No class - Shakespeare Festival
 
-### Week 13 &mdash;
+### Week 13 &mdash; Finish Rain Coordinates &mdash; Start Orbiting
 
-* Monday, Dec. 2 &mdash;
-* Thursday, Dec. 5 &mdash;
+* Monday, Dec. 2 &mdash; Finish Rain Coordinates
+* Thursday, Dec. 5 &mdash; Start Orbiting
 
 ### Week 14 &mdash;
 
@@ -46,4 +46,4 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 16 &mdash; Exam 3
 * Thursday, Dec. 19 &mdash;
 
-<img src="./resources/BookkeeperVsShellSpeed.png" alt="Bookkeeper vs. Shell Speed" width="100%">
+<img src="./resources/RaindropPaths.png" alt="Raindrop Paths" width="80%">
