@@ -33,7 +33,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 
 ### Week 13 &mdash; Finish Rain Coordinates &mdash; Start Orbiting
 
-* Monday, Dec. 2 &mdash; Finish Rain Coordinates &mdash; Rebecca requested we read the material referenced at the end of Problem 6 on p. 3-30 of *Exploring Black Holes* &mdash; Specifically, the material referenced was pp. 422-448 of *Black Holes and Time Warps,* by Kip Thorne &mdash; Also read the remainder of Chapter B of *Exploring Black Holes* for Monday &mdash; Problem Set 15 for Monday is still FORTHCOMING
+* Monday, Dec. 2 &mdash; Finish Rain Coordinates &mdash; Rebecca requested we read the material referenced at the end of Problem 6 on p. 3-30 of *Exploring Black Holes* &mdash; Specifically, the material referenced was pp. 422-448 of *Black Holes and Time Warps,* by Kip Thorne &mdash; Also read the remainder of Chapter B of *Exploring Black Holes* for Monday &mdash; Problem Set 15 for Monday (that does nothing more than flesh out the readings a bit) is [here](./assignments/ProblemSet15.nb.pdf) and in your file folders
 * Thursday, Dec. 5 &mdash; Start Orbiting
 
 ### Week 14 &mdash; Finish Orbiting
