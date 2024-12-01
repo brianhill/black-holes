@@ -41,9 +41,9 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 9 &mdash;
 * Thursday, Dec. 12 &mdash;
 
-### Week 15 &mdash;
+### Week 15 &mdash; Exam 3 &mdash; Gravitational Waves
 
 * Monday, Dec. 16 &mdash; Exam 3
-* Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; TBD
+* Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; Gravitational Waves &mdash; Long after *Exploring Black Holes* was written, in 2016, gravitational waves were detected &mdash; The second edition of *Exploring Black Holes* 
 
 <img src="./resources/RaindropPaths.png" alt="Raindrop Paths" width="80%">

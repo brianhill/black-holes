@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     90452,       1834]
-NotebookOptionsPosition[     88702,       1793]
-NotebookOutlinePosition[     89229,       1813]
-CellTagsIndexPosition[     89186,       1810]
+NotebookDataLength[     90503,       1835]
+NotebookOptionsPosition[     88753,       1794]
+NotebookOutlinePosition[     89280,       1814]
+CellTagsIndexPosition[     89237,       1811]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1618,7 +1618,7 @@ meaning that the only paths it can take have ",
        FractionBox[
         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace] ", "r"}], 
         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
-         SubscriptBox["t", "rain"]}]], ")"}], "+"],
+         SubscriptBox["t", "rain"]}]], ")"}], "-"],
      TraditionalForm]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "b78a8e9b-7f00-4f9c-87d2-e386094d9bfd"],
@@ -1676,7 +1676,7 @@ Stick in a small value of ",
      FractionBox[
       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace] ", "r"}], 
       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
-       SubscriptBox["t", "rain"]}]], ")"}], "+"], TraditionalForm]],
+       SubscriptBox["t", "rain"]}]], ")"}], "-"], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "4a3004d2-3236-4df4-b70d-5897007fce2e"],
  ". What does this tell you about light shone outward and inward, at least \
@@ -1698,7 +1698,8 @@ bookkeeper ",
   3.941996118651538*^9, 3.941996200343728*^9}, {3.9419962313516283`*^9, 
   3.941996278936346*^9}, {3.941996318340424*^9, 3.9419963470653267`*^9}, {
   3.941996381568125*^9, 3.941996418917943*^9}, {3.941996459539776*^9, 
-  3.9419967412662582`*^9}},ExpressionUUID->"c19d60ec-75e8-479e-9a2c-\
+  3.9419967412662582`*^9}, {3.942060819506926*^9, 
+  3.9420608260921497`*^9}},ExpressionUUID->"c19d60ec-75e8-479e-9a2c-\
 7d7eb4849a33"]
 }, Open  ]],
 
@@ -1792,7 +1793,7 @@ d56376a9bb65"]
 }, Open  ]]
 },
 WindowSize->{1527, 1142},
-WindowMargins->{{Automatic, 372}, {71, Automatic}},
+WindowMargins->{{Automatic, 372}, {75, Automatic}},
 PrintingCopies->10,
 PrintingPageRange->{1, Automatic},
 TaggingRules-><|"TryRealOnly" -> False|>,
@@ -1829,11 +1830,11 @@ Cell[25954, 481, 43815, 878, 2608, "Text",ExpressionUUID->"c48098f9-d067-4017-a3
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[69806, 1364, 3915, 56, 93, "Section",ExpressionUUID->"9e11c5a7-cc24-435e-9833-58f57d93054b"],
-Cell[73724, 1422, 9800, 279, 575, "Text",ExpressionUUID->"c19d60ec-75e8-479e-9a2c-7d7eb4849a33"]
+Cell[73724, 1422, 9851, 280, 575, "Text",ExpressionUUID->"c19d60ec-75e8-479e-9a2c-7d7eb4849a33"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[83561, 1706, 4085, 63, 191, "Section",ExpressionUUID->"9bf4014a-b139-4479-acfd-d6f2b2f02143"],
-Cell[87649, 1771, 1025, 18, 157, "Text",ExpressionUUID->"45e30c6a-758b-4395-86e3-d56376a9bb65"]
+Cell[83612, 1707, 4085, 63, 191, "Section",ExpressionUUID->"9bf4014a-b139-4479-acfd-d6f2b2f02143"],
+Cell[87700, 1772, 1025, 18, 157, "Text",ExpressionUUID->"45e30c6a-758b-4395-86e3-d56376a9bb65"]
 }, Open  ]]
 }, Open  ]]
 }

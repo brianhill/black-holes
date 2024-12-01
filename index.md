@@ -6,9 +6,9 @@
 
 ## Overview
 
-More than anyone else since Einstein, John Archibald Wheeler has influenced our understanding of spacetime. He is a co-author (with Misner, Thorne, and Taylor, among others) on the greatest textbooks in the field and his students have gone on to greatly advance physics. We will work through Taylor and Wheeler’s descriptions of two things: (1) special relativity, which is how space and time are related in the absence of gravity, (2) the behavior of spacetime around a black hole. The latter is also entirely relevant for tight orbits around ordinary stars, and in fact the first evidence for general relativity listed by Einstein was the explanation of the deviation of Mercury’s orbit from the ellipse expected from Newtonian gravity.
+More than anyone else since Einstein, John Archibald Wheeler has influenced our understanding of spacetime. He was the person that pressed relativists to take seriously the Schwarzschild solution into the interior of the event horizon. He is a co-author (with Misner, Thorne, and Taylor, among others) on the greatest textbooks in the field and his students have gone on to greatly advance the subject, including black hole thermodynamics and quantum mechanics in curved spacetime. We will work through Taylor and Wheeler’s descriptions of two things: (1) special relativity, which is how space and time are related in the absence of gravity, (2) the behavior of spacetime around a black hole. The latter is also entirely relevant for tight orbits around ordinary stars, and in fact the first evidence for general relativity listed by Einstein was the explanation of the deviation of Mercury’s orbit from the ellipse expected from Newtonian gravity.
 
-The intertwining of space and time is highly counterintuitive. The intertwined fabric is called “spacetime.” Our story will begin with Galileo who formulated the version of relativity that Newton built upon, and which lasted for almost three centuries until Lorentz, Poincar&eacute;, and Einstein formulated special relativity. Our tale will get all the way to Einstein’s General Relativity and we will explore Schwarzschild’s exact solution of Einstein’s equations surrounding a black hole.
+The intertwining of space and time is highly counterintuitive. The intertwined fabric is called “spacetime.” Our story will begin with Galileo who formulated the version of relativity that Newton built upon, and which lasted for almost three centuries until Lorentz, Poincar&eacute;, and Einstein formulated special relativity. Our tale will continue with Einstein’s General Relativity where we will explore Schwarzschild’s exact solution of Einstein’s equations surrounding a black hole. Time permitting, we will conclude with a special topic where advancement has been recently made, such as gravitational wave detection or the evidence for dark energy.
 
 ## Syllabus
 
@@ -25,10 +25,10 @@ I will use mathematics that is commonly taught in AP Calculus. If this is materi
 
 ## Texts
 
-We are going to use two texts. Very generously, Taylor, Wheeler, and Bertschinger have made PDFs of the textbooks we will be using completely free:
+We are going to use two texts. Very generously, Taylor, Wheeler, and Bertschinger have made PDFs of their textbooks completely free:
 
-* [*Spacetime Physics, 2nd Edition*, https://www.eftaylor.com/spacetimephysics/](https://www.eftaylor.com/spacetimephysics/)
-* [*Exploring Black Holes, 2nd Edition*, https://www.eftaylor.com/exploringblackholes/](https://www.eftaylor.com/exploringblackholes/)
+* [*Spacetime Physics, 2nd Edition*, https://www.eftaylor.com/spacetimephysics/](https://www.eftaylor.com/spacetimephysics/) &mdash; Softcover copies are still readily available used
+* [*Exploring Black Holes, 2nd Edition*, https://www.eftaylor.com/exploringblackholes/](https://www.eftaylor.com/exploringblackholes/) &mdash; However, the original is simultaneously more concise and less advanced, so we will work from used copies of the 1st edition, which are a bit hard to find now
 
 ## Grading
 
