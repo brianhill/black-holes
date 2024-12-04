@@ -34,7 +34,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 ### Week 13 &mdash; Finish Rain Coordinates &mdash; Start Orbiting
 
 * Monday, Dec. 2 &mdash; Finish Rain Coordinates &mdash; Rebecca requested we read the material referenced at the end of Problem 6 on p. 3-30 of *Exploring Black Holes* &mdash; Specifically, the material referenced was pp. 422-448 of *Black Holes and Time Warps,* by Kip Thorne &mdash; Also read the remainder of Chapter B of *Exploring Black Holes* for Monday &mdash; Problem Set 15 for Monday (that does nothing more than flesh out the readings a bit) is [here](./assignments/ProblemSet15.nb.pdf) and in your file folders
-* Thursday, Dec. 5 &mdash; Start Orbiting
+* Thursday, Dec. 5 &mdash; Start Orbiting &mdash; Study Chapter 1 of *Exploring Black Holes* through Section 4-5 (through p. 4-10) &mdash; For Problem Set 16 do Problems 1 and 2 on. p. 4-28 &mdash; Problem 2 might look like it requires you to already understand effective potentials, but you don't actually &mdash; Just follow the steps blindly &mdash; I'll introduce you to Section 4-6 on effective potentials in class
 
 ### Week 14 &mdash; Finish Orbiting
 
@@ -46,4 +46,4 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 16 &mdash; Exam 3
 * Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; Gravitational Waves &mdash; Long after *Exploring Black Holes* was written, in 2016, gravitational waves were detected &mdash; The second edition of *Exploring Black Holes* has [a chapter on gravitational waves](./resources/TaylorWheelerBertschinger-GravitationalWaves.pdf) that Taylor and Bertschinger updated in 2017
 
-<img src="./resources/RainFrameLightCones.jpeg" alt="Rain frame light cones" width="60%">
+<img src="./resources/EffectivePotentialsForOrbiting.png" alt="Effective potentials for orbiting a black hole" width="60%">
