@@ -34,12 +34,12 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 ### Week 13 &mdash; Finish Rain Coordinates &mdash; Start Orbiting
 
 * Monday, Dec. 2 &mdash; Finish Rain Coordinates &mdash; Rebecca requested we read the material referenced at the end of Problem 6 on p. 3-30 of *Exploring Black Holes* &mdash; Specifically, the material referenced was pp. 422-448 of *Black Holes and Time Warps,* by Kip Thorne &mdash; Also read the remainder of Chapter B of *Exploring Black Holes* for Monday &mdash; Problem Set 15 for Monday (that does nothing more than flesh out the readings a bit) is [here](./assignments/ProblemSet15.nb.pdf) and in your file folders
-* Thursday, Dec. 5 &mdash; Start Orbiting &mdash; Study Chapter 4 of *Exploring Black Holes* through Section 4-5 (through p. 4-10) &mdash; For Problem Set 16 do Problems 1 and 2 on. p. 4-28 &mdash; Problem 2 might look like it requires you to already understand effective potentials, but you don't actually &mdash; Just follow the steps blindly &mdash; I'll introduce you to Section 4-6 on effective potentials in class
+* Thursday, Dec. 5 &mdash; Start Orbiting &mdash; Study Chapter 4 of *Exploring Black Holes* through Section 4-5 (just through p. 4-10) &mdash; For Problem Set 16 do Problems 1 and 2 on. p. 4-28 &mdash; PROBLEM SET 16 DUE DATE CHANGED &mdash; Saturday, 6pm &mdash; We dervid the relativistic version of angular momentum conservation &mdash; We did a lightning derivation of the Newtonian effective potential for motion in a spherically symmetric potential
 
 ### Week 14 &mdash; Finish Orbiting
 
-* Monday, Dec. 9 &mdash;
-* Thursday, Dec. 12 &mdash;
+* Monday, Dec. 9 &mdash; Continue your study Chapter 4 of *Exploring Black Holes* through Section 4-7 (through p. 4-20) &mdash; For Problem Set 17 do Problems 3 and 4 on. p. 4-29 and 4-30
+* Thursday, Dec. 12 &mdash; We will finish Chapter 4, and *likely* your problem set will be Problems 5 and 6, but we might be able to do one of the &ldquo;time travel&rdquo; problems too
 
 ### Week 15 &mdash; Exam 3 &mdash; Gravitational Waves
 
