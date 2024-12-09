@@ -34,16 +34,16 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 ### Week 13 &mdash; Finish Rain Coordinates &mdash; Start Orbiting
 
 * Monday, Dec. 2 &mdash; Finish Rain Coordinates &mdash; Rebecca requested we read the material referenced at the end of Problem 6 on p. 3-30 of *Exploring Black Holes* &mdash; Specifically, the material referenced was pp. 422-448 of *Black Holes and Time Warps,* by Kip Thorne &mdash; Also read the remainder of Chapter B of *Exploring Black Holes* for Monday &mdash; Problem Set 15 for Monday (that does nothing more than flesh out the readings a bit) is [here](./assignments/ProblemSet15.nb.pdf) and in your file folders
-* Thursday, Dec. 5 &mdash; Start Orbiting &mdash; Study Chapter 4 of *Exploring Black Holes* through Section 4-5 (just through p. 4-10) &mdash; For Problem Set 16 do Problems 1 and 2 on. p. 4-28 &mdash; PROBLEM SET 16 DUE DATE CHANGED &mdash; Saturday, 6pm &mdash; We dervid the relativistic version of angular momentum conservation &mdash; We did a lightning derivation of the Newtonian effective potential for motion in a spherically symmetric potential
+* Thursday, Dec. 5 &mdash; Start Orbiting &mdash; Study Chapter 4 of *Exploring Black Holes* through Section 4-5 (just through p. 4-10) &mdash; For Problem Set 16 do Problems 1 and 2 on. p. 4-28 &mdash; In class derived the relativistic version of angular momentum conservation &mdash; And we did a lightning derivation of the Newtonian effective potential for motion in a spherically symmetric potential
 
 ### Week 14 &mdash; Finish Orbiting
 
-* Monday, Dec. 9 &mdash; Continue your study Chapter 4 of *Exploring Black Holes* through Section 4-7 (through p. 4-20) &mdash; For Problem Set 17 do Problems 3 and 4 on. p. 4-29 and 4-30
-* Thursday, Dec. 12 &mdash; We will finish Chapter 4, and *likely* your problem set will be Problems 5 and 6, but we might be able to do one of the &ldquo;time travel&rdquo; problems too
+* Monday, Dec. 9 &mdash; Continue your study Chapter 4 of *Exploring Black Holes* through Section 4-7 (through p. 4-20) &mdash; For Problem Set 17 do Problems 3 and 4 on. p. 4-29 and 4-30 &mdash; I am thinking we will derive Eq. 30 on p. 4-15 and do Problem 6 on p. 4-31 in class and that this will conclude our study of Chapter 4
+* Thursday, Dec. 12 &mdash; Study Sections 5-1 to 5-5 of Chapter 5 (through p. 5-10) &mdash; For Problem Set 18 do Problem 5 on p. 5-33 (you can use Eq. 25 from Section 5-6 blindly) &mdash; I am thinking we will derive Eq. 25 in Section 5-6 and work through Section 5-7 in class
 
 ### Week 15 &mdash; Exam 3 &mdash; Gravitational Waves
 
 * Monday, Dec. 16 &mdash; Exam 3
-* Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; Gravitational Waves &mdash; Long after *Exploring Black Holes* was written, in 2016, gravitational waves were detected &mdash; The second edition of *Exploring Black Holes* has [a chapter on gravitational waves](./resources/TaylorWheelerBertschinger-GravitationalWaves.pdf) that Taylor and Bertschinger updated in 2017
+* Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; Gravitational Waves &mdash; Long after *Exploring Black Holes* was written, in 2016, gravitational waves were detected &mdash; The second edition of *Exploring Black Holes* has [a chapter on gravitational waves](./resources/TaylorWheelerBertschinger-GravitationalWaves.pdf) that Taylor and Bertschinger updated in 2017 and I am thinking I we will cover the basics of gravitational waves in our final class
 
-<img src="./resources/EffectivePotentialsForOrbiting.png" alt="Effective potentials for orbiting a black hole" width="60%">
+<img src="./resources/InsertionOrbit.png" alt="Insertion orbit" width="90%">
