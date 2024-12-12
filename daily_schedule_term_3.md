@@ -46,4 +46,6 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 16 &mdash; Exam 3
 * Thursday, Dec. 19 &mdash; Bonus Final Topic &mdash; Gravitational Waves &mdash; Long after *Exploring Black Holes* was written, in 2016, gravitational waves were detected &mdash; The second edition of *Exploring Black Holes* has [a chapter on gravitational waves](./resources/TaylorWheelerBertschinger-GravitationalWaves.pdf) that Taylor and Bertschinger updated in 2017 and I am thinking I we will cover the basics of gravitational waves in our final class
 
-<img src="./resources/InsertionOrbit.png" alt="Insertion orbit" width="90%">
+*Paths of Light Converging to an Observer at r=3M*
+
+<img src="./resources/PathsOfLight.jpeg" alt="Paths of Light" width="80%">
