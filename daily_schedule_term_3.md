@@ -43,8 +43,8 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 
 ### Week 15 &mdash; Exam 3 &mdash; Cosmology
 
-* Monday, Dec. 16 &mdash; Exam 3 &mdash; Covering *Exploring Black Holes Chapters 3, B, and 4
-* Thursday, Dec. 19 &mdash; Cosmology &mdash; In 1998, by studying distant supernova, it was determined that the universe is accelerating (expanding faster now than in the past) &mdash; All the way back in 1917, Einstein had introduced a term into his equations that we now refer to as the &ldquo;vacuum energy&rdquo; density &mdash; In our final class, we will introduce the metric of the universe and what is known about it
+* Monday, Dec. 16 &mdash; Exam 3 &mdash; Covering *Exploring Black Holes Chapters* 3, B, and 4
+* Thursday, Dec. 19 &mdash; Cosmology &mdash; In 1998, by studying distant supernova, it was determined that the universe is accelerating (expanding faster now than in the past) &mdash; All the way back in 1917, Einstein had introduced a &rdquo;cosmological constant&rdquo; term that quantum field theorists refer to as the &ldquo;vacuum energy density&rdquo; and cosmologists refer to as the &ldquo;dark energy&rdquo; &mdash; In our final class, we will introduce the metric of the universe, and hopefully get to what is known about the current rate of acceleration and the current estimate of the dark energy density
 
 *Paths of Light Converging to an Observer at r=3M*
 
