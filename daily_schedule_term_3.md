@@ -39,12 +39,12 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 ### Week 14 &mdash; Finish Orbiting
 
 * Monday, Dec. 9 &mdash; Continue your study Chapter 4 of *Exploring Black Holes* through Section 4-7 (through p. 4-20) &mdash; For Problem Set 17 do Problems 3 and 4 on. p. 4-29 and 4-30 &mdash; We derived Eq. 30 on p. 4-15 and did Problem 6 on p. 4-31 in class, and that concludes our study of Chapter 4
-* Thursday, Dec. 12 &mdash; Study Sections 5-1 to 5-5 of Chapter 5 (through p. 5-10) &mdash; For Problem Set 18 do Problem 5 on p. 5-33 (you can use Eq. 25 from Section 5-6 blindly) &mdash; I am thinking we will derive Eq. 25 in Section 5-6 and work through Section 5-7 in class
+* Thursday, Dec. 12 &mdash; Study Sections 5-1 to 5-5 of Chapter 5 (through p. 5-10) &mdash; For Problem Set 18 do Problem 5 on p. 5-33 (you can use Eq. 25 from Section 5-6 blindly) &mdash; We will do a complete derivation of Eq. 25 in Section 5-6 (the effective potential for light) and work through some of the consequences pictured in Section 5-7
 
 ### Week 15 &mdash; Exam 3 &mdash; Cosmology
 
 * Monday, Dec. 16 &mdash; Exam 3 &mdash; Covering *Exploring Black Holes Chapters* 3, B, and 4
-* Thursday, Dec. 19 &mdash; Cosmology &mdash; In 1998, by studying distant supernova, it was determined that the universe is accelerating (expanding faster now than in the past) &mdash; All the way back in 1917, Einstein had introduced a &rdquo;cosmological constant&rdquo; term that quantum field theorists refer to as the &ldquo;vacuum energy density&rdquo; and cosmologists refer to as the &ldquo;dark energy&rdquo; &mdash; In our final class, we will introduce the metric of the universe, and hopefully get to what is known about the current rate of acceleration and the current estimate of the dark energy density
+* Thursday, Dec. 19 &mdash; Cosmology &mdash; In 1998, by studying distant supernova, it was determined that the universe is accelerating (expanding faster now than in the past) &mdash; All the way back in 1917, Einstein had introduced a &rdquo;cosmological constant&rdquo; term that has the effect of causing the universe to expand &mdash; Quantum field theorists interpret the cosmological constant as the &ldquo;vacuum energy density&rdquo; and cosmologists refer to the same thing the &ldquo;dark energy&rdquo; &mdash; In our final class, we will introduce the metric of the universe (the Friedmann-Robertson-Walker metric), what is known about the current rate of acceleration, and how this translates into an estimate of the dark energy density
 
 *Paths of Light Converging to an Observer at r=3M*
 
