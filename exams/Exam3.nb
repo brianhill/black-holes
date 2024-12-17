@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39829,        997]
-NotebookOptionsPosition[     37081,        938]
-NotebookOutlinePosition[     37566,        957]
-CellTagsIndexPosition[     37523,        954]
+NotebookDataLength[     39274,        980]
+NotebookOptionsPosition[     36526,        921]
+NotebookOutlinePosition[     37011,        940]
+CellTagsIndexPosition[     36968,        937]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -650,7 +650,7 @@ Cell[TextData[{
         RowBox[{
          FormBox[
           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
-           SubscriptBox["\[Tau]", "B"]}],
+           SubscriptBox["\[Tau]", "A"]}],
           TraditionalForm], "+", 
          RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
           SubscriptBox["\[Tau]", "B"]}]}], ")"}],
@@ -706,15 +706,15 @@ call ",
   "adb9dcc0-303b-4bbe-a830-c259edb81ac1"],
  ". Declare that the terms in your equation that only involve segment ",
  Cell[BoxData[
-  FormBox["A", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["A", TraditionalForm]],ExpressionUUID->
   "c5df525e-7cc7-4be8-add0-6ec874a27b84"],
  " are this constant."
 }], "Text",
  CellChangeTimes->{{3.943313732142424*^9, 3.943314459434293*^9}, {
   3.943314506002089*^9, 3.943314814663513*^9}, {3.94334754505873*^9, 
-  3.943347670626329*^9}, {3.943348334321316*^9, 
-  3.943348334897108*^9}},ExpressionUUID->"1c468ddf-9114-4e64-b7de-\
+  3.943347670626329*^9}, {3.943348334321316*^9, 3.943348334897108*^9}, {
+  3.9434008884468327`*^9, 
+  3.9434008888339443`*^9}},ExpressionUUID->"1c468ddf-9114-4e64-b7de-\
 6af05f17c308"]
 }, Open  ]],
 
@@ -747,7 +747,7 @@ Cell[TextData[{
         RowBox[{
          FormBox[
           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
-           SubscriptBox["\[Tau]", "B"]}],
+           SubscriptBox["\[Tau]", "A"]}],
           TraditionalForm], "+", 
          RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
           SubscriptBox["\[Tau]", "B"]}]}], ")"}],
@@ -763,15 +763,15 @@ Schwarzschild metric, so we can just call it ",
   FormBox[
    FractionBox["L", "m"], TraditionalForm]],ExpressionUUID->
   "e90052f1-0e40-425e-b265-2a184c62a258"],
- ".\n\n\n[Apologies for the waste of paper. I wanted the exam to have an even \
-number of pages.]"
+ ".\n"
 }], "Text",
  CellChangeTimes->{{3.943313732142424*^9, 3.943314459434293*^9}, {
   3.943314506002089*^9, 3.943314814663513*^9}, {3.943314855229722*^9, 
   3.943315065605014*^9}, {3.943347686393776*^9, 3.943347696185645*^9}, {
   3.94334826988589*^9, 3.943348289847822*^9}, {3.943348338014307*^9, 
-  3.943348393472299*^9}, {3.943348516354526*^9, 
-  3.943348538104458*^9}},ExpressionUUID->"c2dcd8a4-41b2-4042-9f12-\
+  3.943348393472299*^9}, {3.943348516354526*^9, 3.943348538104458*^9}, {
+  3.943400625731296*^9, 3.9434006264881697`*^9}, {3.943400784554821*^9, 
+  3.943400785215383*^9}},ExpressionUUID->"c2dcd8a4-41b2-4042-9f12-\
 2a694fb1373f"]
 }, Open  ]]
 }, Open  ]],
@@ -866,29 +866,12 @@ that your answer.\n\nB. If ",
     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
     RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
   "86b357e1-b426-444a-8e4f-f8aa1d68edac"],
- " be?\n\nCOMMENT: Ah-hah. In C you found the \[OpenCurlyDoubleQuote]turning \
-point\[CloseCurlyDoubleQuote] when ",
- Cell[BoxData[
-  FormBox["R", TraditionalForm]],ExpressionUUID->
-  "ac578808-d03f-4b3b-bf84-5564ca11613d"],
- " reaches its maximum and decreases again. As ",
- Cell[BoxData[
-  FormBox["R", TraditionalForm]],ExpressionUUID->
-  "d7d165dc-4c65-48bf-bdb8-e440244ccf87"],
- " decreases ",
- Cell[BoxData[
-  FormBox[
-   FractionBox[
-    RowBox[{"d", "\[VeryThinSpace] ", "R"}], 
-    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
-  "69bb3059-73c7-4533-9303-ac343e82ed60"],
- " progresses back through the negative solutions we ignored in A and B.\n\n\
-D. Put in ",
+ " be? <-------- PART C DID NOT DO WORK OUT TO WHAT I MEANT IT TO WORK OUT \
+TO, SO WE SCRATCHED IT OFF THE EXAM.\n\nD. Put in ",
  Cell[BoxData[
   FormBox[
    RowBox[{"R", "=", 
-    FractionBox["M", "20000"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FractionBox["M", "20000"]}], TraditionalForm]],ExpressionUUID->
   "719e8529-99c7-4522-80dd-44e7d0768f97"],
  ". Neglect the 1 in the equation ",
  Cell[BoxData[
@@ -908,8 +891,7 @@ D. Put in ",
   FormBox[
    RowBox[{
     SubscriptBox["V", "eff"], "(", "R", ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "2196a9d1-185f-4e3a-94df-47f8f5d6c972"],
+  ExpressionUUID->"2196a9d1-185f-4e3a-94df-47f8f5d6c972"],
  " is now so huge. This time take the negative square root when you solve for \
 ",
  Cell[BoxData[
@@ -930,7 +912,8 @@ mass to slow the expansion, and the universe will expand forever."
   3.9433061890133257`*^9, 3.943306242528911*^9}, {3.94331287063093*^9, 
   3.943312969721989*^9}, {3.943317194134584*^9, 3.943317198888233*^9}, {
   3.943347720338251*^9, 3.9433479874557*^9}, {3.943348680300948*^9, 
-  3.94334868095835*^9}},ExpressionUUID->"ae73f335-8e45-4341-a3d6-\
+  3.94334868095835*^9}, {3.9434006760988493`*^9, 
+  3.943400716418663*^9}},ExpressionUUID->"ae73f335-8e45-4341-a3d6-\
 938c9bb77335"]
 }, Open  ]]
 }, Open  ]]
@@ -975,7 +958,7 @@ Cell[11396, 285, 509, 9, 73, "Text",ExpressionUUID->"ad288830-cf7a-4c29-9395-baa
 Cell[CellGroupData[{
 Cell[11930, 298, 779, 11, 67, "Subsection",ExpressionUUID->"99b9eb8c-5a9c-44bd-8dc6-da0f557d5503"],
 Cell[12712, 311, 5850, 140, 751, "Text",ExpressionUUID->"8b75771f-70d4-4740-9152-7e9f3998b4e1"],
-Cell[18565, 453, 99, 1, 1, "PageBreak",ExpressionUUID->"40d121f5-5042-4534-940c-78c01e4ef205",
+Cell[18565, 453, 99, 1, 4, "PageBreak",ExpressionUUID->"40d121f5-5042-4534-940c-78c01e4ef205",
  PageBreakBelow->True]
 }, Open  ]]
 }, Open  ]],
@@ -984,18 +967,18 @@ Cell[18713, 460, 672, 10, 84, "Section",ExpressionUUID->"34c84eb1-510f-4131-8f0e
 Cell[19388, 472, 1274, 18, 69, "Text",ExpressionUUID->"c0c55cb8-7dd3-4cda-a1ec-05ee6bdee0ec"],
 Cell[CellGroupData[{
 Cell[20687, 494, 736, 10, 67, "Subsection",ExpressionUUID->"a6aba962-6172-4353-ab83-fe09e2e10134"],
-Cell[21426, 506, 7164, 211, 882, "Text",ExpressionUUID->"1c468ddf-9114-4e64-b7de-6af05f17c308"]
+Cell[21426, 506, 7186, 211, 882, "Text",ExpressionUUID->"1c468ddf-9114-4e64-b7de-6af05f17c308"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28627, 722, 800, 13, 67, "Subsection",ExpressionUUID->"01df6358-d4df-408d-8333-b44c89f457e1"],
-Cell[29430, 737, 1534, 37, 205, "Text",ExpressionUUID->"c2dcd8a4-41b2-4042-9f12-2a694fb1373f"]
+Cell[28649, 722, 800, 13, 67, "Subsection",ExpressionUUID->"01df6358-d4df-408d-8333-b44c89f457e1"],
+Cell[29452, 737, 1539, 37, 148, "Text",ExpressionUUID->"c2dcd8a4-41b2-4042-9f12-2a694fb1373f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[31013, 780, 489, 7, 84, "Section",ExpressionUUID->"60abe7eb-b48e-4c6b-bfdf-3bf362d5a2dc"],
+Cell[31040, 780, 489, 7, 84, "Section",ExpressionUUID->"60abe7eb-b48e-4c6b-bfdf-3bf362d5a2dc"],
 Cell[CellGroupData[{
-Cell[31527, 791, 601, 9, 67, "Subsection",ExpressionUUID->"c2fdefbe-2a3f-4171-a7bd-aaff188ebfab"],
-Cell[32131, 802, 4910, 131, 751, "Text",ExpressionUUID->"ae73f335-8e45-4341-a3d6-938c9bb77335"]
+Cell[31554, 791, 601, 9, 67, "Subsection",ExpressionUUID->"c2fdefbe-2a3f-4171-a7bd-aaff188ebfab"],
+Cell[32158, 802, 4328, 114, 688, "Text",ExpressionUUID->"ae73f335-8e45-4341-a3d6-938c9bb77335"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
