@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39274,        980]
-NotebookOptionsPosition[     36526,        921]
-NotebookOutlinePosition[     37011,        940]
-CellTagsIndexPosition[     36968,        937]
+NotebookDataLength[     39635,        995]
+NotebookOptionsPosition[     36887,        936]
+NotebookOutlinePosition[     37372,        955]
+CellTagsIndexPosition[     37329,        952]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -814,7 +814,8 @@ Cell[TextData[{
  "\n\nAnd here is the equation that effective potential appears in:\n\n",
  Cell[BoxData[
   FormBox[
-   RowBox[{"1", "=", 
+   RowBox[{
+    RowBox[{"-", "1"}], "=", 
     RowBox[{
      SuperscriptBox[
       RowBox[{"(", 
@@ -828,7 +829,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"R", "=", 
-    FractionBox["M", "4"]}], TraditionalForm]],ExpressionUUID->
+    FractionBox["M", "5"]}], TraditionalForm]],ExpressionUUID->
   "294a169c-c27a-42a1-a14a-d847c3bd6105"],
  ", what is must ",
  Cell[BoxData[
@@ -844,7 +845,7 @@ that your answer.\n\nB. If ",
   FormBox[
    RowBox[{"R", "=", 
     RowBox[{
-     FractionBox["2", "3"], "M"}]}], TraditionalForm]],ExpressionUUID->
+     FractionBox["2", "5"], "M"}]}], TraditionalForm]],ExpressionUUID->
   "c7fc9bc5-adcf-4ccc-820c-2e228486b771"],
  " what must  ",
  Cell[BoxData[
@@ -866,17 +867,30 @@ that your answer.\n\nB. If ",
     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
     RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
   "86b357e1-b426-444a-8e4f-f8aa1d68edac"],
- " be? <-------- PART C DID NOT DO WORK OUT TO WHAT I MEANT IT TO WORK OUT \
-TO, SO WE SCRATCHED IT OFF THE EXAM.\n\nD. Put in ",
+ " be?\n\nD. Put in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    FractionBox["M", "5000"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "46a010b4-b42b-4a14-86d0-3ccd815ea0f2"],
+ " and then ",
  Cell[BoxData[
   FormBox[
    RowBox[{"R", "=", 
     FractionBox["M", "20000"]}], TraditionalForm]],ExpressionUUID->
   "719e8529-99c7-4522-80dd-44e7d0768f97"],
- ". Neglect the 1 in the equation ",
+ ". In both cases, neglect the ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"1", "=", 
+   RowBox[{"-", "1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cca8a53a-79ce-41d9-b8d9-49c161c714fa"],
+ " in the equation ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"-", "1"}], "=", 
     RowBox[{
      SuperscriptBox[
       RowBox[{"(", 
@@ -912,8 +926,9 @@ mass to slow the expansion, and the universe will expand forever."
   3.9433061890133257`*^9, 3.943306242528911*^9}, {3.94331287063093*^9, 
   3.943312969721989*^9}, {3.943317194134584*^9, 3.943317198888233*^9}, {
   3.943347720338251*^9, 3.9433479874557*^9}, {3.943348680300948*^9, 
-  3.94334868095835*^9}, {3.9434006760988493`*^9, 
-  3.943400716418663*^9}},ExpressionUUID->"ae73f335-8e45-4341-a3d6-\
+  3.94334868095835*^9}, {3.943400676098849*^9, 3.943400716418663*^9}, {
+  3.943663252751814*^9, 
+  3.943663336810334*^9}},ExpressionUUID->"ae73f335-8e45-4341-a3d6-\
 938c9bb77335"]
 }, Open  ]]
 }, Open  ]]
@@ -978,7 +993,7 @@ Cell[CellGroupData[{
 Cell[31040, 780, 489, 7, 84, "Section",ExpressionUUID->"60abe7eb-b48e-4c6b-bfdf-3bf362d5a2dc"],
 Cell[CellGroupData[{
 Cell[31554, 791, 601, 9, 67, "Subsection",ExpressionUUID->"c2fdefbe-2a3f-4171-a7bd-aaff188ebfab"],
-Cell[32158, 802, 4328, 114, 688, "Text",ExpressionUUID->"ae73f335-8e45-4341-a3d6-938c9bb77335"]
+Cell[32158, 802, 4689, 129, 659, "Text",ExpressionUUID->"ae73f335-8e45-4341-a3d6-938c9bb77335"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
