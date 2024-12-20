@@ -1,0 +1,772 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     26660,        764]
+NotebookOptionsPosition[     25059,        726]
+NotebookOutlinePosition[     25586,        746]
+CellTagsIndexPosition[     25543,        743]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Cosmology",
+ FontSize->36,
+ FontWeight->"Regular"]], "Chapter",
+ CellChangeTimes->{{3.93614357115933*^9, 3.936143578477282*^9}, {
+  3.936308311568031*^9, 3.9363083129404993`*^9}, {3.940890020724221*^9, 
+  3.940890020883214*^9}, {3.943304298114865*^9, 3.943304298196459*^9}, {
+  3.943606535259329*^9, 
+  3.943606536501833*^9}},ExpressionUUID->"4abd8d6e-7858-4f72-99f7-\
+579b3a04128d"],
+
+Cell["\<\
+The first half of what follows is motivation, not derivation. Robertson and \
+Walker proved (in 1929 and 1936) that the most general homogeneous isotropic \
+spacetime is that which had already been given by Friedman in 1924. Once you \
+have been through the motivation, you need to free yourself from it, because \
+we are interested in starting with the most general solution, and narrowing \
+down with observations to the particular solution of Einstein\
+\[CloseCurlyQuote]s equations we actually live in.\
+\>", "Text",
+ CellChangeTimes->{{3.9436609182935743`*^9, 3.9436609884623833`*^9}, {
+  3.943661082488783*^9, 3.943661093932404*^9}, {3.9436612268202877`*^9, 
+  3.943661410817731*^9}},ExpressionUUID->"cc6563eb-05d6-4327-95be-\
+3eff295820a6"],
+
+Cell[CellGroupData[{
+
+Cell["Newtonian Big Bang Cosmology", "Section",
+ CellChangeTimes->{{3.9408945285661516`*^9, 3.940894532404984*^9}, {
+   3.940896143675713*^9, 3.940896148865458*^9}, {3.940897897989615*^9, 
+   3.940897903262648*^9}, {3.940897949054306*^9, 3.940897954316886*^9}, 
+   3.940900213094102*^9, {3.940900334021997*^9, 3.940900335212069*^9}, {
+   3.943305594964328*^9, 3.943305600856107*^9}, {3.943317179761506*^9, 
+   3.9433171823402042`*^9}, {3.943607674929648*^9, 3.943607680523436*^9}, {
+   3.943660871085487*^9, 3.943660880053261*^9}, {3.943661415246789*^9, 
+   3.943661416488737*^9}},ExpressionUUID->"9a54ade7-15df-4dd6-a4bd-\
+683a6eced01e"],
+
+Cell[TextData[{
+ "Imagine you can see a galaxy a distance R from you, and you consider \
+yourself to be at the center of a uniform Newtonian space filled with dust of \
+density \[Rho]. The galaxy is moving away from you with speed ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace] ", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b542ecbe-c45a-49b7-8216-60673a63331b"],
+ ". You can imagine that Newton\[CloseCurlyQuote]s Universal law of \
+Gravitation applies to you and the galaxy in the following way:\n\nA sphere \
+of radius ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "28203e05-92f6-4878-bfff-266d29ae3965"],
+ " contains a mass ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{
+     FractionBox["4", "3"], "\[Pi]", "\[VeryThinSpace]", 
+     SuperscriptBox["R", "3"], "\[Rho]"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cc3a3c21-041d-4d2f-b5c9-8ba0166c37ba"],
+ "  of dust. Now dust is not created or being destroyed, so you can see that \
+the if the galaxy is moving away from you at speed ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace] ", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "167e57d4-ea1a-480f-bde0-5c04429b53cf"],
+ " and the dust at the edge of the sphere is moving away at the same speed, \
+then it must be that ",
+ Cell[BoxData[
+  FormBox["\[Rho]", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b8dc2e8f-ed96-4c29-b815-b34587c75931"],
+ " decreases as ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c951aeaf-bd90-4b18-9350-1b9ae26803a8"],
+ " increases, and so ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Rho]", "=", 
+    FractionBox["M", 
+     RowBox[{
+      FractionBox["4", "3"], "\[Pi]", "\[VeryThinSpace]", 
+      SuperscriptBox["R", "3"]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9885ad78-ac77-4b74-8235-7a4c3a841cdc"],
+ ".\n\nThe speed of the galaxy should be decreasing and its decrease is due \
+to the Newton\[CloseCurlyQuote]s Universal Law of Gravitation, so\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["m", "galaxy"], "\[VeryThinSpace]", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["d", "2"], "R"}], 
+      RowBox[{"d", " ", 
+       SuperscriptBox["t", "2"]}]]}], "=", 
+    RowBox[{"-", 
+     StyleBox[
+      FractionBox[
+       RowBox[{"G", "\[VeryThinSpace]", "M", " ", 
+        SubscriptBox["m", "galaxy"]}], 
+       SuperscriptBox["R", "2"]],
+      FontSize->16]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "87a95fb6-d32d-4400-ad3c-762f1f6593e0"],
+ "\n\nIn this course, we usually set ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"G", "=", "1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bc7796e0-f67d-40a5-869c-8ebdacda952e"],
+ ", and also we can cancel the mass of the galaxy off of both sides, leaving\n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["d", "2"], "R"}], 
+     RowBox[{"d", " ", 
+      SuperscriptBox["t", "2"]}]], "=", 
+    RowBox[{"-", 
+     StyleBox[
+      FractionBox["M", 
+       SuperscriptBox["R", "2"]],
+      FontSize->16]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "06ce4a7b-41fb-4e4c-8667-3b7875925891"],
+ "\n\nTo integrate this equation, multiply both sides by ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e9c09489-36b3-479b-9af7-b2a34e70ca8d"],
+ ".\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+      RowBox[{"d", "\[VeryThinSpace]", "t"}]], 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["d", "2"], "R"}], 
+      RowBox[{"d", " ", 
+       SuperscriptBox["t", "2"]}]]}], "=", 
+    RowBox[{
+     RowBox[{"-", 
+      StyleBox[
+       FractionBox["M", 
+        SuperscriptBox["R", "2"]],
+       FontSize->16]}], 
+     FractionBox[
+      RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+      RowBox[{"d", "\[VeryThinSpace]", "t"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "aa5c1867-de94-42c7-af3d-bc461d00ffbc"],
+ "\n\nand recognize that the left hand side is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", "2"], 
+    FractionBox["d", 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+       RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"]}], 
+   TraditionalForm]],ExpressionUUID->"05826d9e-2c3d-4fe2-94d2-d010a4ed3992"],
+ "\n\nand the right hand side is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["d", 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], 
+    StyleBox[
+     FractionBox["M", "R"],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "795080f4-5e7a-49d9-9a80-6f27b72957f8"],
+ "\n\nThat means that they are equal up to a constant, which I will call ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"-", "b"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6fbf0e78-0e88-43d0-8815-ad02c37a23b7"],
+ ".\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox["1", "2"], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"]}], "=", 
+    StyleBox[
+     RowBox[{
+      FractionBox["M", "R"], "-", "b"}],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "8fb3c912-52e8-4c6a-b8c4-6f50acb73d7f"],
+ "   or     ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+       RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "=", 
+    StyleBox[
+     RowBox[{
+      FractionBox[
+       RowBox[{"2", "M"}], "R"], "-", 
+      RowBox[{"2", "b"}]}],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "6c0d9b16-2513-49ae-8007-62150a4a9c87"],
+ "\n\nThis you will see is a lot like Einstein\[CloseCurlyQuote]s cosmology. \
+It will turn out that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"b", "=", 
+    FractionBox["1", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f6a42dcd-687d-4ba2-b7c5-790367b8e6ac"],
+ " for a big bang with enough mass in the volume ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8536afd8-ab63-4a78-b022-76c263ed8b2b"],
+ " to eventually bring the expansion to a halt. That isn\[CloseCurlyQuote]t \
+entirely satisfying to me, and it should be to you either, but it is a good \
+whack of motivation for what follows."
+}], "Text",
+ CellChangeTimes->{{3.9436609182935743`*^9, 3.9436609884623833`*^9}, {
+  3.943661082488783*^9, 3.943661093932404*^9}, {3.9436612268202877`*^9, 
+  3.9436622077307463`*^9}, {3.943662315633667*^9, 3.94366281854294*^9}, {
+  3.943662849770897*^9, 
+  3.943662964151721*^9}},ExpressionUUID->"bb76d151-9ce3-40e6-b668-\
+26469d69c8da"]
+}, Open  ]],
+
+Cell["A Homogeneous and Isotropic Universe", "Section",
+ CellChangeTimes->{{3.9408945285661516`*^9, 3.940894532404984*^9}, {
+   3.940896143675713*^9, 3.940896148865458*^9}, {3.940897897989615*^9, 
+   3.940897903262648*^9}, {3.940897949054306*^9, 3.940897954316886*^9}, 
+   3.940900213094102*^9, {3.940900334021997*^9, 3.940900335212069*^9}, {
+   3.943305594964328*^9, 3.943305600856107*^9}, {3.943317179761506*^9, 
+   3.9433171823402042`*^9}, {3.943607674929648*^9, 3.943607680523436*^9}, {
+   3.943660871085487*^9, 3.943660880053261*^9}, {3.943661415246789*^9, 
+   3.943661416488737*^9}, {3.9436629932863398`*^9, 
+   3.943663008311949*^9}},ExpressionUUID->"0dfa25bd-3865-4170-960e-\
+fc0f5e932022"],
+
+Cell[CellGroupData[{
+
+Cell["The Effective Potential with Only Dust", "Section",
+ CellChangeTimes->{{3.9408945285661516`*^9, 3.940894532404984*^9}, {
+   3.940896143675713*^9, 3.940896148865458*^9}, {3.940897897989615*^9, 
+   3.940897903262648*^9}, {3.940897949054306*^9, 3.940897954316886*^9}, 
+   3.940900213094102*^9, {3.940900334021997*^9, 3.940900335212069*^9}, {
+   3.943305594964328*^9, 3.943305600856107*^9}, {3.943317179761506*^9, 
+   3.9433171823402042`*^9}, {3.943607674929648*^9, 
+   3.943607680523436*^9}},ExpressionUUID->"60abe7eb-b48e-4c6b-bfdf-\
+3bf362d5a2dc"],
+
+Cell[TextData[{
+ "The following must be satisfied for Einstein\[CloseCurlyQuote]s equations \
+containing uniform dust:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["V", "eff"], "(", "R", ")"}], "=", 
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"2", "M"}], "R"]}]}], TraditionalForm]],ExpressionUUID->
+  "09f301f5-89fa-4c14-93d5-576d5c948eca"],
+ "                and              ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"-", "1"}], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "+", 
+     RowBox[{
+      SubscriptBox["V", "eff"], "(", "R", ")"}]}]}], TraditionalForm]],
+  ExpressionUUID->"16a63b69-dd88-459b-a305-7d25d54ca3e9"],
+ "\n\nThen (focusing on the positive square root):\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", 
+    SqrtBox[
+     RowBox[{
+      RowBox[{"-", "1"}], "+", 
+      FractionBox[
+       RowBox[{"2", "M"}], "R"]}]]}], TraditionalForm]],ExpressionUUID->
+  "c104921a-f915-4086-bf84-33e8d2b47a9a"],
+ "\n\nA. If ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    FractionBox["M", "5"]}], TraditionalForm]],ExpressionUUID->
+  "cfd2c6db-62ee-4a51-982a-60f24bf78a53"],
+ ", what is must ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
+  "a4719a95-5e4c-4098-85c5-3d1863cbf231"],
+ " be? ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", "3"}], TraditionalForm]],
+  ExpressionUUID->"5f2e5de1-9dc4-4f6a-bc70-18f6f5f6d106"],
+ "\n\nB. If ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{"2", 
+     RowBox[{"M", "/", "5"}]}]}], TraditionalForm]],ExpressionUUID->
+  "a52b0647-0046-4eb8-b4ac-82aeb4ed1ab0"],
+ " what must  ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
+  "886b96fb-aca7-40c2-b3c0-cedf7d6e00ff"],
+ " be? ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", "2"}], TraditionalForm]],
+  ExpressionUUID->"bdc60c3a-b0f9-41b3-a5bf-0592fff1e509"],
+ "\n\nC. If ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],ExpressionUUID->
+  "faa85891-6674-4071-9c6f-b463fd1fee18"],
+ " what must ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
+  "43ccfca9-c165-45a7-a35e-3a43120caff1"],
+ " be? ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", "0"}], TraditionalForm]],
+  ExpressionUUID->"c385b6cc-3ba0-4809-bc8e-26ec7b6a5bf2"],
+ "\n\nCOMMENT: Ah-hah we have found the turning point of the universe. When \
+it grows to a radius ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],ExpressionUUID->
+  "b043e420-81bb-4c4c-9fb2-c26b10601d3a"],
+ " it stops expanding and after that ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+    RowBox[{"d", "\[VeryThinSpace]", "t"}]], TraditionalForm]],ExpressionUUID->
+  "56f94d8f-b493-44e0-bd81-afd79b7618ef"],
+ " is negative.\n\nLet\[CloseCurlyQuote]s focus on the negative square root \
+and look at some tiny values of ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],ExpressionUUID->
+  "5f5d457d-bb2a-42e6-ae95-404abfec7417"],
+ ". Let\[CloseCurlyQuote]s make the values so small that the -1 in ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     FractionBox[
+      RowBox[{"2", "M"}], "R"]}]], TraditionalForm]],ExpressionUUID->
+  "af203ce9-5f1c-47e3-86dd-8878cc50f812"],
+ " is negligible compared to ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"2", "M"}], "R"], TraditionalForm]],ExpressionUUID->
+  "ee8d48a2-5462-4956-a02e-503041aa0924"],
+ ".\n\nD. Put in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    FractionBox["M", "5000"]}], TraditionalForm]],ExpressionUUID->
+  "aa226b9f-7bed-4dee-8263-e972aaf0dcac"],
+ ". Then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       SqrtBox[
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         FractionBox[
+          RowBox[{"2", "M"}], "R"]}]]}], "\[TildeTilde]", 
+      RowBox[{"-", 
+       SqrtBox[
+        FractionBox[
+         RowBox[{"2", "M"}], 
+         RowBox[{"M", "/", "5000"}]]]}]}], "=", 
+     RowBox[{
+      RowBox[{"-", 
+       SqrtBox["10000"]}], "=", 
+      RowBox[{"-", "100"}]}]}]}], TraditionalForm]],ExpressionUUID->
+  "ae5f19f6-a7ca-426a-9b2e-5bace22929cd"],
+ ".\n\nOr put in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    FractionBox["M", "20000"]}], TraditionalForm]],ExpressionUUID->
+  "2f138b60-cf39-4f3d-95f3-b1da3e7af7c2"],
+ ". Then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+     RowBox[{"d", "\[VeryThinSpace]", "t"}]], "=", 
+    RowBox[{
+     SqrtBox[
+      FractionBox[
+       RowBox[{"2", "M"}], 
+       RowBox[{"M", "/", "20000"}]]], "=", 
+     RowBox[{
+      SqrtBox["40000"], "=", 
+      RowBox[{"-", "200"}]}]}]}], TraditionalForm]],ExpressionUUID->
+  "e39ddb34-1700-480a-b282-fedc1700dc3d"],
+ ".\n\nCOMMENT: What you are approaching in D is called \
+\[OpenCurlyDoubleQuote]the big crunch,\[CloseCurlyDoubleQuote] and it is a \
+possible endpoint for the universe if there were enough mass in the universe \
+to slow the expansion to a halt. All evidence is actually that there is not \
+enough mass to slow the expansion, and the universe will expand forever."
+}], "Text",
+ CellChangeTimes->{{3.943305628309588*^9, 3.943305792553094*^9}, {
+  3.943305884023835*^9, 3.943305892257756*^9}, {3.943305933044599*^9, 
+  3.943306050968048*^9}, {3.9433060850458403`*^9, 3.943306102307041*^9}, {
+  3.9433061890133257`*^9, 3.943306242528911*^9}, {3.94331287063093*^9, 
+  3.943312969721989*^9}, {3.943317194134584*^9, 3.943317198888233*^9}, {
+  3.943347720338251*^9, 3.9433479874557*^9}, {3.943348680300948*^9, 
+  3.94334868095835*^9}, {3.943400676098849*^9, 3.943400716418663*^9}, {
+  3.943606565786259*^9, 3.943606703339901*^9}, {3.9436067383613787`*^9, 
+  3.943606748700355*^9}, {3.9436067909552603`*^9, 3.94360682968775*^9}, {
+  3.943606867356162*^9, 3.943606984964163*^9}, {3.943607031484253*^9, 
+  3.943607081690271*^9}, {3.9436071406457443`*^9, 3.943607461833158*^9}, {
+  3.943607525266749*^9, 3.943607661174704*^9}, {3.9436630618080893`*^9, 
+  3.943663140629233*^9}},ExpressionUUID->"eee1b20a-fc31-4d72-9cb2-\
+79aa874f0939"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Introducing Variables Referencing the State of the Universe Today\
+\>", "Section",
+ CellChangeTimes->{{3.9408945285661516`*^9, 3.940894532404984*^9}, {
+   3.940896143675713*^9, 3.940896148865458*^9}, {3.940897897989615*^9, 
+   3.940897903262648*^9}, {3.940897949054306*^9, 3.940897954316886*^9}, 
+   3.940900213094102*^9, {3.940900334021997*^9, 3.940900335212069*^9}, {
+   3.943305594964328*^9, 3.943305600856107*^9}, {3.943317179761506*^9, 
+   3.9433171823402042`*^9}, {3.943607674929648*^9, 3.943607680523436*^9}, {
+   3.9436077140519857`*^9, 3.943607722092869*^9}, {3.943608815632443*^9, 
+   3.9436088298828278`*^9}},ExpressionUUID->"8552191b-8b06-4868-a452-\
+02f997149e3f"],
+
+Cell[TextData[{
+ "Let\[CloseCurlyQuote]s go back to \n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "=", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+         RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "+", 
+      RowBox[{
+       SubscriptBox["V", "eff"], "(", "R", ")"}]}], "=", 
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"d", "\[VeryThinSpace]", "R"}], 
+         RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+      FractionBox[
+       RowBox[{"2", "M"}], "R"]}]}]}], TraditionalForm]],ExpressionUUID->
+  "1db53b1c-2922-48d2-9734-964988897089"],
+ "\n\nWe define ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"R", "(", "t", ")"}], "=", 
+    RowBox[{
+     SubscriptBox["R", "0"], 
+     RowBox[{"a", "(", "t", ")"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0003e160-157b-4c1a-8230-8f672918b9e4"],
+ "\n\nThen\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox["R", "0"], "2"], "(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+     FractionBox[
+      RowBox[{"2", "M"}], 
+      RowBox[{
+       SubscriptBox["R", "0"], "a"}]]}]}], TraditionalForm]],ExpressionUUID->
+  "470a1014-f261-4bd9-abe1-a0c887718960"],
+ "\n\nor\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox[
+      SubscriptBox["R", "0"], "2"]], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+     FractionBox[
+      RowBox[{"2", "M"}], 
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox["R", "0"], "3"], "a"}]]}]}], TraditionalForm]],
+  ExpressionUUID->"78f55ad4-9368-45ba-a606-9cd578684e73"],
+ "\n\nFinally define the density of dust today\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Rho]", "0"], "=", 
+    StyleBox[
+     FractionBox["M", 
+      RowBox[{
+       FractionBox["4", "3"], "\[Pi]", " ", 
+       SuperscriptBox[
+        SubscriptBox["R", "0"], "3"]}]],
+     FontSize->16]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a4eae666-0b58-44d3-b5ef-5d7c9e170a41"],
+ "  or ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     SubscriptBox["R", "0"], "3"], "=", 
+    RowBox[{
+     StyleBox[
+      FractionBox["M", 
+       RowBox[{
+        FractionBox["4", "3"], "\[Pi]", " ", 
+        SubscriptBox["\[Rho]", "0"]}]],
+      FontSize->16], "="}]}], TraditionalForm]],ExpressionUUID->
+  "abe0183c-c53f-40f9-803d-b7e1daaeb0f6"],
+ "\n\nThen\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox[
+      SubscriptBox["R", "0"], "2"]], "=", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+         RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+      FractionBox[
+       RowBox[{"2", "M"}], 
+       RowBox[{
+        StyleBox[
+         FractionBox["M", 
+          RowBox[{
+           FractionBox["4", "3"], "\[Pi]", " ", 
+           SubscriptBox["\[Rho]", "0"]}]],
+         FontSize->16], "a"}]]}], "=", 
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+         RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+      FractionBox[
+       RowBox[{
+        FractionBox[
+         RowBox[{"8", "\[Pi]"}], "3"], 
+        SubscriptBox["\[Rho]", "0"]}], "a"]}]}]}], TraditionalForm]],
+  ExpressionUUID->"24fce257-d5c5-40e5-b25c-f0b08035d8f8"],
+ "\n"
+}], "Text",
+ CellChangeTimes->{{3.9436079642998943`*^9, 3.943607978347845*^9}, {
+  3.943608008561659*^9, 3.943608022868856*^9}, {3.943608076439908*^9, 
+  3.94360817648991*^9}, {3.943608211807665*^9, 3.943608626417781*^9}, {
+  3.943608840096734*^9, 
+  3.943608840457247*^9}},ExpressionUUID->"2ac65967-246b-4dea-8843-\
+6884deddd9ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Adding \[OpenCurlyDoubleQuote]Dark Energy\[CloseCurlyDoubleQuote]", \
+"Section",
+ CellChangeTimes->{{3.9408945285661516`*^9, 3.940894532404984*^9}, {
+   3.940896143675713*^9, 3.940896148865458*^9}, {3.940897897989615*^9, 
+   3.940897903262648*^9}, {3.940897949054306*^9, 3.940897954316886*^9}, 
+   3.940900213094102*^9, {3.940900334021997*^9, 3.940900335212069*^9}, {
+   3.943305594964328*^9, 3.943305600856107*^9}, {3.943317179761506*^9, 
+   3.9433171823402042`*^9}, {3.943607674929648*^9, 3.943607680523436*^9}, {
+   3.9436077140519857`*^9, 3.943607722092869*^9}, {3.943608836138175*^9, 
+   3.943608836779562*^9}},ExpressionUUID->"b065a252-cb1e-4800-9ca3-\
+0daa4c6350e4"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox["1", 
+    SuperscriptBox[
+     SubscriptBox["R", "0"], "2"]], "=", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+     FractionBox[
+      RowBox[{"2", "M"}], 
+      RowBox[{
+       StyleBox[
+        FractionBox["M", 
+         RowBox[{
+          FractionBox["4", "3"], "\[Pi]", " ", 
+          SubscriptBox["\[Rho]", "0"]}]],
+        FontSize->16], "a"}]]}], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"d", "\[VeryThinSpace]", "a"}], 
+        RowBox[{"d", "\[VeryThinSpace]", "t"}]], ")"}], "2"], "-", 
+     FractionBox[
+      RowBox[{
+       FractionBox[
+        RowBox[{"8", "\[Pi]"}], "3"], 
+       SubscriptBox["\[Rho]", "0"]}], "a"]}]}]}], 
+  TraditionalForm]],ExpressionUUID->"dc11e4b8-d493-4e0b-be4c-042caf47fbf2"]], \
+"Text",
+ CellChangeTimes->{
+  3.943608858030836*^9},ExpressionUUID->"bb372cdb-e1c8-4760-b2f6-\
+f34b84beabd6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1143, 958},
+WindowMargins->{{Automatic, 654}, {Automatic, 116}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+TaggingRules-><|"TryRealOnly" -> False|>,
+Magnification:>1.25 Inherited,
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"efb4d658-aa76-4d10-892d-cd95a2246642"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 407, 8, 90, "Chapter",ExpressionUUID->"4abd8d6e-7858-4f72-99f7-579b3a04128d"],
+Cell[990, 32, 757, 12, 131, "Text",ExpressionUUID->"cc6563eb-05d6-4327-95be-3eff295820a6"],
+Cell[CellGroupData[{
+Cell[1772, 48, 638, 9, 84, "Section",ExpressionUUID->"9a54ade7-15df-4dd6-a4bd-683a6eced01e"],
+Cell[2413, 59, 7391, 216, 1106, "Text",ExpressionUUID->"bb76d151-9ce3-40e6-b668-26469d69c8da"]
+}, Open  ]],
+Cell[9819, 278, 698, 10, 84, "Section",ExpressionUUID->"0dfa25bd-3865-4170-960e-fc0f5e932022"],
+Cell[CellGroupData[{
+Cell[10542, 292, 552, 8, 65, "Section",ExpressionUUID->"60abe7eb-b48e-4c6b-bfdf-3bf362d5a2dc"],
+Cell[11097, 302, 7167, 209, 895, "Text",ExpressionUUID->"eee1b20a-fc31-4d72-9cb2-79aa874f0939"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18301, 516, 687, 11, 84, "Section",ExpressionUUID->"8552191b-8b06-4868-a452-02f997149e3f"],
+Cell[18991, 529, 4213, 139, 721, "Text",ExpressionUUID->"2ac65967-246b-4dea-8843-6884deddd9ff"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23241, 673, 679, 10, 84, "Section",ExpressionUUID->"b065a252-cb1e-4800-9ca3-0daa4c6350e4"],
+Cell[23923, 685, 1108, 37, 85, "Text",ExpressionUUID->"bb372cdb-e1c8-4760-b2f6-f34b84beabd6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
