@@ -46,7 +46,7 @@ See also: [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * Monday, Dec. 16 &mdash; [Exam 3](./exams/Exam3.nb.pdf) &mdash; Covering *Exploring Black Holes Chapters* 3, B, and 4
 * Thursday, Dec. 19 &mdash; Cosmology &mdash; In 1998, by studying distant supernova, it was determined that the universe is accelerating (expanding faster now than in the past) &mdash; All the way back in 1917, Einstein had introduced a &rdquo;cosmological constant&rdquo; term that has the effect of causing the universe to expand &mdash; Quantum field theorists interpret the cosmological constant as the &ldquo;vacuum energy density&rdquo; and cosmologists refer to the same thing the &ldquo;dark energy&rdquo; &mdash; In our final class, we will introduce the metric of the universe (the Friedmann-Robertson-Walker metric), explore its solutions, and close with the experimental evidence that the universe contains dark energy &mdash; Buckle up for [Cosmology - WRITING UP WHAT I COVERED IN THE LAST CLASS IS A WORK IN PROGRESS](./resources/Cosmology.nb.pdf)
 
-*This course would have been nothing without the clarity and brilliance of [John Archibald Wheeler](./resources/resources/JohnArchibaldWheeler.pdf) 1911-2008 and the precious textbooks in which he shared his insights.*
+*This course would have been nothing without the clarity and brilliance of [John Archibald Wheeler](./resources/JohnArchibaldWheeler.pdf) 1911-2008 and the precious textbooks in which he shared his insights.*
 
 *Einstein, Yukawa, Wheeler, and Bohr*
 

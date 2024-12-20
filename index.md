@@ -14,7 +14,7 @@ The intertwining of space and time is highly counterintuitive. The intertwined f
 
 A [PDF of the Syllabus](./BlackHolesSyllabus.pdf) containing essentially the same information as is on these web pages.
 
-## Daily Schedules (Kept Retrospectively)
+## Daily Schedules
 
 * [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * [Daily Schedule Term 3](./daily_schedule_term_3.html)
