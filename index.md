@@ -12,7 +12,7 @@ The intertwining of space and time is highly counterintuitive. The intertwined f
 
 ## Syllabus
 
-A [PDF of the Syllabus](./BlackHolesSyllabus.pdf) containing essentially the same information as is on these web pages.
+A [PDF of the Syllabus](./RelativityAndBlackHolesSyllabus.pdf) containing essentially the same information as is on these web pages.
 
 ## Daily Schedules
 
